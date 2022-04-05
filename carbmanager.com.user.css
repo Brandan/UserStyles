@@ -21,6 +21,9 @@
     --cm-color-gray75: #ddd;
     --cm-color-gray50: #eee;
 }
+.cm-header--scrolled {
+    --header-scrolled-bg: var(--cm-color-gray800) !important;
+}
 .food-search {
     --food-search-result-title-color: var(--cm-color-gray100);
 }
@@ -46,6 +49,7 @@
   --nav-focus-background: var(--cm-color-gray150) !important;
   --nav-active-background: var(--cm-color-gray300) !important;
   --nav-active-hover-background: var(--cm-color-gray150) !important;
+  --nav-active-color: var(--cm-color-green) !important;
 }
 
 .app-sidebar__header {
@@ -58,7 +62,8 @@
 .q-card,
 .q-date,
 .q-drawer,
-.q-menu {
+.q-menu,
+.q-header {
   background: #666;
 }
 
@@ -72,12 +77,14 @@
    background-color: var(--cm-color-gray400) !important;
 }
 
-.planned-item {
+.planned-item,
+.food-finder-autocomplete__result-container {
    background-color: var(--cm-color-gray800) !important;
 }
 
 .food-nutrition__label,
-.macro-progress__label {
+.macro-progress__label,
+.food-finder-autocomplete__container input {
     color: var(--cm-color-gray50)!important;
 }
 
@@ -108,6 +115,6 @@
    background-color: var(--cm-color-gray600) !important;
 }
 
-.goal-info__name {
+.goal-info__name, .fixed-toolbar-nav {
     background-color: var(--cm-color-gray800) !important;
 }
