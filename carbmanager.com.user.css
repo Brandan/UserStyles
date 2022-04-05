@@ -83,8 +83,10 @@
 }
 
 .food-nutrition__label,
+.recipe-details__value,
 .macro-progress__label,
-.food-finder-autocomplete__container input {
+.food-finder-autocomplete__container input,
+input {
     color: var(--cm-color-gray50)!important;
 }
 
