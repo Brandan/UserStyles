@@ -31,10 +31,14 @@
     --nutritional-facts-heading-color: var(--cm-color-gray75) !important;
     --nutritional-facts-default-value-color: var(--cm-color-gray75) !important;
 }
+
 .app--with-background {
     background-image: none;
 }
 
+.account-base__inner {
+    background: var(--cm-color-gray400) !important;
+}
 .page-header {
   background-color: var(--cm-color-gray400);
   border-radius: 1.25rem;
@@ -58,6 +62,7 @@
 .q-select__dropdown-icon {
   background: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 11 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.5 4.631L10.322 0 11 .718 5.5 6 0 .718.678 0 5.5 4.631z' fill='%23eeeeee'/%3E%3C/svg%3E") no-repeat;
 }
+
 .cm-more-menu__option-cta,
 .q-card,
 .q-date,
