@@ -3,7 +3,7 @@
 @namespace      Brandan
 @author         Brandan E. Lloyd
 @description    `Modifications to Carb Manager's style to enable a dark mode`
-@version        20220404
+@version        20220418
 @license        GPL
 ==/UserStyle== */
 
@@ -56,7 +56,7 @@
   --nav-active-color: var(--cm-color-green) !important;
 }
 
-.app-sidebar__header {
+.app-sidebar__header, .progress__title--darkened {
   color: var(--cm-color-gray800) !important;
 }
 .q-select__dropdown-icon {
