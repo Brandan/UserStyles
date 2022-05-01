@@ -16,6 +16,7 @@
   }
   
   /* Main menu */
+  .ImmersiveLead--text-panel::before,
   .lightbox__contentBox--dark {
       background-color: var(--theme-color) !important;
   }
