@@ -42,8 +42,6 @@
                 domain("tor.com"),
                 domain("vulture.com"),
                 domain("washingtonpost.com") {
-  /* This code is for index and guestbook page only */
-
     html,
     body,
     div,
