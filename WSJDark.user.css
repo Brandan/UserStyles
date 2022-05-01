@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           WSJ Dark
+@namespace      https://github.com/Brandan/UserStyles/raw/main/WSJDark.user.css
+@author         Brandan E. Lloyd
+@description    `Modifications to WSJ's style to enable a dark mode`
+@version        20220430
+@license        GPL
+==/UserStyle== */
+
+@-moz-document domain("wsj.com")
+{
+  .style--collapsed-header-7sa1KNOWxi_hujucmXqzt {
+      background-color: var(--theme-color) !important;    
+  }
+}
