@@ -1,0 +1,54 @@
+/* ==UserStyle==
+@name           Feedly Dark
+@namespace      https://github.com/Brandan/UserStyles/raw/main/FeedlyDark.user.css
+@author         Brandan E. Lloyd
+@description    `Modifications to Feedly's style to enable a dark mode`
+@version        20220430
+@license        GPL
+==/UserStyle== */
+
+@-moz-document domain("feedly.com")
+{
+  .floatingEntryContent, .theme--dark #feedlyPageHolderFX {
+      background-color: var(--theme-color) !important;
+  }
+
+  .entry-overlay {
+      background-color: rgba(0,0,0,.7) !important;
+  }
+
+  .theme--dark .floatingEntryContent__tab--current
+  {
+      background-color: var(--theme-color) !important;
+      background-image: none;
+      border-radius: 30px 0 0 30px;
+      border-top: solid #2a2a2a 1px;        
+      border-left: solid #2a2a2a 1px;        
+      border-bottom: solid #2a2a2a 1px;        
+  }
+
+  .theme--dark .Popover {
+      box-shadow: 5px 5px 10px rgba(51, 151, 250, 0.1),0 0 0px rgba(51, 151, 250, 0.1) !important;
+  }
+
+  .entry--read {
+      opacity: 0.6;
+  }
+
+  .entry--focused, .entry--selected {
+      border: solid var(--accent-color) 1px !important;
+      background-color: #444 !important;
+  }
+
+  .LeftnavList [role="button"]:hover,
+  .LeftnavList button:hover,
+  .LeftnavPin__background:after,
+  .LeftnavPin__background:before{
+      background-color: transparent !important;
+  }
+
+  .theme--dark .LeftnavListRow:hover .LeftnavListRow__text {
+      color: var(--accent-color) !important;
+      background-color: rgba(0, 0, 0, 0.05) !important;
+  }
+}
