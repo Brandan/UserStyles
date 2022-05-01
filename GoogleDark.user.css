@@ -1,0 +1,89 @@
+/* ==UserStyle==
+@name           Google Dark
+@namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
+@author         Brandan E. Lloyd
+@description    `Modifications to Google's style to enable a dark mode`
+@version        20220430
+@license        GPL
+==/UserStyle== */
+
+@-moz-document domain("google.com")
+{
+  :root {
+      --badge-color: #666;
+  }
+
+  /* Loading... */ 
+  .vX .vh {
+    background-color: #f9edbe !important;
+    border: 1px solid #f0c36d !important;
+    border-radius: 0 0 2px 2px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2) !important;
+    color: #222 !important;
+    padding: 6px 10px !important;
+  }
+
+  [role="search"] >table, 
+  /* Personal Information Card */
+  .DYLA1c,
+  /* Account information card */
+  .gb_Qe {
+      background-color: var(--theme-color) !important;
+      border: solid var(--accent-color) 1px !important;
+  }
+
+  [role="search"], .SK.ZF-zT,  [role="dialog"] [role="toolbar"], [role="alert"] .vh {
+      background-color: var(--theme-color) !important;
+      border: solid var(--accent-color) 1px !important;
+      border-radius: 8px
+  }
+
+  [role="link"] {
+      color: var(--link-color) !important;
+  }
+
+  [role="dialog"] input, [role="dialog"] .dC, .SK.ZF-zT input[type="text"], .SK.ZF-zT input[type="text"]:focus, .SK.ZF-zT select, .SK.ZF-zT [role="listbox"], [role="menu"] {
+      border: solid #999 1px !important;
+      border-radius: 3px;
+  }
+
+  /* toolbar on compose dialog */
+  .aDh {
+      border-top: solid #999 1px !important;
+  }
+
+  .SK.ZF-zT input[type="text"], .SK.ZF-zT input[type="text"]:focus {
+      padding: 1em;
+  }
+
+  [role="dialog"] input, .SK.ZF-zT [role="listbox"] {
+      padding: 0.3em;
+  }
+
+  .SK.ZF-zT [role="button"],.SK.ZF-zT [role="link"], [role="dialog"] button {
+      border: solid var(--link-color) 1px !important;
+  }
+
+  header iframe, 
+  /* dropdown contact card in email */
+  .ajA, [role="dialog"], [role="tooltip"] {
+      background-color: var(--theme-color) !important;
+      border: solid var(--accent-color) 1px !important;
+  }
+
+  .J-N-JX {
+    background-color: #ccc !important;
+    border-radius: 10px;
+    padding: 2px;
+  }
+
+  .faEe, .aEc.aHS-bnr .qj {
+    background-color: #fff !important;
+    mask: url('https://www.gstatic.com/images/icons/material/system_gm_filled/1x/label_gm_grey_24dp.png') center/contain;
+  }
+
+  .at *, .hN, .hO {
+      background-color: var(--badge-color) !important;
+      color: var(--accent-color) !important;
+  }  
+}
