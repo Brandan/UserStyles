@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      20220430.2
+@version      20220430.3
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -18,8 +18,10 @@
                 domain("housingwire.com"),
                 domain("humbledollar.com"),
                 domain("letsrun.com"),
+                domain("macworld.com"),
                 domain("morningstar.com"),
                 domain("moretothat.com"),
+                domain("nationalgeographic.com"),
                 domain("newretirement.com"),
                 domain("nytimes.com"),
                 domain("om.co"),
