@@ -12,6 +12,7 @@
     --link-color: rgb(245, 158, 60);
     --accent-color: rgba(51, 151,250);
     --accent-blur-color: rgba(var(--accent-color), 0.2)
+}
 
 @-moz-document domain("abnormalreturns.com"),
                 domain("artofmanliness.com"),
