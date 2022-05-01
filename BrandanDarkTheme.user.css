@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      20220430
+@version      20220430.1
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -30,6 +30,7 @@
                 domain("theatlantic.com"),
                 domain("thehustle.co"),
                 domain("theirrelevantinvestor.com"),
+                domain("theverge.com"),
                 domain("thewaiterspad.com"),
                 domain("thomaskopelman.com"),
                 domain("tor.com"),
