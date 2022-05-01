@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      20220430.1
+@version      20220430.2
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -35,7 +35,8 @@
                 domain("thomaskopelman.com"),
                 domain("tor.com"),
                 domain("vulture.com"),
-                domain("washingtonpost.com") {
+                domain("washingtonpost.com"),
+                domain("wsj.com") {
     :root {
         --theme-color: #333;
         --text-color: #ccc;
