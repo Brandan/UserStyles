@@ -1,24 +1,17 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      1.0.0
+@version      20220430
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
-
-:root {
-    --theme-color: #333;
-    --text-color: #ccc;
-    --link-color: rgb(245, 158, 60);
-    --accent-color: rgba(51, 151,250);
-    --accent-blur-color: rgba(var(--accent-color), 0.2)
-}
 
 @-moz-document domain("abnormalreturns.com"),
                 domain("artofmanliness.com"),
                 domain("behavioralvalueinvestor.com"),
                 domain("bloomberg.com"),
                 domain("crossingwallstreet.com"),
+                domain("fortune.com"),
                 domain("fastcompany.com"),
                 domain("feedly.com"),
                 domain("google.com"),
@@ -42,6 +35,14 @@
                 domain("tor.com"),
                 domain("vulture.com"),
                 domain("washingtonpost.com") {
+    :root {
+        --theme-color: #333;
+        --text-color: #ccc;
+        --link-color: rgb(245, 158, 60);
+        --accent-color: rgba(51, 151,250);
+        --accent-blur-color: rgba(var(--accent-color), 0.2)
+    }
+
     html,
     body,
     div,
