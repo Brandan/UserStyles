@@ -1,0 +1,143 @@
+/* ==UserStyle==
+@name         Brandan's Dark Theme
+@namespace    https://github.com/Brandan/UserStyles/BrandanDarkTheme.user.css
+@version      1.0.0
+@license      GPL
+@preprocessor default
+==/UserStyle== */
+
+:root {
+    --theme-color: #333;
+    --text-color: #ccc;
+    --link-color: rgb(245, 158, 60);
+    --accent-color: rgba(51, 151,250);
+    --accent-blur-color: rgba(var(--accent-color), 0.2)
+}
+
+html,
+body,
+div,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+p,
+blockquote,
+button,
+button *,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+main,
+q,
+samp,
+small,
+span,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+td,
+th, 
+tr,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+svg,
+svg path,
+summary,
+time,
+mark,
+audio,
+video
+ {
+    background-color: transparent !important;
+    color: var(--text-color) !important;
+    box-shadow: none !important;
+}
+
+body, header, footer, nav, menu, .main-menu, .topbar, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer, [role="dialog"], [role="listbox"], [role="navigation"], [role="menu"], [role="toolbar"], [role="tooltip"], [class^="ExpandedNav"]
+{
+    background-color: var(--theme-color) !important;    
+}
+
+svg,
+svg path {
+    fill: var(--accent-color) !important;
+}
+svg path[fill="none"] {
+    fill: none !important;
+}
+
+a,
+[role="button"],
+[role="button"] *:after,
+[role="button"] *:before {
+
+    background-color: transparent !important;
+}
+
+a *,
+a:visited,
+a:link,
+a:hover,
+[role="button"],
+[role="button"] *:after,
+[role="button"] *:before {
+    color: var(--link-color) !important;
+}
+
+button:hover, [role="button"]:hover {
+    background-color: rgba(255, 255, 255, 0.15) !important;   
+}
+
+.paywall, .gdpr-cookie, .wt-cli-cookie-bar-container, .convertkit, .formkit-overlay, .formkit-modal {
+    display: none !important;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    overflow: auto !important;
+}
