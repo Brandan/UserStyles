@@ -14,130 +14,162 @@
     --accent-blur-color: rgba(var(--accent-color), 0.2)
 }
 
-html,
-body,
-div,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-input,
-p,
-blockquote,
-button,
-button *,
-pre,
-abbr,
-address,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-main,
-q,
-samp,
-small,
-span,
-strong,
-sub,
-sup,
-var,
-b,
-i,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-td,
-th, 
-tr,
-article,
-aside,
-canvas,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section,
-svg,
-svg path,
-summary,
-time,
-mark,
-audio,
-video
- {
-    background-color: transparent !important;
-    color: var(--text-color) !important;
-    box-shadow: none !important;
+@-moz-document domain("abnormalreturns.com"),
+                domain("artofmanliness.com"),
+                domain("behavioralvalueinvestor.com"),
+                domain("bloomberg.com"),
+                domain("crossingwallstreet.com"),
+                domain("fastcompany.com"),
+                domain("feedly.com"),
+                domain("google.com"),
+                domain("housingwire.com"),
+                domain("humbledollar.com"),
+                domain("letsrun.com"),
+                domain("morningstar.com"),
+                domain("moretothat.com"),
+                domain("newretirement.com"),
+                domain("nytimes.com"),
+                domain("om.co"),
+                domain("professionalbooknerds.com"),
+                domain("protocol.com"),
+                domain("simplecast.com"),
+                domain("substack.com"),
+                domain("theatlantic.com"),
+                domain("thehustle.co"),
+                domain("theirrelevantinvestor.com"),
+                domain("thewaiterspad.com"),
+                domain("thomaskopelman.com"),
+                domain("tor.com"),
+                domain("vulture.com"),
+                domain("washingtonpost.com") {
+  /* This code is for index and guestbook page only */
 }
 
-body, header, footer, nav, menu, .main-menu, .topbar, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer, [role="dialog"], [role="listbox"], [role="navigation"], [role="menu"], [role="toolbar"], [role="tooltip"], [class^="ExpandedNav"]
-{
-    background-color: var(--theme-color) !important;    
-}
+    html,
+    body,
+    div,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    input,
+    p,
+    blockquote,
+    button,
+    button *,
+    pre,
+    abbr,
+    address,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    main,
+    q,
+    samp,
+    small,
+    span,
+    strong,
+    sub,
+    sup,
+    var,
+    b,
+    i,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    td,
+    th, 
+    tr,
+    article,
+    aside,
+    canvas,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section,
+    svg,
+    svg path,
+    summary,
+    time,
+    mark,
+    audio,
+    video
+     {
+        background-color: transparent !important;
+        color: var(--text-color) !important;
+        box-shadow: none !important;
+    }
 
-svg,
-svg path {
-    fill: var(--accent-color) !important;
-}
-svg path[fill="none"] {
-    fill: none !important;
-}
+    body, header, footer, nav, menu, .main-menu, .topbar, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer, [role="dialog"], [role="listbox"], [role="navigation"], [role="menu"], [role="toolbar"], [role="tooltip"], [class^="ExpandedNav"]
+    {
+        background-color: var(--theme-color) !important;    
+    }
 
-a,
-[role="button"],
-[role="button"] *:after,
-[role="button"] *:before {
+    svg,
+    svg path {
+        fill: var(--accent-color) !important;
+    }
+    svg path[fill="none"] {
+        fill: none !important;
+    }
 
-    background-color: transparent !important;
-}
+    a,
+    [role="button"],
+    [role="button"] *:after,
+    [role="button"] *:before {
 
-a *,
-a:visited,
-a:link,
-a:hover,
-[role="button"],
-[role="button"] *:after,
-[role="button"] *:before {
-    color: var(--link-color) !important;
-}
+        background-color: transparent !important;
+    }
 
-button:hover, [role="button"]:hover {
-    background-color: rgba(255, 255, 255, 0.15) !important;   
-}
+    a *,
+    a:visited,
+    a:link,
+    a:hover,
+    [role="button"],
+    [role="button"] *:after,
+    [role="button"] *:before {
+        color: var(--link-color) !important;
+    }
 
-.paywall, .gdpr-cookie, .wt-cli-cookie-bar-container, .convertkit, .formkit-overlay, .formkit-modal {
-    display: none !important;
-}
+    button:hover, [role="button"]:hover {
+        background-color: rgba(255, 255, 255, 0.15) !important;   
+    }
 
-html, body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    overflow: auto !important;
+    .paywall, .gdpr-cookie, .wt-cli-cookie-bar-container, .convertkit, .formkit-overlay, .formkit-modal {
+        display: none !important;
+    }
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        overflow: auto !important;
+    }
 }
