@@ -1,0 +1,25 @@
+/* ==UserStyle==
+@name           LetsRun Dark
+@namespace      https://github.com/Brandan/UserStyles/raw/main/LetsRun.user.css
+@author         Brandan E. Lloyd
+@description    `Modifications to Lets Run's style to enable a dark mode`
+@version        20220430
+@license        GPL
+==/UserStyle== */
+
+@-moz-document domain("letsrun.com")
+{
+  .fixed.top-0 {
+      background-color: var(--theme-color) !important;        
+  }
+
+  .dbr-dropdown {
+      background-color: var(--theme-color) !important;
+      border: solid var(--accent-color) 1px !important;
+      border-radius: 8px !important;
+  }
+
+  img[src*=".gif"] {
+      display: none;
+  }
+}
