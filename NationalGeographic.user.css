@@ -7,7 +7,7 @@
 @license        GPL
 ==/UserStyle== */
 
-@-moz-document domain("google.com")
+@-moz-document domain("nationalgeographic.com")
 {
   body.Scroll--locked {
       overflow-y: scroll !important;
