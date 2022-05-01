@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           National Geographic Dark
+@namespace      https://github.com/Brandan/UserStyles/raw/main/NationalGeographic.user.css
+@author         Brandan E. Lloyd
+@description    `Modifications to National Geographic's style to enable a dark mode`
+@version        20220430
+@license        GPL
+==/UserStyle== */
+
+@-moz-document domain("google.com")
+{
+  body.Scroll--locked {
+      overflow-y: scroll !important;
+      position: relative !important;
+      top: 0 !important;
+  }
+}
