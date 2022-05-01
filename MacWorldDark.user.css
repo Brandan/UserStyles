@@ -1,0 +1,50 @@
+/* ==UserStyle==
+@name           MacWorld Dark
+@namespace      https://github.com/Brandan/UserStyles/raw/main/MacWorldDark.user.css
+@author         Brandan E. Lloyd
+@description    `Modifications to MacWorld's style to enable a dark mode`
+@version        20220430
+@license        GPL
+==/UserStyle== */
+
+@-moz-document domain("macworld.com")
+{
+  :root {
+    --tab-navigation--group--background-color: #333;
+  }
+
+  body,
+  .wp-block-image figcaption,
+  .article_author_box_bio p,
+  .extendedBlock-wrapper.block-coreImage .imageCredit
+  {
+      color: #ccc;
+      background-color: #333;
+  }
+
+  #mobileNav, 
+  #mobileNav a,
+  #mobileNav a svg,
+  .tag-button {
+      color: var(--text-link--font-color);
+      fill: var(--text-link--font-color);
+      background-color: #333;
+  }
+
+  a,
+  a:active,
+  a:hover,
+  a:link,
+  a:visited,
+  h1, h2, h3, h4,
+  .secondaryNav-menu > li a,
+  .single-breadcrumb a,
+  .secondaryNav-social a svg path {
+      color: var(--text-link--font-color);
+      fill: var(--text-link--font-color);
+  }
+
+  .tag-button {
+      border: solid 1px var(--text-link--font-color);
+  }
+}
