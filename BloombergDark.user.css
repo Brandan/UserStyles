@@ -1,0 +1,23 @@
+/* ==UserStyle==
+@name           Bloomberg Dark
+@namespace      https://github.com/Brandan/UserStyles/raw/main/BloombergDark.user.css
+@author         Brandan E. Lloyd
+@description    `Modifications to Bloomberg's style to enable a dark mode`
+@version        20220430
+@license        GPL
+==/UserStyle== */
+
+@-moz-document domain("bloomberg.com")
+{
+  #fortress-paywall-container-root {
+      display:none
+  }
+
+  body[data-paywall-overlay-status="show"] {
+    overflow: scroll;
+  }
+
+  article * {
+      mask: none !important;
+  }
+}
