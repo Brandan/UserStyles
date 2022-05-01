@@ -1,0 +1,23 @@
+/* ==UserStyle==
+@name           Humble Dollar Dark
+@namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
+@author         Brandan E. Lloyd
+@description    `Modifications to Google's style to enable a dark mode`
+@version        20220430
+@license        GPL
+==/UserStyle== */
+
+@-moz-document domain("humbledollar.com")
+{
+  #wpdcom .wpd-comment-text p, #wpdcom .wpd-comment-text {
+    color: #ccc !important;
+  }
+  .top-bar, .in-story-subscribe{
+      display: none;
+  }
+
+  .button, button, input.search-button {
+    color: #f60 !important;
+    border-color: #f60;
+  }
+}
