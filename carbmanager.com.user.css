@@ -1,127 +1,131 @@
 /* ==UserStyle==
 @name           Carb Manager Dark
-@namespace      Brandan
+@namespace      https://github.com/Brandan/UserStyles/raw/main/carbmanager.com.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Carb Manager's style to enable a dark mode`
-@version        20220418
+@version        20220404
 @license        GPL
 ==/UserStyle== */
 
-:root {
-    --cm-color-gray800: #363636;
-    --cm-color-gray750: #393939;
-    --cm-color-gray700: #414141;
-    --cm-color-gray650: #424242;
-    --cm-color-gray600: #444;
-    --cm-color-gray400: #666;
-    --cm-color-gray300: #999;
-    --cm-color-gray200: #aaa;
-    --cm-color-gray150: #bbb;
-    --cm-color-gray100: #ccc;
-    --cm-color-gray75: #ddd;
-    --cm-color-gray50: #eee;
-}
-.cm-header--scrolled {
-    --header-scrolled-bg: var(--cm-color-gray800) !important;
-}
-.food-search {
-    --food-search-result-title-color: var(--cm-color-gray100);
-}
-.nutritional-facts {
-    --nutritional-facts-heading-color: var(--cm-color-gray75) !important;
-    --nutritional-facts-default-value-color: var(--cm-color-gray75) !important;
-}
+@-moz-document domain("carbmanager.com") {
 
-.app--with-background {
-    background-image: none;
-}
+    :root {
+        --cm-color-gray800: #363636;
+        --cm-color-gray750: #393939;
+        --cm-color-gray700: #414141;
+        --cm-color-gray650: #424242;
+        --cm-color-gray600: #444;
+        --cm-color-gray400: #666;
+        --cm-color-gray300: #999;
+        --cm-color-gray200: #aaa;
+        --cm-color-gray150: #bbb;
+        --cm-color-gray100: #ccc;
+        --cm-color-gray75: #ddd;
+        --cm-color-gray50: #eee;
+    }
 
-.account-base__inner {
-    background: var(--cm-color-gray400) !important;
-}
-.page-header {
-  background-color: var(--cm-color-gray400);
-  border-radius: 1.25rem;
-  box-shadow: var(--box-shadow-default);
-  padding: var(--lh-2);
-  padding: 0;
-}
+    .cm-header--scrolled {
+        --header-scrolled-bg: var(--cm-color-gray800) !important;
+    }
+    .food-search {
+        --food-search-result-title-color: var(--cm-color-gray100);
+    }
+    .nutritional-facts {
+        --nutritional-facts-heading-color: var(--cm-color-gray75) !important;
+        --nutritional-facts-default-value-color: var(--cm-color-gray75) !important;
+    }
 
-.app-sidebar {
-  --nav-user-profile-link-color: var(--cm-color-gray300) !important;
-  --nav-hover-background: var(--cm-color-gray150) !important;
-  --nav-focus-background: var(--cm-color-gray150) !important;
-  --nav-active-background: var(--cm-color-gray300) !important;
-  --nav-active-hover-background: var(--cm-color-gray150) !important;
-  --nav-active-color: var(--cm-color-green) !important;
-}
+    .app--with-background {
+        background-image: none;
+    }
 
-.app-sidebar__header, .progress__title--darkened {
-  color: var(--cm-color-gray800) !important;
-}
-.q-select__dropdown-icon {
-  background: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 11 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.5 4.631L10.322 0 11 .718 5.5 6 0 .718.678 0 5.5 4.631z' fill='%23eeeeee'/%3E%3C/svg%3E") no-repeat;
-}
+    .account-base__inner {
+        background: var(--cm-color-gray400) !important;
+    }
+    .page-header {
+      background-color: var(--cm-color-gray400);
+      border-radius: 1.25rem;
+      box-shadow: var(--box-shadow-default);
+      padding: var(--lh-2);
+      padding: 0;
+    }
 
-.cm-more-menu__option-cta,
-.q-card,
-.q-date,
-.q-drawer,
-.q-menu,
-.q-header {
-  background: #666;
-}
+    .app-sidebar {
+      --nav-user-profile-link-color: var(--cm-color-gray300) !important;
+      --nav-hover-background: var(--cm-color-gray150) !important;
+      --nav-focus-background: var(--cm-color-gray150) !important;
+      --nav-active-background: var(--cm-color-gray300) !important;
+      --nav-active-hover-background: var(--cm-color-gray150) !important;
+      --nav-active-color: var(--cm-color-green) !important;
+    }
 
-.cm-modal-footer, .cm-modal-bar, .cm-modal-bar__toolbar {
-   background-color: var(--cm-color-gray400) !important;   
-}
+    .app-sidebar__header, .progress__title--darkened {
+      color: var(--cm-color-gray800) !important;
+    }
+    .q-select__dropdown-icon {
+      background: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 11 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.5 4.631L10.322 0 11 .718 5.5 6 0 .718.678 0 5.5 4.631z' fill='%23eeeeee'/%3E%3C/svg%3E") no-repeat;
+    }
 
-.connect-card,
-.daily-card__content,
-.header{
-   background-color: var(--cm-color-gray400) !important;
-}
+    .cm-more-menu__option-cta,
+    .q-card,
+    .q-date,
+    .q-drawer,
+    .q-menu,
+    .q-header {
+      background: #666;
+    }
 
-.planned-item,
-.food-finder-autocomplete__result-container {
-   background-color: var(--cm-color-gray800) !important;
-}
+    .cm-modal-footer, .cm-modal-bar, .cm-modal-bar__toolbar {
+       background-color: var(--cm-color-gray400) !important;   
+    }
 
-.food-nutrition__label,
-.recipe-details__value,
-.macro-progress__label,
-.food-finder-autocomplete__container input,
-input {
-    color: var(--cm-color-gray50)!important;
-}
+    .connect-card,
+    .daily-card__content,
+    .header{
+       background-color: var(--cm-color-gray400) !important;
+    }
 
-.food-verification-link {
-  background: var(--cm-color-gray75) !important;
-}
+    .planned-item,
+    .food-finder-autocomplete__result-container {
+       background-color: var(--cm-color-gray800) !important;
+    }
 
-.fasting-banner {
-    display:none;
-}
+    .food-nutrition__label,
+    .recipe-details__value,
+    .macro-progress__label,
+    .food-finder-autocomplete__container input,
+    input {
+        color: var(--cm-color-gray50)!important;
+    }
 
-.recipe-card-slider__shadow-after,
-.swiper-navigation__shadow-after {
-  background: -webkit-gradient(linear,left top,right top,from(rgba(33,33,33,0)),color-stop(rgba(33,33,33,.25)),color-stop(rgba(33,33,33,.5)),color-stop(rgba(33,33,33,.75)),to(var(--cm-color-gray700))) !important;
-  background: linear-gradient(90deg,rgba(33,33,33,0) 0,rgba(33,33,33,.25) var(--lh),rgba(33,33,33,.5) calc(var(--lh) * 1.5),rgba(33,33,33,.75) var(--lh-2),var(--cm-color-gray700) calc(var(--lh) * 2.5)) !important;
-}
+    .food-verification-link {
+      background: var(--cm-color-gray75) !important;
+    }
 
-.recipe-card-slider__shadow-before,
-.swiper-navigation__shadow-before {
-  background: -webkit-gradient(linear,left top,right top,from(rgba(33,33,33,0)),color-stop(rgba(33,33,33,.25)),color-stop(rgba(33,33,33,.5)),color-stop(rgba(33,33,33,.75)),to(var(--cm-color-gray700))) !important;
-  background: linear-gradient(270deg,rgba(33,33,33,0) 0,rgba(33,33,33,.25) var(--lh),rgba(33,33,33,.5) calc(var(--lh) * 1.5),rgba(33,33,33,.75) var(--lh-2),var(--cm-color-gray700) calc(var(--lh) * 2.5)) !important;
-}
+    .fasting-banner {
+        display:none;
+    }
 
-.goals-base,
-.goal,
-.goal-info,
-.settings-container {
-   background-color: var(--cm-color-gray600) !important;
-}
+    .recipe-card-slider__shadow-after,
+    .swiper-navigation__shadow-after {
+      background: -webkit-gradient(linear,left top,right top,from(rgba(33,33,33,0)),color-stop(rgba(33,33,33,.25)),color-stop(rgba(33,33,33,.5)),color-stop(rgba(33,33,33,.75)),to(var(--cm-color-gray700))) !important;
+      background: linear-gradient(90deg,rgba(33,33,33,0) 0,rgba(33,33,33,.25) var(--lh),rgba(33,33,33,.5) calc(var(--lh) * 1.5),rgba(33,33,33,.75) var(--lh-2),var(--cm-color-gray700) calc(var(--lh) * 2.5)) !important;
+    }
 
-.goal-info__name, .fixed-toolbar-nav {
-    background-color: var(--cm-color-gray800) !important;
+    .recipe-card-slider__shadow-before,
+    .swiper-navigation__shadow-before {
+      background: -webkit-gradient(linear,left top,right top,from(rgba(33,33,33,0)),color-stop(rgba(33,33,33,.25)),color-stop(rgba(33,33,33,.5)),color-stop(rgba(33,33,33,.75)),to(var(--cm-color-gray700))) !important;
+      background: linear-gradient(270deg,rgba(33,33,33,0) 0,rgba(33,33,33,.25) var(--lh),rgba(33,33,33,.5) calc(var(--lh) * 1.5),rgba(33,33,33,.75) var(--lh-2),var(--cm-color-gray700) calc(var(--lh) * 2.5)) !important;
+    }
+
+    .goals-base,
+    .goal,
+    .goal-info,
+    .settings-container {
+       background-color: var(--cm-color-gray600) !important;
+    }
+
+    .goal-info__name, .fixed-toolbar-nav {
+        background-color: var(--cm-color-gray800) !important;
+    }
 }
