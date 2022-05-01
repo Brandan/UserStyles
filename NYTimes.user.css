@@ -1,0 +1,31 @@
+/* ==UserStyle==
+@name           NY Times Dark
+@namespace      https://github.com/Brandan/UserStyles/raw/main/NYTimes.user.css
+@author         Brandan E. Lloyd
+@description    `Modifications to NY Times' style to enable a dark mode`
+@version        20220430
+@license        GPL
+==/UserStyle== */
+
+@-moz-document domain("mytimes.com")
+{
+  body, .css-mcm29f
+  {
+      position: relative!important;
+      overflow: scroll!important;
+      height: auto!important;
+      width:auto!important;
+  }
+
+  #in-story-masthead, .css-1q2w90k, in-story-masthead button, .css-1q2w90k button {
+      transition: none;
+  }
+
+  .css-gx5sib {
+      display: none!important;
+  }
+
+  .css-tvohiw {
+      box-shadow: none;
+  }
+}
