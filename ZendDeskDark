@@ -1,0 +1,228 @@
+/* ==UserStyle==
+@name           ZendDesk Dark
+@namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.com.user.css
+@author         Brandan E. Lloyd
+@description    `Modifications to ZenDesk styls to enable a dark mode`
+@version        20220430
+@license        GPL
+==/UserStyle== */
+
+@-moz-document domain("zendesk.com")
+{
+  :root {
+      --theme-color: #1a1a1a;
+      --text-color: #ccc;
+      --border-color: rgba(204, 204, 204, .2);
+      --accent-color: #3397fa;
+      --base-background: #27292b;
+      --open-background: rgb(227, 79, 50);
+      --closed-background: rgb(216, 220, 222);
+      --new-background: rgb(255, 176, 87);
+      --pending-background: rgb(48, 145, 236);
+      --solved-background: rgb(135, 146, 157);
+  }
+
+  html,
+  body,
+  div,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  input,
+  p,
+  blockquote,
+  button,
+  button *,
+  pre,
+  abbr,
+  address,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  samp,
+  small,
+  strong,
+  sub,
+  sup,
+  var,
+  b,
+  i,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  td,
+  th, 
+  tr,
+  article,
+  aside,
+  canvas,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  main,
+  menu,
+  nav,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video
+   {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      vertical-align: baseline;
+      background-color: transparent !important;
+      color: var(--text-color) !important;
+  }
+
+  body, header, footer, nav, menu, div:after, div:before, .main-menu, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer, [role="navigation"], [role="menu"], [role="treeitem"], [role="dialog"], [data-test-id="search_advanced-search-box_filter-button_filter-button-content_filter-modal"], [data-garden-container-id="containers.accordion"], #admin_content .overview .overview_content .system_updates--announcement
+  {
+      background-color: var(--base-background) !important;    
+  }
+
+  #branding_header {
+      padding: 0;
+      height: 50px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 60px;
+      z-index: 11;
+      background: transparent;
+  }
+
+  /* ticket table header */
+  .fiNJsl th {
+      background-color: var(--base-background) !important;    
+  }
+
+  /* ticket save button */
+  .bhZefU {
+      background: rgb(47, 57, 65) !important
+  }
+
+  /* transparent backgrounds*/
+  .btn, ul.nav-tab-list, .nav-tab-list li, .nav-tab-list div, .hpXXWx, .LRhe, .fsxnHQ.fsxnHQ.fsxnHQ, .zd-searchmenu-base,
+  .LRgt, .LRax, .fGPLUj, .channel, .nav_tab button, #branding_header button, .VxCKy div, [data-garden-id="modals.tooltip_modal.backdrop"]
+  {
+      background-color: transparent !important;
+  }
+
+  /* selected view color*/
+  .VxCKy div {
+      color: var(--theme-color) !important;    
+  }
+
+  /* view badge counts */
+  .gtrjgl {
+      background-color: var(--accent-color) !important;
+      border-radius: 10px;
+      text-align: center;
+      padding: 5px;
+      vertical-align: middle;
+      line-height: 0.8em;
+      color: var(--main-theme-color) !important;
+      font-size: 0.8rem;
+      margin-left: 1rem;
+  }
+
+  .mast .profile.ticket {
+      background-color: var(--accent-color) !important;
+  }
+
+  #zd-product-tray ul, .zd-menu-footer, [data-garden-id="dropdowns.menu"],
+  [data-test-id='standalone-composer-toolbar'],
+  [data-test-id='table_popover'], 
+  [data-test-id='ticket_table_tooltip'] {
+      background-color: var(--base-background) !important;   
+  }
+
+  #zd-product-tray ul li, 
+  [data-garden-id="dropdowns.menu"] li {
+      border-bottom: solid 1px #333;
+  }
+
+  .fsxnHQ.fsxnHQ.fsxnHQ, .btn, .dropdown-menu li a, .fGPLUj, .zd-tag-item a,
+  [data-test-id='standalone-composer-toolbar'] button, 
+  .event .header .actor .name a {
+      color: var(--text-color) !important;
+  }
+
+  /* internal comments */
+  .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container,
+  .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container *,
+  .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container p,
+  .event:not(.is-public) .comment,
+  .event:not(.is-public) .zd-comment,
+  .event:not(.is-public) .comment li,
+  .event:not(.is-public) .zd-comment li,
+  .cechoF,
+  [data-test-id='table_popover'] .LRhk {
+      background-color: #fff6d9 !important;        
+      color: #666 !important;        
+  }
+
+  /* dropdown action button on ticket */
+  .mast .object_options_btn:after {
+      filter: invert(70%)
+  }
+
+  /* ticket table title links */
+  .jydokf, table a, table a span, [role="treeitem"] {
+      color: var(--accent-color) !important;
+  }
+
+  header, table tr, table td, [role="tab"], [data-test-id="header-toolbar"], .activities .item, .indicators ul, .indicators li, [data-test-id="ticket-fields"] input, [aria-haspopup="listbox"], .zd-tag-menu-root, [data-garden-id^="dropdowns"], [data-test-id="ticket-pane-subject"], .btn, .zd-tag-item, .section.ticket .tab-controls-container, .event, .property_box {
+      border-color: var(--border-color) !important;
+  }
+
+  a[role="treeitem"]:hover span{
+      filter: brightness(250%);
+  }
+
+  /* badges */
+  [data-test-id="status-badge-closed"] {
+      background-color: var(--closed-background) !important;
+  }
+  [data-test-id="status-badge-open"] {
+      background-color: var(--open-background) !important;
+  }
+  [data-test-id="status-badge-new"] {
+      background-color: var(--new-background) !important;
+  }
+  [data-test-id="status-badge-pending"] {
+      background-color: var(--pending-background) !important;
+  }
+  [data-test-id="status-badge-solved"] {
+      background-color: var(--solved-background) !important;
+  }
+}
