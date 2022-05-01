@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/NationalGeographic.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to National Geographic's style to enable a dark mode`
-@version        20220430
+@version        20220430.1
 @license        GPL
 ==/UserStyle== */
 
@@ -13,5 +13,10 @@
       overflow-y: scroll !important;
       position: relative !important;
       top: 0 !important;
+  }
+  
+  /* Main menu */
+  .lightbox__contentBox--dark {
+      background-color: var(--theme-color) !important;
   }
 }
