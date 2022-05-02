@@ -12,4 +12,11 @@
   .style--collapsed-header-7sa1KNOWxi_hujucmXqzt {
       background-color: var(--theme-color) !important;    
   }
+  
+  .wsj-snippet-body:after {
+    position:relative !important;
+    height: auto !important;
+    background: none !important;
+  }
+
 }
