@@ -9,6 +9,8 @@
 
 @-moz-document domain("wsj.com")
 {
+  header, 
+  #masthead-container,
   .style--collapsed-header-7sa1KNOWxi_hujucmXqzt {
       background-color: var(--theme-color) !important;    
   }
