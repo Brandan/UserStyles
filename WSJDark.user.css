@@ -10,6 +10,7 @@
 @-moz-document domain("wsj.com")
 {
   header, 
+  [data-testid="column-wrapper" ],
   #masthead-container,
   .style--collapsed-header-7sa1KNOWxi_hujucmXqzt {
       background-color: var(--theme-color) !important;    
