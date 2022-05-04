@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      20220502.1
+@version      20220504
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -10,6 +10,7 @@
                 domain("artofmanliness.com"),
                 domain("behavioralvalueinvestor.com"),
                 domain("bloomberg.com"),
+                domain("contacts.google.com"),
                 domain("crossingwallstreet.com"),
                 domain("econofact.org"),
                 domain("fortune.com"),
