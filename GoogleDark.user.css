@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20220430
+@version        20220504
 @license        GPL
 ==/UserStyle== */
 
@@ -27,7 +27,12 @@
   /* Personal Information Card */
   .DYLA1c,
   /* Account information card */
-  .gb_Qe {
+  .gb_Qe,
+  /* Email contact popup card */
+  .YADHBe, 
+  /* Message on the bottom allowing the standard view to be loaded */
+  .msgb
+  {
       background-color: var(--theme-color) !important;
       border: solid var(--accent-color) 1px !important;
   }
