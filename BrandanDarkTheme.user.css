@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      20220505
+@version      20220505.1
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -133,7 +133,7 @@
         box-shadow: none !important;
     }
 
-    body, header, footer, nav, menu, .main-menu, .topbar, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer, [role="dialog"], [role="listbox"], [role="navigation"], [role="menu"], [role="toolbar"], [role="tooltip"], [class^="ExpandedNav"]
+    body, header, footer, nav, menu, .main-menu, .topbar, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer,  [role="alert"], [role="dialog"], [role="listbox"], [role="navigation"], [role="menu"], [role="toolbar"], [role="tooltip"], [class^="ExpandedNav"]
     {
         background-color: var(--theme-color) !important;    
     }
