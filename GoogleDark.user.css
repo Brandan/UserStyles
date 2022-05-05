@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20220504.1
+@version        20220504.2
 @license        GPL
 ==/UserStyle== */
 
@@ -35,12 +35,46 @@
   /* Email contact popup card */
   .YADHBe, 
   /* Message on the bottom allowing the standard view to be loaded */
-  .msgb
+  .msgb,
+  /* Minimized Email compose */
+  .Hy .k
   {
       background-color: var(--theme-color) !important;
       border: solid var(--accent-color) 1px !important;
   }
-
+  
+  /* Email compose floating bar */
+  .aDg > .aDj,
+  .aZ > .J-Z
+  {
+      background-color: var(--theme-color) !important;        
+      padding: 0.25rem;
+  }
+  
+  /* Email compose floating bar */
+  .aDg > .aDj:after
+  {
+      background-color: var(--theme-color) !important;        
+  }
+  
+  /* Email compose floating bar */
+  .aDg > .aDj:before
+  {
+    border: none !important;
+  }
+  
+  .aDg > .aDj [role="button"],
+  [role="gridcell"] div.aaA,
+  .hG > .G-asx,
+  .mL,  
+  .Un::after, 
+  .J-Ph-hFsbo,
+  .J-Ks-KO .J-N-Jo,
+  .aDg > .aDj [role="listbox"] .J-Z-M-I-J6-H > .J-Z-M-I-JG
+  {
+    filter:invert(1) !important;
+  }
+  
   [role="search"], .SK.ZF-zT,  [role="dialog"] [role="toolbar"], [role="alert"] .vh {
       background-color: var(--theme-color) !important;
       border: solid var(--accent-color) 1px !important;
