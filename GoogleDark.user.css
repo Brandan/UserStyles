@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20220505
+@version        20220506
 @license        GPL
 ==/UserStyle== */
 
@@ -132,4 +132,13 @@
       background-color: var(--badge-color) !important;
       color: var(--accent-color) !important;
   }  
+
+  /* Selected mail items */
+  tr.x7, .x7 td  {
+      background-color: #666 !important;
+  }
+
+  .aeN {
+      border-right: solid #222 1px;
+  }
 }
