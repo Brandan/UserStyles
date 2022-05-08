@@ -42,7 +42,8 @@
                 domain("tor.com"),
                 domain("vulture.com"),
                 domain("washingtonpost.com"),
-                domain("wsj.com") {
+                domain("wsj.com"),
+                domain("yahoo.com") {
     
     :root {
         --theme-color: #333;
@@ -133,7 +134,7 @@
         box-shadow: none !important;
     }
 
-    body, header, footer, nav, menu, .main-menu, .topbar, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer,  [role="alert"], [role="dialog"], [role="listbox"], [role="navigation"], [role="menu"], [role="toolbar"], [role="tooltip"], [class^="ExpandedNav"]
+    body, header, footer, nav, menu, .main-menu, .topbar, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer, [role="alert"], [role="banner"], [role="dialog"], [role="listbox"], [role="navigation"], [role="menu"], [role="toolbar"], [role="tooltip"], [class^="ExpandedNav"]
     {
         background-color: var(--theme-color) !important;    
     }
