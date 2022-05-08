@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/carbmanager.com.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Carb Manager's style to enable a dark mode`
-@version        20220430
+@version        20220508
 @license        GPL
 ==/UserStyle== */
 
@@ -73,6 +73,7 @@
     .q-menu,
     .q-header {
       background: #666;
+      color: #fff;
     }
 
     .cm-modal-footer, .cm-modal-bar, .cm-modal-bar__toolbar {
