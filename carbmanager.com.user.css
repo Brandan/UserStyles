@@ -125,6 +125,11 @@
     .settings-container {
        background-color: var(--cm-color-gray600) !important;
     }
+    
+    .pie-chart .ct-label {
+        color: white !important;
+        fill: white !important;
+    }
 
     .goal-info__name, .fixed-toolbar-nav {
         background-color: var(--cm-color-gray800) !important;
