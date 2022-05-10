@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/carbmanager.com.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Carb Manager's style to enable a dark mode`
-@version        20220509
+@version        20220509.1
 @license        GPL
 ==/UserStyle== */
 
@@ -126,7 +126,8 @@
        background-color: var(--cm-color-gray600) !important;
     }
     
-    .pie-chart .ct-label {
+    .pie-chart .ct-label, 
+    .progress__title--inverted[data-v-d6d30a06] {
         color: white !important;
         fill: white !important;
     }
