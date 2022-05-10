@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/carbmanager.com.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Carb Manager's style to enable a dark mode`
-@version        20220509.1
+@version        20220509.2
 @license        GPL
 ==/UserStyle== */
 
@@ -135,4 +135,10 @@
     .goal-info__name, .fixed-toolbar-nav {
         background-color: var(--cm-color-gray800) !important;
     }
+    
+    aside button, aside .daily-log-button {
+        border: solid var(--cm-color-green-dark) 1px !important;
+    }
+
+
 }
