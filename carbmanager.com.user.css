@@ -136,7 +136,7 @@
         background-color: var(--cm-color-gray800) !important;
     }
     
-    aside button, aside .daily-log-button {
+    aside.daily-log__page-sidebar button, aside.daily-log__page-sidebar .daily-log-button {
         border: solid var(--cm-color-green-dark) 1px !important;
     }
 
