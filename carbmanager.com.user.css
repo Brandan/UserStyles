@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/carbmanager.com.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Carb Manager's style to enable a dark mode`
-@version        20220510
+@version        20220510.1
 @license        GPL
 ==/UserStyle== */
 
@@ -95,6 +95,7 @@
     .recipe-details__value,
     .macro-progress__label,
     .food-finder-autocomplete__container input,
+    .user-edits-notice,
     input {
         color: var(--cm-color-gray50)!important;
     }
