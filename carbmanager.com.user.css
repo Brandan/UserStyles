@@ -127,7 +127,7 @@
     }
     
     .pie-chart .ct-label, 
-    .progress__title--inverted[data-v-d6d30a06] {
+    .progress__title--inverted {
         color: white !important;
         fill: white !important;
     }
