@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name         Overdrive Dark Theme
+@namespace    https://github.com/Brandan/UserStyles/raw/main/OverdriveDarkTheme.user.css
+@version      20220511
+@license      GPL
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document domain("overdrive.com")
+{
+    
+    :root {
+    }
+
+    .NotificationsContainer {
+        background-color: var(--theme-color) !important;
+        color: var(--text-color) !important;
+        box-shadow: none !important;
+    }
+}
