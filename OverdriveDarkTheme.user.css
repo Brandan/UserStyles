@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Overdrive Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/OverdriveDarkTheme.user.css
-@version      20220511.1
+@version      20220511.2
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -20,5 +20,9 @@
  
     .button.sample-button {
         color: var(--text-color) !important;
+    }
+    
+    .is-short::before {
+        background-image: none !important;
     }
 }
