@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      20220511.1
+@version      20220511.2
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -28,13 +28,14 @@
                 domain("nationalreview.com"),
                 domain("newretirement.com"),
                 domain("nytimes.com"),
-                domain("overdrive.com"),
                 domain("om.co"),
+                domain("overdrive.com"),
                 domain("patents.google.com"),
                 domain("professionalbooknerds.com"),
                 domain("protocol.com"),
                 domain("simplecast.com"),
                 domain("substack.com"),
+    domain("syntax.fm"),
                 domain("theatlantic.com"),
                 domain("thehustle.co"),
                 domain("theirrelevantinvestor.com"),
@@ -50,6 +51,8 @@
     :root {
         --theme-color: #333;
         --text-color: #ccc;
+        --text-disabled: rgba(245, 158, 60, 0.3);
+        --text-placeholder: rgba(51, 151,250, 0.5);
         --link-color: rgb(245, 158, 60);
         --accent-color: rgba(51, 151,250);
         --accent-blur-color: rgba(var(--accent-color), 0.2)
@@ -139,15 +142,12 @@
     body, header, footer, nav, menu, .main-menu, .topbar, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer, [role="alert"], [role="banner"], [role="dialog"], [role="listbox"], [role="navigation"], [role="menu"], [role="toolbar"], [role="tooltip"], [class^="ExpandedNav"]
     {
         background-color: var(--theme-color) !important;    
-        background-image: none !important;
+        background-image: none;
     }
 
     svg,
     svg path {
         fill: var(--accent-color) !important;
-    }
-    svg path[fill="none"] {
-        fill: none !important;
     }
 
     a,
@@ -169,9 +169,12 @@
     [role="button"] *:before {
         color: var(--link-color) !important;
         fill: var(--link-color) !important;
-        stroke: var(--link-color) !important;
     }
-                  
+
+    svg path[fill="none"] {
+        fill: none !important;
+    }
+
     button:hover, [role="button"]:hover {
         background-color: rgba(255, 255, 255, 0.15) !important;   
     }
@@ -186,5 +189,9 @@
         border: 0;
         outline: 0;
         overflow: auto !important;
+    }
+
+    ::placeholder {
+        color: var(--text-placeholder) !important;
     }
 }
