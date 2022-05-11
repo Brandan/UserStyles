@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Overdrive Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/OverdriveDarkTheme.user.css
-@version      20220511.2
+@version      20220511.1
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -10,23 +10,80 @@
 {
     
     :root {
+        --text-disabled: rgba(204, 204, 204, 0.3);
     }
 
-    .NotificationsContainer {
+    .NotificationsContainer, .ContextMenu-drop, 
+    .drop, .open.content, .open.f-dropdown, 
+    .search-bar input, .Autocompletions, 
+    .settings-panel, ul.settings-audience-buttons label:not(.active) {
         background-color: var(--theme-color) !important;
         color: var(--text-color) !important;
         box-shadow: none !important;
     }
- 
-    .button.sample-button {
+    
+    .TitleCard {
+       border: solid rgba(66, 66, 66, 0.3) 1px;
+    }
+    
+    [role="dialog"] {
+        border: solid var(--accent-color) 1px !important;        
+    }
+    
+    [role="dialog"] [role="dialog"] {
+        border: none !important;
+    }
+    
+    ul label.active, .primary-background {
+        background-color: var(--accent-color) !important;        
+    }
+    .open a {
+        color: var(--link-color) !important;
+    }
+    
+    select, .button.sample-button, .title-container .title-name a:not(.secondary-color) {
         color: var(--text-color) !important;
+    }
+        
+    .title-container .title-name a:not(.secondary-color):hover, .icon-audiobook {
+        color: var(--accent-color) !important;
+    }
+    
+    .icon-ebook {
+        color: var(--text-disabled) !important;
+    }
+    
+    .button.is-recommend {
+        border: solid var(--accent-color) 1px !important;
+    }
+    
+    .button.secondary {
+        border: solid var(--text-color) 1px !important;
+    }
+    
+    .button.primary {
+        border: solid var(--accent-color) 1px !important;
+    }
+    
+    select::after, 
+    .SearchViewOptions::after, .AccountSortOptions::after {
+        background: none !important;
     }
     
     .is-short::before {
         background-image: none !important;
     }
-    
+
     #ringer path {
         fill: var(--accent-color) !important;
+    }
+    
+    .Facets .Facets-facetTotal {
+        box-shadow: none !important;
+    }
+    
+    .BrowseSubjects .BrowseSubjects-count {
+        border-radius: 5px !important;
+        border-color: rgba(204, 204, 204,0.3) !important;
     }
 }
