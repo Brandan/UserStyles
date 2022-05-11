@@ -25,4 +25,8 @@
     .is-short::before {
         background-image: none !important;
     }
+    
+    #ringer path {
+        fill: var(--accent-color) !important;
+    }
 }
