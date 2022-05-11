@@ -70,7 +70,15 @@
   .Un::after, 
   .J-Ph-hFsbo,
   .J-Ks-KO .J-N-Jo,
-  .aDg > .aDj [role="listbox"] .J-Z-M-I-J6-H > .J-Z-M-I-JG
+  .aDg > .aDj [role="listbox"] .J-Z-M-I-J6-H > .J-Z-M-I-JG,
+  .T-axO .J-JN-M-I-JG,
+  .bs1 + .bs3::before, .btj + .aD::before,
+  .bs5::after,
+  .ajy > .ajz,
+  .ha .pH-A7, .ha .aoj,
+  .bi4 > .T-KT:not(.T-KT-Jp):not(.byM)::before,
+  .mK, .aaq .mK, .mI, .g1, .gZ, .aeT, .ajT, .SB, .By, .Bq,
+  .ams::before
   {
     filter:invert(1) !important;
   }
@@ -115,12 +123,6 @@
   .ajA, [role="dialog"], [role="tooltip"] {
       background-color: var(--theme-color) !important;
       border: solid var(--accent-color) 1px !important;
-  }
-
-  .J-N-JX {
-    background-color: #ccc !important;
-    border-radius: 10px;
-    padding: 2px;
   }
 
   .faEe, .aEc.aHS-bnr .qj {
