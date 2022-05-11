@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to ZenDesk styls to enable a dark mode`
-@version        20220430
+@version        20220511
 @license        GPL
 ==/UserStyle== */
 
@@ -104,7 +104,7 @@
       color: var(--text-color) !important;
   }
 
-  body, header, footer, nav, menu, div:after, div:before, .main-menu, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer, [role="navigation"], [role="menu"], [role="treeitem"], [role="dialog"], [data-test-id="search_advanced-search-box_filter-button_filter-button-content_filter-modal"], [data-garden-container-id="containers.accordion"], #admin_content .overview .overview_content .system_updates--announcement
+  body, header, footer, nav, menu, div:after, div:before, .main-menu, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer, .modal, [role="navigation"], [role="menu"], [role="treeitem"], [role="dialog"], [data-test-id="search_advanced-search-box_filter-button_filter-button-content_filter-modal"], [data-garden-container-id="containers.accordion"], #admin_content .overview .overview_content .system_updates--announcement
   {
       background-color: var(--base-background) !important;    
   }
@@ -186,9 +186,16 @@
   .event:not(.is-public) .comment li,
   .event:not(.is-public) .zd-comment li,
   .cechoF,
+  .modal .fJnKTR,
   [data-test-id='table_popover'] .LRhk {
       background-color: #fff6d9 !important;        
-      color: #666 !important;        
+      color: #222 !important;        
+  }
+
+  /* internal comments */
+  .modal .fJnKTR p
+  {
+      color: #222 !important;
   }
 
   /* dropdown action button on ticket */
