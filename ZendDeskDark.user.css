@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to ZenDesk styls to enable a dark mode`
-@version        20220511.1
+@version        20220511.2
 @license        GPL
 ==/UserStyle== */
 
@@ -104,7 +104,7 @@
       color: var(--text-color) !important;
   }
 
-  body, header, footer, nav, menu, div:after, div:before, .main-menu, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer, .modal, [role="navigation"], [role="menu"], [role="treeitem"], [role="dialog"], [data-test-id="search_advanced-search-box_filter-button_filter-button-content_filter-modal"], [data-garden-container-id="containers.accordion"], #admin_content .overview .overview_content .system_updates--announcement
+  body, header, footer, nav, menu, div:after, div:before, .main-menu, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer, .modal, [role="navigation"], [role="menu"], [role="treeitem"], [role="dialog"], [data-test-id="search_advanced-search-box_filter-button_filter-button-content_filter-modal"], [data-garden-container-id="containers.accordion"], [data-garden-id="tooltip.tooltip"], #admin_content .overview .overview_content .system_updates--announcement
   {
       background-color: var(--base-background) !important;    
   }
