@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to ZenDesk styls to enable a dark mode`
-@version        20220511
+@version        20220511.1
 @license        GPL
 ==/UserStyle== */
 
@@ -206,6 +206,22 @@
   /* ticket table title links */
   .jydokf, table a, table a span, [role="treeitem"] {
       color: var(--accent-color) !important;
+  }
+
+  /* Bulk action button modal */
+  [data-test-id="bulk-actions"]
+  {
+      background-color: var(--base-background) !important;
+      padding: 1em;
+      border-radius: 5px;
+      border: solid var(--text-color) 1px;
+  }
+    
+  /* Bulk action buttons */
+  [data-test-id="bulk-actions"] [data-garden-id="buttons.button_group_view"]
+  {
+      border-radius: 5px;
+      border: solid var(--accent-color) 1px;
   }
 
   header, table tr, table td, [role="tab"], [data-test-id="header-toolbar"], .activities .item, .indicators ul, .indicators li, [data-test-id="ticket-fields"] input, [aria-haspopup="listbox"], .zd-tag-menu-root, [data-garden-id^="dropdowns"], [data-test-id="ticket-pane-subject"], .btn, .zd-tag-item, .section.ticket .tab-controls-container, .event, .property_box {
