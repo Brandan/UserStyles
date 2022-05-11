@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20220511
+@version        20220511.1
 @license        GPL
 ==/UserStyle== */
 
@@ -78,7 +78,12 @@
   .ha .pH-A7, .ha .aoj,
   .bi4 > .T-KT:not(.T-KT-Jp):not(.byM)::before,
   .mK, .aaq .mK, .mI, .g1, .gZ, .aeT, .ajT, .SB, .By, .Bq,
-  .ams::before
+  .ams::before,
+  .OB, .XO, .SV,
+  .J-Z-M-I-J6-H > .J-Z-M-I-JG,
+  .aaA.eY, .aaA.eS, .aaA.fb, .Ie, .Id, .aaA, .dv, .Xv.T-I.J-JN-M-I > .J-JN-M-I-JG, .og, .aeC,
+  .T-I.J-J5-Ji.hG.T-I-atl.L3,
+  .asor, .gsoi_msra, .gsaq_b
   {
     filter:invert(1) !important;
   }
