@@ -129,6 +129,10 @@
        background-color: var(--cm-color-gray600) !important;
     }
     
+    .progress__title {
+        color: var(--cm-color-gray800) !important;
+    }
+    
     .pie-chart .ct-label, 
     .progress__title--inverted {
         color: white !important;
