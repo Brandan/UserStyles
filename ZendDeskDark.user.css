@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to ZenDesk styls to enable a dark mode`
-@version        20220511.3
+@version        20220512
 @license        GPL
 ==/UserStyle== */
 
@@ -104,7 +104,7 @@
       color: var(--text-color) !important;
   }
 
-  body, header, footer, nav, menu, div:after, div:before, .main-menu, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer, .modal, [role="navigation"], [role="menu"], [role="treeitem"], [role="dialog"], [data-test-id="search_advanced-search-box_filter-button_filter-button-content_filter-modal"], [data-garden-container-id="containers.accordion"], #admin_content .overview .overview_content .system_updates--announcement, .jGrowl-notification
+  body, header, footer, nav, menu, div:after, div:before, .main-menu, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer, .modal, [role="navigation"], [role="menu"], [role="treeitem"], [role="dialog"], [data-test-id="search_advanced-search-box_filter-button_filter-button-content_filter-modal"], [data-garden-container-id="containers.accordion"], #admin_content .overview .overview_content .system_updates--announcement, .jGrowl-notification, .pane.left.section.ticket-sidebar, .pane.right, [data-test-id="rich-text-editor-toolbar-container"], [data-test-id="rich-text-editor-toolbar-container"] div
   {
       background-color: var(--base-background) !important;    
   }
@@ -118,6 +118,11 @@
       left: 60px;
       z-index: 11;
       background: transparent;
+  }
+
+  .pane.left nav
+  {
+      z-index:1;
   }
 
   /* ticket table header */
@@ -194,7 +199,8 @@
   }
 
   /* internal comments */
-  .modal .fJnKTR p
+  .modal .fJnKTR *,
+  .event:not(.is-public) .zd-comment *
   {
       color: #222 !important;
   }
