@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Overdrive Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/OverdriveDarkTheme.user.css
-@version      20220513.4
+@version      20220513.5
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -41,7 +41,8 @@
 
     .open a,
     a svg, a svg g, a svg path,
-    i[class^="icon-"]:before {
+    i[class^="icon-"]::before,
+    .title-container.card .bottomButtons .button {
         color: var(--link-color) !important;
         fill: var(--link-color) !important;
         stroke: var(--link-color) !important;
@@ -51,7 +52,9 @@
         color: var(--text-color) !important;
     }
         
-    .title-container .title-name a:not(.secondary-color):hover, .icon-audiobook {
+    .title-container .title-name a:not(.secondary-color):hover, 
+    .icon-audiobook, .title-container.card .bottomButtons:hover i:before,
+    .icon-audiobook, .title-container.card .bottomButtons:hover .button {
         color: var(--accent-color) !important;
     }
     
