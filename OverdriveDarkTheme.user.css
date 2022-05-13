@@ -98,4 +98,9 @@
         border-radius: 5px !important;
         border-color: rgba(204, 204, 204,0.3) !important;
     }
+        
+    a.secondary-background {
+        background-color: rgba(245, 150, 60, 0.2) !important;
+    }
+
 }
