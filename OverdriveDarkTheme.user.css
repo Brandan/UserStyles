@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Overdrive Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/OverdriveDarkTheme.user.css
-@version      20220513.3
+@version      20220513.4
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -40,7 +40,8 @@
     }
 
     .open a,
-    a svg, a svg g, a svg path {
+    a svg, a svg g, a svg path,
+    i[class^="icon-"]:before {
         color: var(--link-color) !important;
         fill: var(--link-color) !important;
         stroke: var(--link-color) !important;
