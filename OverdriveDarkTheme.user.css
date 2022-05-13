@@ -16,7 +16,8 @@
     .NotificationsContainer, .ContextMenu-drop, 
     .drop, .open.content, .open.f-dropdown, 
     .search-bar input, .Autocompletions, 
-    .settings-panel, ul.settings-audience-buttons label:not(.active) {
+    .popover, .settings-panel, 
+    ul.settings-audience-buttons label:not(.active) {
         background-color: var(--theme-color) !important;
         color: var(--text-color) !important;
         box-shadow: none !important;
@@ -37,8 +38,12 @@
     ul label.active, .primary-background {
         background-color: var(--accent-color) !important;        
     }
-    .open a {
+
+    .open a,
+    a svg, a svg g, a svg path {
         color: var(--link-color) !important;
+        fill: var(--link-color) !important;
+        stroke: var(--link-color) !important;
     }
     
     select, .button.sample-button, .title-container .title-name a:not(.secondary-color) {
@@ -70,6 +75,13 @@
         background: none !important;
     }
     
+    select, select option, select optgroup {
+        background-color: var(--theme-color) !important;
+        color: var(--text-color) !important;
+        border: none;
+        margin:0;
+   }    
+
     .is-short::before {
         background-image: none !important;
     }
