@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Overdrive Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/OverdriveDarkTheme.user.css
-@version      20220513.2
+@version      20220513.3
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -105,5 +105,9 @@
 
     .nav-container {
         border-color: var(--accent-color) !important;
+    }
+    
+    footer a, footer li {
+      color: var(--link-color) !important;
     }
 }
