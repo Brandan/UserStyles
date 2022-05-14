@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/NYTimes.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to NY Times' style to enable a dark mode`
-@version        20220430
+@version        20220514
 @license        GPL
 ==/UserStyle== */
 
@@ -16,7 +16,11 @@
       height: auto!important;
       width:auto!important;
   }
-
+  
+  #in-story-masthead {
+    background-color: var(--theme-color) !important;
+  }
+  
   #in-story-masthead, .css-1q2w90k, in-story-masthead button, .css-1q2w90k button {
       transition: none;
   }
