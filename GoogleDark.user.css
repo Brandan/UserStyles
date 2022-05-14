@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20220514.1
+@version        20220514.2
 @license        GPL
 ==/UserStyle== */
 
@@ -84,7 +84,9 @@
   .Xv.T-I.J-JN-M-I > .J-JN-M-I-JG, .og, .aeC,
   .T-I.J-J5-Ji.hG.T-I-atl.L3,
   .asor.asor_i5, .gsoi_msra, .gsaq_b,
-  .btC
+  .btC,
+  /*Email icon in dragging label*/
+  .lC::before
   {
     filter:invert(1) !important;
   }
@@ -160,5 +162,10 @@
       opacity: 0.9;
       border-radius: 5px;
   }
-
+  
+  /* label when dragging email */
+  .lE > .lC {
+    height: 35px;
+  }
+  
 }
