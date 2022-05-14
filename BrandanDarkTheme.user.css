@@ -1,13 +1,14 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      20220511.2
+@version      20220514
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
 
 @-moz-document domain("abnormalreturns.com"),
                 domain("artofmanliness.com"),
+                domain("axios.com"),
                 domain("behavioralvalueinvestor.com"),
                 domain("bloomberg.com"),
                 domain("contacts.google.com"),
@@ -16,6 +17,8 @@
                 domain("fortune.com"),
                 domain("fastcompany.com"),
                 domain("feedly.com"),
+                domain("fivethirtyeight.com"),
+                domain("hechingerreport.org"),
                 domain("mail.google.com"),
                 domain("housingwire.com"),
                 domain("humbledollar.com"),
@@ -178,7 +181,7 @@
         background-color: rgba(255, 255, 255, 0.15) !important;   
     }
 
-    .paywall, .gdpr-cookie, .wt-cli-cookie-bar-container, .convertkit, .formkit-overlay, .formkit-modal, .floating-share-buttons {
+    .paywall, .gdpr-cookie, .wt-cli-cookie-bar-container, .convertkit, .formkit-overlay, .formkit-modal, .floating-share-buttons, .wp-gdpr-cookie-notice {
         display: none !important;
     }
 
