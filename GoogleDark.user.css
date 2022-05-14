@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20220514
+@version        20220514.1
 @license        GPL
 ==/UserStyle== */
 
@@ -37,9 +37,7 @@
   /* Message on the bottom allowing the standard view to be loaded */
   .msgb,
   /* Minimized Email compose */
-  .Hy .k,
-  /* label when dragging email */
-  .lE
+  .Hy .k
   {
       background-color: var(--theme-color) !important;
       border: solid var(--accent-color) 1px !important;
@@ -153,4 +151,14 @@
   .aeN {
       border-right: solid #222 1px;
   }
+      
+  /* label when dragging email */
+  .lE
+  {
+      background-color: var(--theme-color) !important;
+      border: solid var(--accent-color) 1px !important;
+      opacity: 0.9;
+      border-radius: 5px;
+  }
+
 }
