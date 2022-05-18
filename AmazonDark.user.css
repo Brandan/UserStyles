@@ -3,16 +3,22 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220518
+@version        20220518.1
 @license        GPL
 ==/UserStyle== */
 
 @-moz-document domain("amazon.com")
 {
     /* Customize element's background */
-    .a-color-base-background
+    .a-color-base-background,
+    table.a-bordered tr:first-child th
     {
         background-color: var(--theme-color) !important;    
         background-image: none !important;
+    }
+    
+    table.a-bordered tr:first-child th
+    {
+        background-color: #222 !important;    
     }
 }
