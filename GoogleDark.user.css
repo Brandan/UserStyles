@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20220519
+@version        20220519.1
 @license        GPL
 ==/UserStyle== */
 
@@ -90,7 +90,11 @@
   /* snooze calendar icon */
   .bsI,
   /* snooze last icon */
-  .bwh
+  .bwh,
+  /* right-click menu icons on mail items */
+  .J-N-JX,
+  /* attachment icon */
+  .gW
   {
     filter:invert(1) !important;
   }
@@ -172,4 +176,9 @@
     height: 35px;
   }
   
+  /* floating toolbar on an email */
+    .bqY {
+        background: transparent !important;
+    }
+    
 }
