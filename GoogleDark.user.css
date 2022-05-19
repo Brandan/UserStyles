@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20220514.2
+@version        20220519
 @license        GPL
 ==/UserStyle== */
 
@@ -86,7 +86,11 @@
   .asor.asor_i5, .gsoi_msra, .gsaq_b,
   .btC,
   /*Email icon in dragging label*/
-  .lC::before
+  .lC::before,
+  /* snooze calendar icon */
+  .bsI,
+  /* snooze last icon */
+  .bwh
   {
     filter:invert(1) !important;
   }
