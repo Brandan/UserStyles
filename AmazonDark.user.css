@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220518.1
+@version        20220518.2
 @license        GPL
 ==/UserStyle== */
 
@@ -11,14 +11,48 @@
 {
     /* Customize element's background */
     .a-color-base-background,
+    #hmenu-canvas,
+    .gw-card-layout .a-cardui,
+    .a-expander-content-fade,
+    .a-button-group .a-button,
+    .a-divider.a-divider-section .a-divider-inner::after,
+    .a-popover,
+    .a-popover-wrapper::after,
     table.a-bordered tr:first-child th
     {
         background-color: var(--theme-color) !important;    
         background-image: none !important;
     }
     
+    /* Customize text color */
+    .a-color-base {
+        color: var(--text-color) !important;   
+    }
+    
     table.a-bordered tr:first-child th
     {
         background-color: #222 !important;    
+    }
+
+    /* menu background  */
+    #hmenu-canvas-background
+    {
+        background-color: rgba(0,0,0,.8) !important;
+    }
+    
+    .a-expander-partial-collapse-header {
+        background-color: rgba(51,51,51,.95) !important;
+    }
+    
+    /* invert icon colors */
+    .a-icon, 
+    .rpi-icon {
+        filter: invert(1) !important;
+    }
+    
+    /* filtered images with white backgrounds */
+    img.nav-categ-image,
+    img.wfv-read-and-listen-icon {
+        filter: invert(0.8) !important;
     }
 }
