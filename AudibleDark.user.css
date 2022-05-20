@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name           Audible Dark
+@namespace      https://github.com/Brandan/UserStyles/raw/main/AudibleDark.user.css
+@author         Brandan E. Lloyd
+@description    `Modifications to Audible's style to enable a dark mode`
+@version        20220519
+@license        GPL
+==/UserStyle== */
+
+@-moz-document domain("audible.com")
+{
+}
