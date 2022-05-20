@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220518.2
+@version        20220519
 @license        GPL
 ==/UserStyle== */
 
@@ -15,10 +15,14 @@
     .gw-card-layout .a-cardui,
     .a-expander-content-fade,
     .a-button-group .a-button,
+    .a-button-group .a-button .a-button-inner,
     .a-divider.a-divider-section .a-divider-inner::after,
     .a-popover,
     .a-popover-wrapper::after,
-    table.a-bordered tr:first-child th
+    table.a-bordered tr:first-child th,
+    /* All formates slideout */
+    #morpheus-sidesheet,
+    ._morpheus-popularity-rank-sidesheet-card_ss_tab-row__1Uxai
     {
         background-color: var(--theme-color) !important;    
         background-image: none !important;
@@ -28,14 +32,22 @@
     .a-color-base {
         color: var(--text-color) !important;   
     }
-    
-    table.a-bordered tr:first-child th
+
+    /* Customize border color */
+    ul.a-tabs,
+    .a-dropdown-common .a-dropdown-item:hover .a-dropdown-link {
+        border-color: var(--text-disabled) !important;   
+    }
+
+    table.a-bordered tr:first-child th,
+    .a-dropdown-common .a-dropdown-item:hover .a-dropdown-link
     {
         background-color: #222 !important;    
     }
 
     /* menu background  */
-    #hmenu-canvas-background
+    #hmenu-canvas-background,
+    ._morpheus-popularity-rank-sidesheet-card_ingress_overlay__T88OB
     {
         background-color: rgba(0,0,0,.8) !important;
     }
@@ -46,7 +58,8 @@
     
     /* invert icon colors */
     .a-icon, 
-    .rpi-icon {
+    .rpi-icon,
+    #morpheus-sidesheet-close {
         filter: invert(1) !important;
     }
     
@@ -54,5 +67,9 @@
     img.nav-categ-image,
     img.wfv-read-and-listen-icon {
         filter: invert(0.8) !important;
+    }
+
+    #morpheus-sidesheet-close {
+        filter:none !important;
     }
 }
