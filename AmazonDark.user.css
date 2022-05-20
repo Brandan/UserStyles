@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220519
+@version        20220520
 @license        GPL
 ==/UserStyle== */
 
@@ -19,6 +19,8 @@
     .a-divider.a-divider-section .a-divider-inner::after,
     .a-popover,
     .a-popover-wrapper::after,
+    .nav-flyout, .nav-flyout-sidePanel,
+    select,
     table.a-bordered tr:first-child th,
     /* All formates slideout */
     #morpheus-sidesheet,
@@ -29,8 +31,12 @@
     }
     
     /* Customize text color */
-    .a-color-base {
+    .a-color-base, select {
         color: var(--text-color) !important;   
+    }
+
+    .a-color-secondary {
+        color: #999 !important;   
     }
 
     /* Customize border color */
@@ -39,6 +45,21 @@
         border-color: var(--text-disabled) !important;   
     }
 
+    /* Customize darker border color */
+    .s-card-border, .a-popover.a-arrow-bottom .a-arrow {
+        border-color: #222 !important;   
+    }
+    
+    /* search bar customization */
+    #navbar.nav-flex #nav-belt #nav-search .nav-searchbar .nav-search-field {
+        border: solid 1px var(--text-color) !important
+    }
+    
+    #navbar.nav-bluebeacon #nav-search .nav-search-submit {
+        background-color: var(--link-color) !important;    
+        border: solid 1px var(--text-color) !important
+    }
+    
     table.a-bordered tr:first-child th,
     .a-dropdown-common .a-dropdown-item:hover .a-dropdown-link
     {
