@@ -3,10 +3,66 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AudibleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Audible's style to enable a dark mode`
-@version        20220519
+@version        20220519.1
 @license        GPL
 ==/UserStyle== */
 
 @-moz-document domain("audible.com")
 {
+    ::placeholder {
+        color: var(--placeholder-color) !important;    
+    }
+    
+    .bc-input {
+        background-color: var(--theme-color) !important;        
+    }
+    
+    .bc-color-base
+    {
+        color: var(--text-color) !important;    
+    }
+
+    .bc-color-error
+    {
+        color: #e00 !important;    
+    }
+
+    /* button colors */
+    
+    .bc-button-primary {
+        background-color: var(--link-color) !important;
+    }
+    
+    .bc-button-secondary {
+        background-color: var(--accent-color) !important;
+    }
+    
+    .bc-button-preorder {
+        background-color: purple !important;
+    }
+    
+    /* icon partial invert */
+    .bc-popover-beak {
+        filter:invert(0.8) !important;
+    }
+
+    /* icon inverts */
+    .library-button-row-icon {
+        filter:invert(1) !important;
+    }
+    
+    /* Ratings */
+    .bc-icon-fill-progress, 
+    .bc-icon-fill-base {
+        background-color: var(--accent-color) !important;
+    }
+    
+    /* icons reset */
+    .bc-icon.bc-icon-cart, 
+    .bc-accordion .bc-accordion-icon-position-right .bc-icon,
+    .bc-icon.bc-icon-chevron-down,
+    .bc-icon.bc-icon-move-to-bottom,
+    .bc-icon.bc-icon-chevron-left {
+        background-color: transparent !important;
+    }
 }
