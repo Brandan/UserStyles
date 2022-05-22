@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/carbmanager.com.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Carb Manager's style to enable a dark mode`
-@version        20220512
+@version        20220521
 @license        GPL
 ==/UserStyle== */
 
@@ -24,6 +24,10 @@
         --cm-color-gray50: #eee;
     }
 
+    .video.video--loading {
+        background: var(--cm-color-gray600) !important;
+    }
+    
     .cm-header--scrolled {
         --header-scrolled-bg: var(--cm-color-gray800) !important;
     }
