@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AudibleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Audible's style to enable a dark mode`
-@version        20220519.1
+@version        20220524
 @license        GPL
 ==/UserStyle== */
 
@@ -13,13 +13,23 @@
         color: var(--placeholder-color) !important;    
     }
     
-    .bc-input {
+    .bc-input,
+    select, 
+    option {
         background-color: var(--theme-color) !important;        
     }
     
-    .bc-color-base
+    .bc-color-base, 
+    .bc-dropdown-color
     {
         color: var(--text-color) !important;    
+    }
+
+    .bc-input-box-color,
+    .bc-color-border-base,
+    .bc-chip.bc-chip-outline .bc-chip-border
+    {
+        border-color: var(--text-color) !important;    
     }
 
     .bc-color-error
@@ -27,6 +37,11 @@
         color: #e00 !important;    
     }
 
+    /* progress bar fill  */
+    .bc-color-background-progress {
+        background-color: var(--accent-color) !important;
+    }
+    
     /* button colors */
     
     .bc-button-primary {
@@ -61,6 +76,7 @@
     .bc-icon.bc-icon-cart, 
     .bc-accordion .bc-accordion-icon-position-right .bc-icon,
     .bc-icon.bc-icon-chevron-down,
+    .bc-icon.bc-icon-chevron-right,
     .bc-icon.bc-icon-move-to-bottom,
     .bc-icon.bc-icon-chevron-left {
         background-color: transparent !important;
