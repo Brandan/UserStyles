@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/carbmanager.com.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Carb Manager's style to enable a dark mode`
-@version        20220521
+@version        20220524
 @license        GPL
 ==/UserStyle== */
 
@@ -153,5 +153,9 @@
 
     .message-list__item[data-v-201d6c0d]{
         display:none;
+    }
+
+    .planned-item__hint {
+      font-size: var(--cm-text-xxs) !important;
     }
 }
