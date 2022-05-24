@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Mint
+@namespace      https://github.com/Brandan/UserStyles/raw/main/MintCustomization.user.css
+@author         Brandan E. Lloyd
+@description    `Modifications to Mint's style `
+@version        20220524
+@license        GPL
+==/UserStyle== */
+
+@-moz-document domain("mint.intuit.com")
+{
+  #incometaxhub {
+    opacity: 0.3;
+    order: 10;
+  }
+}
