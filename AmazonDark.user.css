@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220525
+@version        20220525.1
 @license        GPL
 ==/UserStyle== */
 
@@ -27,7 +27,7 @@
     table.a-bordered tr:first-child th,
     /* All formates slideout */
     #morpheus-sidesheet,
-    #seller-profile-container.spp-redesigned .page-section-container,
+    #seller-profile-container.spp-redesigned.spp-desktop .page-box-container,
     ._morpheus-popularity-rank-sidesheet-card_ss_tab-row__1Uxai
     {
         background-color: var(--theme-color) !important;    
