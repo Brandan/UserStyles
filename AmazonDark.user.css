@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220525.1
+@version        20220525.2
 @license        GPL
 ==/UserStyle== */
 
@@ -26,6 +26,8 @@
     .sc-background-dark,
     select,
     table.a-bordered tr:first-child th,
+    /* Devices hover */
+    #mars-fs-flyouts,
     /* All formates slideout */
     #morpheus-sidesheet,
     #seller-profile-container.spp-redesigned.spp-desktop .page-box-container,
