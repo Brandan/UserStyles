@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AudibleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Audible's style to enable a dark mode`
-@version        20220524
+@version        20220527
 @license        GPL
 ==/UserStyle== */
 
@@ -80,5 +80,12 @@
     .bc-icon.bc-icon-move-to-bottom,
     .bc-icon.bc-icon-chevron-left {
         background-color: transparent !important;
+    }
+
+    /* Added styling for the popover container */
+    .bc-popover-inner
+    {
+        border-color: var(--text-color) !important;
+        box-shadow: 0 2px 5px 0 var(--accent-color) !important;
     }
 }
