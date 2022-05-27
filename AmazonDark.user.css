@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220525.2
+@version        20220527
 @license        GPL
 ==/UserStyle== */
 
@@ -99,5 +99,14 @@
 
     #morpheus-sidesheet-close {
         filter:none !important;
+    }
+    
+    /* Customize the selected page button */
+    .s-pagination-selected {
+        background-color: #2f2f2f !important;
+        border: none !important;
+        border-top: solid var(--text-color)  1px !important;
+        border-bottom: solid var(--text-color)  1px !important;
+        color: var(--accent-color) !important;
     }
 }
