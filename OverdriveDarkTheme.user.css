@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Overdrive Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/OverdriveDarkTheme.user.css
-@version      20220527
+@version      20220527.1
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -16,6 +16,7 @@
     .accordion .accordion-navigation > a,
     .NotificationsContainer, .ContextMenu-drop, 
     .drop, .open.content, .open.f-dropdown, 
+    .Facets-showMobileFacets,
     .search-bar input, .Autocompletions, 
     .popover, .settings-panel, 
     ul.settings-audience-buttons label:not(.active) {
