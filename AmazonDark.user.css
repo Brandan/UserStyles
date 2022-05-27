@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220527
+@version        20220527.1
 @license        GPL
 ==/UserStyle== */
 
@@ -26,6 +26,8 @@
     .sc-background-dark,
     select,
     table.a-bordered tr:first-child th,
+    #checkout-page-container .turbo-checkout-push-to-bottom,
+    #checkout-page-container .turbo-checkout-panel-link:hover,
     /* Devices hover */
     #mars-fs-flyouts,
     /* All formates slideout */
@@ -108,5 +110,14 @@
         border-top: solid var(--text-color)  1px !important;
         border-bottom: solid var(--text-color)  1px !important;
         color: var(--accent-color) !important;
+    }
+    
+    #checkout-page-container .turbo-checkout-panel-link:hover
+    {
+        background-color: #2f2f2f !important;
+    }
+    
+    .a-color-secondary, .a-color-tertiary {
+        color: #999 !important;
     }
 }
