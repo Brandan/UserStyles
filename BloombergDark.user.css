@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/BloombergDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Bloomberg's style to enable a dark mode`
-@version        20220430
+@version        20220528
 @license        GPL
 ==/UserStyle== */
 
@@ -19,5 +19,11 @@
 
   article * {
       mask: none !important;
+  }
+    
+  .navi-sections__submenu
+  {
+      background-color: var(--theme-color) !important;
+      border: solid var(--text-color) 1px !important;
   }
 }
