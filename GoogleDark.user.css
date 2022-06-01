@@ -177,22 +177,34 @@
   }
   
   /* floating toolbar on an email */
-    .bqY {
-        background: transparent !important;
-    }
-    
+  .bqY {
+      background: transparent !important;
+  }
+  
   /* side-panel navigation menu */
+  .brC-dA-I.aT5-aOt-I-Jp svg path:not([fill='none'])
+  {
+      fill: var(--text-color) !important;
+      transition : fill  500ms ease-out;
+  }
+    
   .brC-dA-I.aT5-aOt-I-Jp
   {
       background-color: var(--theme-color) !important;
       border: solid var(--text-color) 1px !important;
       border-radius: 35px 0 0 35px;
+      transition : border 500ms ease-out;
   }
 
-  /* side-panel navigation menu */
   .brC-dA-I.aT5-aOt-I-Jp:hover
   {
       border: solid var(--accent-color) 1px !important;
+      transition : border 500ms ease-out;
   }
-    
+
+  .brC-dA-I.aT5-aOt-I-Jp:hover svg path:not([fill='none'])
+  {
+      fill: var(--accent-color) !important;
+      transition : fill  500ms ease-out;
+  }
 }
