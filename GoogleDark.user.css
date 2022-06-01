@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20220519.1
+@version        20220601
 @license        GPL
 ==/UserStyle== */
 
@@ -180,5 +180,19 @@
     .bqY {
         background: transparent !important;
     }
+    
+  /* side-panel navigation menu */
+  .brC-dA-I.aT5-aOt-I-Jp
+  {
+      background-color: var(--theme-color) !important;
+      border: solid var(--text-color) 1px !important;
+      border-radius: 35px 0 0 35px;
+  }
+
+  /* side-panel navigation menu */
+  .brC-dA-I.aT5-aOt-I-Jp:hover
+  {
+      border: solid var(--accent-color) 1px !important;
+  }
     
 }
