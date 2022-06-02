@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name           Ring Dark
+@namespace      https://github.com/Brandan/UserStyles/raw/main/RingDark.user.css
+@author         Brandan E. Lloyd
+@description    `Modifications to Ring's style to enable a dark mode`
+@version        20220602
+@license        GPL
+==/UserStyle== */
+
+@-moz-document domain("ring.com")
+{
+  img[src*="cloudfront.net/icons/"]
+  {
+    filter:invert(1) !important;
+  }
+
+  .iIVGIZ, 
+  .iAYRqk
+  {
+    border: solid var(--text-color) 1px !important
+  }
+}
