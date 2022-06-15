@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20220602.1
+@version        20220615
 @license        GPL
 ==/UserStyle== */
 
@@ -208,4 +208,13 @@
       fill: var(--accent-color) !important;
       transition : fill  500ms ease-out;
   }
+  
+  .acX > .L3.aap::after
+  {
+    content: '︙';
+    color: var(--text-color);
+    font-weight: bolder;
+    top: -3px;
+  }
+  
 }
