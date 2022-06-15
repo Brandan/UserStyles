@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      20220602
+@version      20220615
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -20,7 +20,9 @@
                 domain("fastcompany.com"),
                 domain("feedly.com"),
                 domain("fivethirtyeight.com"),
+                domain("fullsteampay.net"),
                 domain("hechingerreport.org"),
+                domain("investmentnews.com"),
                 domain("mail.google.com"),
                 domain("housingwire.com"),
                 domain("humbledollar.com"),
@@ -58,9 +60,9 @@
         --theme-color: #333;
         --text-color: #ccc;
         --text-disabled: rgba(245, 158, 60, 0.3);
-        --text-placeholder: rgba(51, 151,250, 0.5);
+        --text-placeholder: rgba(51, 151, 250, 0.5);
         --link-color: rgb(245, 158, 60);
-        --accent-color: rgba(51, 151,250);
+        --accent-color: rgba(51, 151, 250);
         --accent-blur-color: rgba(var(--accent-color), 0.2)
     }
 
@@ -131,7 +133,10 @@
     hgroup,
     menu,
     nav,
+    option, 
+    optgroup,
     section,
+    select, 
     svg,
     svg path,
     summary,
