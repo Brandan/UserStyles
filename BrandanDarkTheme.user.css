@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      20220615
+@version      20220615.1
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -51,6 +51,7 @@
                 domain("thewaiterspad.com"),
                 domain("thomaskopelman.com"),
                 domain("tor.com"),
+                domain("vox.com"),
                 domain("vulture.com"),
                 domain("washingtonpost.com"),
                 domain("wsj.com"),
