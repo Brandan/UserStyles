@@ -3,14 +3,22 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/MintCustomization.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Mint's style `
-@version        20220524
+@version        20220618
 @license        GPL
 ==/UserStyle== */
 
 @-moz-document domain("mint.intuit.com")
 {
-  #incometaxhub {
-    opacity: 0.3;
+  nav ul.LeftNavigation-itemList-8e8bf8b {
+    display:grid;
+  }
+  
+  nav ul.LeftNavigation-itemList-8e8bf8b li:nth-child(2) {
+    opacity: 0.2;
+    order: 10;
+  }
+  nav ul.LeftNavigation-itemList-8e8bf8b li:nth-child(10) {
+    opacity: 0.2;
     order: 10;
   }
 }
