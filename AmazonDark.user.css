@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220602
+@version        20220622
 @license        GPL
 ==/UserStyle== */
 
@@ -40,7 +40,9 @@
     }
     
     /* Customize text color */
-    .a-color-base, select {
+    .a-color-base, 
+    select, 
+    .displayAddressDiv .displayAddressUL li {
         color: var(--text-color) !important;   
     }
 
