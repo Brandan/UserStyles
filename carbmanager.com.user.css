@@ -23,6 +23,11 @@
         --cm-color-gray75: #ddd;
         --cm-color-gray50: #eee;
     }
+  
+    .flat-card {
+      --flat-card-bg:#414141 !important;
+      --flat-card-border-hover: var(--text-link) !important;
+    }
 
     .video.video--loading {
         background: var(--cm-color-gray600) !important;
