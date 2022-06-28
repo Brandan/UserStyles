@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to ZenDesk styls to enable a dark mode`
-@version        20220512
+@version        20220628
 @license        GPL
 ==/UserStyle== */
 
@@ -11,6 +11,7 @@
 {
   :root {
       --theme-color: #1a1a1a;
+      --selected-color: #334;
       --text-color: #ccc;
       --border-color: rgba(204, 204, 204, .2);
       --accent-color: #3397fa;
@@ -104,7 +105,7 @@
       color: var(--text-color) !important;
   }
 
-  body, header, footer, nav, menu, div:after, div:before, .main-menu, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer, .modal, [role="navigation"], [role="menu"], [role="treeitem"], [role="dialog"], [data-test-id="search_advanced-search-box_filter-button_filter-button-content_filter-modal"], [data-garden-container-id="containers.accordion"], #admin_content .overview .overview_content .system_updates--announcement, .jGrowl-notification, .pane.left.section.ticket-sidebar, .pane.right, [data-test-id="rich-text-editor-toolbar-container"], [data-test-id="rich-text-editor-toolbar-container"] div
+  body, header, footer, nav, menu, div:after, div:before, .main-menu, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer, .modal, [role="navigation"], [role="menu"], [role="treeitem"], [role="dialog"], [data-test-id="search_advanced-search-box_filter-button_filter-button-content_filter-modal"], [data-garden-container-id="containers.accordion"], #admin_content .overview .overview_content .system_updates--announcement, .jGrowl-notification, .pane.left.section.ticket-sidebar, .pane.right, [data-test-id="rich-text-editor-toolbar-container"], [data-test-id="rich-text-editor-toolbar-container"] div, [role="tooltip"]
   {
       background-color: var(--base-background) !important;    
   }
@@ -126,7 +127,9 @@
   }
 
   /* ticket table header */
-  .fiNJsl th {
+  .fiNJsl th,
+  /* search table header */
+  .cDJdQS th {
       background-color: var(--base-background) !important;    
   }
 
@@ -147,6 +150,13 @@
       color: var(--theme-color) !important;    
   }
 
+  /* selected ticket tab */
+  [role="tab"][data-selected="true"]
+  {
+      background-color: var(--selected-color) !important;
+  }
+
+  
   /* view badge counts */
   .gtrjgl {
       background-color: var(--accent-color) !important;
@@ -241,6 +251,7 @@
 
   /* badges */
   [data-test-id="status-badge-closed"] {
+      color: var(--theme-color) !important;
       background-color: var(--closed-background) !important;
   }
   [data-test-id="status-badge-open"] {
