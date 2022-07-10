@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/MintCustomization.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Mint's style `
-@version        20220618
+@version        20220710
 @license        GPL
 ==/UserStyle== */
 
@@ -13,7 +13,7 @@
     display:grid;
   }
   
-  nav ul.LeftNavigation-itemList-8e8bf8b li:nth-child(2) {
+  nav ul.LeftNavigation-itemList-8e8bf8b li:nth-child(3) {
     opacity: 0.2;
     order: 10;
   }
