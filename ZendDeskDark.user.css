@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to ZenDesk styls to enable a dark mode`
-@version        20220628
+@version        20220711
 @license        GPL
 ==/UserStyle== */
 
@@ -121,7 +121,7 @@
       background: transparent;
   }
 
-  .pane.left nav
+  .pane.left nav, .pane.left nav [data-garden-id="buttons.button_group_view"], .bTccO
   {
       z-index:1;
   }
