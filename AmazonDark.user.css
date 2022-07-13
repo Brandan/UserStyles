@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220622
+@version        20220712
 @license        GPL
 ==/UserStyle== */
 
@@ -121,6 +121,10 @@
     
     .a-color-secondary, .a-color-tertiary {
         color: #999 !important;
+    }
+
+    .DVPAWebWidgetsUI_Button__retail * {
+      color: #111 !important;
     }
 
     /* style delivered orders (requires some JS to run to add the delivered class to the order) */
