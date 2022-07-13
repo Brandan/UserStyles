@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220712
+@version        20220712.1
 @license        GPL
 ==/UserStyle== */
 
@@ -123,7 +123,7 @@
         color: #999 !important;
     }
 
-    .DVPAWebWidgetsUI_Button__retail * {
+    .DVPAWebWidgetsUI_Button__retail *, .a-button-text {
       color: #111 !important;
     }
 
