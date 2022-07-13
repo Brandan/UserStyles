@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220712.3
+@version        20220713
 @license        GPL
 ==/UserStyle== */
 
@@ -124,16 +124,17 @@
         color: #999 !important;
     }
 
-    .DVPAWebWidgetsUI_Button__retail *, .a-button-text, .nav-action-inner {
+    .DVPAWebWidgetsUI_Button__retail *, .returnItemButton.a-button .a-button-text *, .a-button-text, .nav-action-inner, .ewc-button-text, .sc-without-multicart {
       color: #111 !important;
     }
-    
-    .a-button
+        
+    /* various buttons */
+    .author-follow-button, #GLUXZipUpdate
     {
       background-color: rgb(255, 255, 255)!important;
     }
   
-    .a-button-primary
+    .a-button-primary, .a-button-oneclick, #sc-buy-box-ptc-button .a-section
     {
       background-color: rgb(255, 216, 20)!important;
     }
