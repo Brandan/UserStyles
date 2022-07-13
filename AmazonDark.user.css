@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220712.2
+@version        20220712.3
 @license        GPL
 ==/UserStyle== */
 
@@ -11,6 +11,7 @@
 {
     /* Customize element's background */
     .a-color-base-background,
+    .a-button.a-button-dropdown,
     #hmenu-canvas,
     .gw-card-layout .a-cardui,
     .a-expander-content-fade,
@@ -126,7 +127,20 @@
     .DVPAWebWidgetsUI_Button__retail *, .a-button-text, .nav-action-inner {
       color: #111 !important;
     }
-
+    
+    .a-button
+    {
+      background-color: rgb(255, 255, 255)!important;
+    }
+  
+    .a-button-primary
+    {
+      background-color: rgb(255, 216, 20)!important;
+    }
+  
+    .a-divider.a-divider-break::after {
+      border-top-color: #444 !important;
+    }
     /* style delivered orders (requires some JS to run to add the delivered class to the order) */
     .order.delivered
     {
