@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220713
+@version        20220713.1
 @license        GPL
 ==/UserStyle== */
 
@@ -12,6 +12,7 @@
     /* Customize element's background */
     .a-color-base-background,
     .a-button.a-button-dropdown,
+    .av-retail-m-nav-dropdown,
     #hmenu-canvas,
     .gw-card-layout .a-cardui,
     .a-expander-content-fade,
@@ -53,6 +54,7 @@
 
     /* Customize border color */
     ul.a-tabs,
+    .av-retail-m-nav-dropdown,
     .a-dropdown-common .a-dropdown-item:hover .a-dropdown-link {
         border-color: var(--text-disabled) !important;   
     }
@@ -124,7 +126,7 @@
         color: #999 !important;
     }
 
-    .DVPAWebWidgetsUI_Button__retail *, .returnItemButton.a-button .a-button-text *, .a-button-text, .nav-action-inner, .ewc-button-text, .sc-without-multicart {
+    .DVPAWebWidgetsUI_Button__retail *, .returnItemButton.a-button .a-button-text *, .a-button-text, .nav-action-inner, .ewc-button-text, .sc-without-multicart, button.legal-button .aiv-submit *, .a-button-primary * {
       color: #111 !important;
     }
         
