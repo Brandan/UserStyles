@@ -3,267 +3,345 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to ZenDesk styls to enable a dark mode`
-@version        20220711
+@version        20220718
 @license        GPL
 ==/UserStyle== */
 
-@-moz-document domain("zendesk.com")
-{
-  :root {
-      --theme-color: #1a1a1a;
-      --selected-color: #334;
-      --text-color: #ccc;
-      --border-color: rgba(204, 204, 204, .2);
-      --accent-color: #3397fa;
-      --base-background: #27292b;
-      --open-background: rgb(227, 79, 50);
-      --closed-background: rgb(216, 220, 222);
-      --new-background: rgb(255, 176, 87);
-      --pending-background: rgb(48, 145, 236);
-      --solved-background: rgb(135, 146, 157);
-  }
+@-moz-document domain("zendesk.com") {
+    :root {
+        --theme-color: #1a1a1a;
+        --selected-color: #334;
+        --text-color: #ccc;
+        --border-color: rgba(204, 204, 204, .2);
+        --accent-color: #3397fa;
+        --base-background: #27292b;
+        --open-background: rgb(227, 79, 50);
+        --closed-background: rgb(216, 220, 222);
+        --new-background: rgb(255, 176, 87);
+        --pending-background: rgb(48, 145, 236);
+        --solved-background: rgb(135, 146, 157);
+    }
 
-  html,
-  body,
-  div,
-  object,
-  iframe,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  input,
-  p,
-  blockquote,
-  button,
-  button *,
-  pre,
-  abbr,
-  address,
-  cite,
-  code,
-  del,
-  dfn,
-  em,
-  img,
-  ins,
-  kbd,
-  q,
-  samp,
-  small,
-  strong,
-  sub,
-  sup,
-  var,
-  b,
-  i,
-  dl,
-  dt,
-  dd,
-  ol,
-  ul,
-  li,
-  fieldset,
-  form,
-  label,
-  legend,
-  table,
-  caption,
-  tbody,
-  tfoot,
-  thead,
-  td,
-  th, 
-  tr,
-  article,
-  aside,
-  canvas,
-  details,
-  figcaption,
-  figure,
-  footer,
-  header,
-  hgroup,
-  main,
-  menu,
-  nav,
-  section,
-  summary,
-  time,
-  mark,
-  audio,
-  video
-   {
-      margin: 0;
-      padding: 0;
-      border: 0;
-      outline: 0;
-      vertical-align: baseline;
-      background-color: transparent !important;
-      color: var(--text-color) !important;
-  }
+    html,
+    body,
+    div,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    input,
+    p,
+    blockquote,
+    button,
+    button *,
+    pre,
+    abbr,
+    address,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    samp,
+    small,
+    strong,
+    sub,
+    sup,
+    var,
+    b,
+    i,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    td,
+    th,
+    tr,
+    article,
+    aside,
+    canvas,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    main,
+    menu,
+    nav,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        vertical-align: baseline;
+        background-color: transparent !important;
+        color: var(--text-color) !important;
+    }
 
-  body, header, footer, nav, menu, div:after, div:before, .main-menu, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .footer, .modal, [role="navigation"], [role="menu"], [role="treeitem"], [role="dialog"], [data-test-id="search_advanced-search-box_filter-button_filter-button-content_filter-modal"], [data-garden-container-id="containers.accordion"], #admin_content .overview .overview_content .system_updates--announcement, .jGrowl-notification, .pane.left.section.ticket-sidebar, .pane.right, [data-test-id="rich-text-editor-toolbar-container"], [data-test-id="rich-text-editor-toolbar-container"] div, [role="tooltip"]
-  {
-      background-color: var(--base-background) !important;    
-  }
+    body,
+    header,
+    footer,
+    nav,
+    menu,
+    div:after,
+    div:before,
+    .main-menu,
+    .dropdown-menu,
+    .Popover,
+    .tooltip,
+    .navbarmain *,
+    .navbar,
+    .footer,
+    .modal,
+    [role="navigation"],
+    [role="menu"],
+    [role="treeitem"],
+    [role="dialog"],
+    [data-test-id="search_advanced-search-box_filter-button_filter-button-content_filter-modal"],
+    [data-garden-container-id="containers.accordion"],
+    #admin_content .overview .overview_content .system_updates--announcement,
+    .jGrowl-notification,
+    .pane.left.section.ticket-sidebar,
+    .pane.right,
+    [data-test-id="rich-text-editor-toolbar-container"],
+    [data-test-id="rich-text-editor-toolbar-container"] div,
+    [role="tooltip"] {
+        background-color: var(--base-background) !important;
+    }
 
-  #branding_header {
-      padding: 0;
-      height: 50px;
-      position: absolute;
-      top: 0;
-      right: 0;
-      left: 60px;
-      z-index: 11;
-      background: transparent;
-  }
+    a {
+        color: var(--accent-color);
+    }
 
-  .pane.left nav, .pane.left nav [data-garden-id="buttons.button_group_view"], .bTccO
-  {
-      z-index:1;
-  }
+    #branding_header {
+        padding: 0;
+        height: 50px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 60px;
+        z-index: 11;
+        background: transparent;
+    }
 
-  /* ticket table header */
-  .fiNJsl th,
-  /* search table header */
-  .cDJdQS th {
-      background-color: var(--base-background) !important;    
-  }
+    .pane.left nav,
+    .pane.left nav [data-garden-id="buttons.button_group_view"],
+    .bTccO {
+        z-index: 1;
+    }
 
-  /* ticket save button */
-  .bhZefU {
-      background: rgb(47, 57, 65) !important
-  }
+    /* ticket table header */
+    .fiNJsl th,
+    /* search table header */
+    .cDJdQS th {
+        background-color: var(--base-background) !important;
+    }
 
-  /* transparent backgrounds*/
-  .btn, ul.nav-tab-list, .nav-tab-list li, .nav-tab-list div, .hpXXWx, .LRhe, .fsxnHQ.fsxnHQ.fsxnHQ, .zd-searchmenu-base,
-  .LRgt, .LRax, .fGPLUj, .channel, .nav_tab button, #branding_header button, .VxCKy div, [data-garden-id="modals.tooltip_modal.backdrop"]
-  {
-      background-color: transparent !important;
-  }
+    /* ticket save button */
+    .bhZefU {
+        background: rgb(47, 57, 65) !important
+    }
 
-  /* selected view color*/
-  .VxCKy div {
-      color: var(--theme-color) !important;    
-  }
+    /* transparent backgrounds*/
+    .btn,
+    ul.nav-tab-list,
+    .nav-tab-list li,
+    .nav-tab-list div,
+    .hpXXWx,
+    .LRhe,
+    .fsxnHQ.fsxnHQ.fsxnHQ,
+    .zd-searchmenu-base,
+    .LRgt,
+    .LRax,
+    .fGPLUj,
+    .channel,
+    .nav_tab button,
+    #branding_header button,
+    .VxCKy div,
+    [data-garden-id="modals.tooltip_modal.backdrop"] {
+        background-color: transparent !important;
+    }
 
-  /* selected ticket tab */
-  [role="tab"][data-selected="true"]
-  {
-      background-color: var(--selected-color) !important;
-  }
+    /* selected view color*/
+    .VxCKy div {
+        color: var(--theme-color) !important;
+    }
 
-  
-  /* view badge counts */
-  .gtrjgl {
-      background-color: var(--accent-color) !important;
-      border-radius: 10px;
-      text-align: center;
-      padding: 5px;
-      vertical-align: middle;
-      line-height: 0.8em;
-      color: var(--main-theme-color) !important;
-      font-size: 0.8rem;
-      margin-left: 1rem;
-  }
+    /* selected ticket tab */
+    [role="tab"][data-selected="true"] {
+        background-color: var(--selected-color) !important;
+    }
 
-  .mast .profile.ticket {
-      background-color: var(--accent-color) !important;
-  }
+    /* view badge counts */
+    .gtrjgl {
+        background-color: var(--accent-color) !important;
+        border-radius: 10px;
+        text-align: center;
+        padding: 5px;
+        vertical-align: middle;
+        line-height: 0.8em;
+        color: var(--main-theme-color) !important;
+        font-size: 0.8rem;
+        margin-left: 1rem;
+    }
 
-  #zd-product-tray ul, .zd-menu-footer, [data-garden-id="dropdowns.menu"],
-  [data-test-id='standalone-composer-toolbar'],
-  [data-test-id='table_popover'], 
-  [data-test-id='ticket_table_tooltip'],
-  div[data-garden-id="tooltip.tooltip"] {
-      background-color: var(--base-background) !important;   
-  }
+    .mast .profile.ticket {
+        background-color: var(--accent-color) !important;
+    }
 
-  #zd-product-tray ul li, 
-  [data-garden-id="dropdowns.menu"] li {
-      border-bottom: solid 1px #333;
-  }
+    #zd-product-tray ul,
+    .zd-menu-footer,
+    [data-garden-id="dropdowns.menu"],
+    [data-test-id='standalone-composer-toolbar'],
+    [data-test-id='table_popover'],
+    [data-test-id='ticket_table_tooltip'],
+    div[data-garden-id="tooltip.tooltip"] {
+        background-color: var(--base-background) !important;
+    }
 
-  .fsxnHQ.fsxnHQ.fsxnHQ, .btn, .dropdown-menu li a, .fGPLUj, .zd-tag-item a,
-  [data-test-id='standalone-composer-toolbar'] button, 
-  .event .header .actor .name a, div[data-garden-id="tooltip.tooltip"] {
-      color: var(--text-color) !important;
-  }
+    #zd-product-tray ul li,
+    [data-garden-id="dropdowns.menu"] li {
+        border-bottom: solid 1px #333;
+    }
 
-  /* internal comments */
-  .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container,
-  .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container *,
-  .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container p,
-  .event:not(.is-public) .comment,
-  .event:not(.is-public) .zd-comment,
-  .event:not(.is-public) .comment li,
-  .event:not(.is-public) .zd-comment li,
-  .cechoF,
-  .modal .fJnKTR,
-  [data-test-id='table_popover'] .LRhk {
-      background-color: #fff6d9 !important;        
-      color: #222 !important;        
-  }
+    .fsxnHQ.fsxnHQ.fsxnHQ,
+    .btn,
+    .dropdown-menu li a,
+    .fGPLUj,
+    .zd-tag-item a,
+    [data-test-id='standalone-composer-toolbar'] button,
+    .event .header .actor .name a,
+    div[data-garden-id="tooltip.tooltip"] {
+        color: var(--text-color) !important;
+    }
 
-  /* internal comments */
-  .modal .fJnKTR *,
-  .event:not(.is-public) .zd-comment *
-  {
-      color: #222 !important;
-  }
+    /* internal comments */
+    .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container,
+    .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container *,
+    .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container p,
+    .event:not(.is-public) .comment,
+    .event:not(.is-public) .zd-comment,
+    .event:not(.is-public) .comment li,
+    .event:not(.is-public) .zd-comment li,
+    .cechoF,
+    .modal .fJnKTR,
+    [data-test-id='table_popover'] .LRhk {
+        background-color: #fff6d9 !important;
+        color: #222 !important;
+    }
 
-  /* dropdown action button on ticket */
-  .mast .object_options_btn:after {
-      filter: invert(70%)
-  }
+    /* internal comments */
+    .modal .fJnKTR *,
+    .event:not(.is-public) .zd-comment * {
+        color: #222 !important;
+    }
 
-  /* ticket table title links */
-  .jydokf, table a, table a span, [role="treeitem"] {
-      color: var(--accent-color) !important;
-  }
+    /* dropdown action button on ticket */
+    .mast .object_options_btn:after {
+        filter: invert(70%)
+    }
 
-  /* Bulk action button modal */
-  [data-test-id="bulk-actions"]
-  {
-      background-color: var(--base-background) !important;
-      padding: 1em;
-      border-radius: 5px;
-      border: solid var(--text-color) 1px;
-  }
-    
-  /* Bulk action buttons */
-  [data-test-id="bulk-actions"] [data-garden-id="buttons.button_group_view"]
-  {
-      border-radius: 5px;
-      border: solid var(--accent-color) 1px;
-  }
+    /* ticket table title links */
+    .jydokf,
+    table a,
+    table a span,
+    [role="treeitem"] {
+        color: var(--accent-color) !important;
+    }
 
-  header, table tr, table td, [role="tab"], [data-test-id="header-toolbar"], .activities .item, .indicators ul, .indicators li, [data-test-id="ticket-fields"] input, [aria-haspopup="listbox"], .zd-tag-menu-root, [data-garden-id^="dropdowns"], [data-test-id="ticket-pane-subject"], .btn, .zd-tag-item, .section.ticket .tab-controls-container, .event, .property_box {
-      border-color: var(--border-color) !important;
-  }
+    /* Bulk action button modal */
+    [data-test-id="bulk-actions"] {
+        background-color: var(--base-background) !important;
+        padding: 1em;
+        border-radius: 5px;
+        border: solid var(--text-color) 1px;
+    }
 
-  a[role="treeitem"]:hover span{
-      filter: brightness(250%);
-  }
+    /* Bulk action buttons */
+    [data-test-id="bulk-actions"] [data-garden-id="buttons.button_group_view"],
+    .c-btn--primary {
+        border-radius: 5px;
+        border: solid var(--accent-color) 1px !important;
+    }
 
-  /* badges */
-  [data-test-id="status-badge-closed"] {
-      color: var(--theme-color) !important;
-      background-color: var(--closed-background) !important;
-  }
-  [data-test-id="status-badge-open"] {
-      background-color: var(--open-background) !important;
-  }
-  [data-test-id="status-badge-new"] {
-      background-color: var(--new-background) !important;
-  }
-  [data-test-id="status-badge-pending"] {
-      background-color: var(--pending-background) !important;
-  }
-  [data-test-id="status-badge-solved"] {
-      background-color: var(--solved-background) !important;
-  }
+    header,
+    table tr,
+    table td,
+    [role="tab"],
+    [data-test-id="header-toolbar"],
+    .activities .item,
+    .indicators ul,
+    .indicators li,
+    [data-test-id="ticket-fields"] input,
+    [aria-haspopup="listbox"],
+    .zd-tag-menu-root,
+    [data-garden-id^="dropdowns"],
+    [data-test-id="ticket-pane-subject"],
+    .btn,
+    .zd-tag-item,
+    .section.ticket .tab-controls-container,
+    .event,
+    .property_box {
+        border-color: var(--border-color) !important;
+    }
+
+    a[role="treeitem"]:hover span {
+        filter: brightness(250%);
+    }
+
+    /* badges */
+    [data-test-id="status-badge-closed"] {
+        color: var(--theme-color) !important;
+        background-color: var(--closed-background) !important;
+    }
+
+    [data-test-id="status-badge-open"] {
+        background-color: var(--open-background) !important;
+    }
+
+    [data-test-id="status-badge-new"] {
+        background-color: var(--new-background) !important;
+    }
+
+    [data-test-id="status-badge-pending"] {
+        background-color: var(--pending-background) !important;
+    }
+
+    [data-test-id="status-badge-solved"] {
+        background-color: var(--solved-background) !important;
+    }
+
+    /* modal login transparency */
+    .u-bg-transparent {
+        background-color: rgba(0, 0, 0, 0.8) !important;
+    }
+
+    .u-bg-transparent body {
+        background-color: transparent !important;
+    }
 }
