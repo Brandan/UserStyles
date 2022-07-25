@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to ZenDesk styls to enable a dark mode`
-@version        20220725
+@version        20220725.1
 @license        GPL
 ==/UserStyle== */
 
@@ -118,7 +118,7 @@
     .navbar,
     .footer,
     .modal,
-    .LRhc, .LRgz,
+    .LRhc, .LRfn,
     [role="navigation"],
     [role="menu"],
     [role="treeitem"],
