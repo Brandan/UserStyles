@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/FeedlyDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Feedly's style to enable a dark mode`
-@version        20220531
+@version        20220725
 @license        GPL
 ==/UserStyle== */
 
@@ -13,7 +13,7 @@
     display: none !important;
   }
 
-  .floatingEntryContent, .theme--dark #feedlyPageHolderFX {
+  .floatingEntryContent, .theme--dark #feedlyPageHolderFX, #headerBarFX {
       background-color: var(--theme-color) !important;
   }
 
@@ -42,6 +42,11 @@
   .entry--focused, .entry--selected {
       border: solid var(--accent-color) 1px !important;
       background-color: #444 !important;
+  }
+    
+  .Tipsy {
+    border: solid var(--accent-color) 1px !important;
+    background-color: rgba(48, 48, 48, .8) !important;
   }
 
   .LeftnavList [role="button"]:hover,
