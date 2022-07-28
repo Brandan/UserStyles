@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Overdrive Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/OverdriveDarkTheme.user.css
-@version      20220609
+@version      20220728
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -81,6 +81,10 @@
         background: none !important;
     }
     
+    .read-more-container {
+      background: linear-gradient(180deg,rgba(255,255,255,0) 25%,var(--theme-color) 100%); 
+    }
+  
     select, select option, select optgroup {
         background-color: var(--theme-color) !important;
         color: var(--text-color) !important;
