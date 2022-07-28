@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to ZenDesk styls to enable a dark mode`
-@version        20220728
+@version        20220728.1
 @license        GPL
 ==/UserStyle== */
 
@@ -199,6 +199,7 @@
     /* selected ticket tab */
     .dropdown-menu li a:hover,
     .btn-group.open .dropdown-toggle:not(.btn-inverse),
+    [role="menuitem"]:hover,
     [role="tab"][data-selected="true"] {
         background-color: var(--selected-color) !important;
     }
@@ -223,6 +224,7 @@
     #zd-product-tray ul,
     .zd-menu-footer,
     .popover-inner,
+    [data-test-id="submit_button-button"] div,
     [data-garden-id="dropdowns.menu"],
     [data-test-id='standalone-composer-toolbar'],
     [data-test-id='table_popover'],
@@ -297,9 +299,16 @@
     /* ticket table title links */
     .jydokf,
     table a,
-    table a span,
+    table a span, 
+    .fOdaZx button,
     [role="treeitem"] {
         color: var(--accent-color) !important;
+    }
+
+    .fOdaZx button,
+    [data-test-id="talk-ticket-composer-outbound-call-menu"]
+    { 
+      border: none;
     }
 
     /* All dialogs */
@@ -345,6 +354,11 @@
         border-color: var(--border-color) !important;
     }
 
+    [data-garden-id="tabs.tabs"] [aria-selected="true"]
+    {
+      border-bottom: solid var(--accent-color) 2px !important;
+    }
+    
     a[role="treeitem"]:hover span {
         filter: brightness(250%);
     }
