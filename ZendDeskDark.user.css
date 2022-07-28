@@ -3,11 +3,13 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to ZenDesk styls to enable a dark mode`
-@version        20220725.1
+@version        20220728
 @license        GPL
 ==/UserStyle== */
 
-@-moz-document domain("zendesk.com") {
+@-moz-document 
+  domain("zendesk.com"),
+  domain("zdusercontent.com") {
     :root {
         --theme-color: #1a1a1a;
         --selected-color: #334;
@@ -131,7 +133,8 @@
     .pane.right,
     [data-test-id="rich-text-editor-toolbar-container"],
     [data-test-id="rich-text-editor-toolbar-container"] div,
-    [role="tooltip"] {
+    [role="tooltip"],
+    [data-test-id="link-tooltip-container"] {
         background-color: var(--base-background) !important;
     }
 
@@ -194,6 +197,8 @@
     }
 
     /* selected ticket tab */
+    .dropdown-menu li a:hover,
+    .btn-group.open .dropdown-toggle:not(.btn-inverse),
     [role="tab"][data-selected="true"] {
         background-color: var(--selected-color) !important;
     }
@@ -217,6 +222,7 @@
 
     #zd-product-tray ul,
     .zd-menu-footer,
+    .popover-inner,
     [data-garden-id="dropdowns.menu"],
     [data-test-id='standalone-composer-toolbar'],
     [data-test-id='table_popover'],
@@ -233,10 +239,13 @@
     .fsxnHQ.fsxnHQ.fsxnHQ,
     .btn,
     .dropdown-menu li a,
+    .phone-number-select-menu .zd-menu-item > a,
     .fGPLUj,
     .zd-tag-item a,
     [data-test-id='standalone-composer-toolbar'] button,
     .event .header .actor .name a,
+    .Select.has-value.Select--single > .Select-control .Select-value .Select-value-label, 
+    .LRil, .LRce,
     div[data-garden-id="tooltip.tooltip"] {
         color: var(--text-color) !important;
     }
@@ -262,7 +271,25 @@
         color: #222 !important;
     }
 
+    /* internal links */
+    .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container a,
+    .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container p a,
+    .event:not(.is-public) .comment a,
+    .event:not(.is-public) .zd-comment a,
+    .event:not(.is-public) .comment li a,
+    .event:not(.is-public) .zd-comment li a,
+    .cechoF a,
+    .modal .fJnKTR,
+    [data-test-id='table_popover'] .LRhk a, 
+    .iDSXyx,
+    .phone-number-select-menu .zd-menu-item > a:hover,
+    .modal .fJnKTR a,
+    .event:not(.is-public) .zd-comment a {
+        color: var(--accent-color) !important;
+    }
+
     /* dropdown action button on ticket */
+    .dropdown-toggle:after,
     .mast .object_options_btn:after {
         filter: invert(70%)
     }
@@ -275,6 +302,8 @@
         color: var(--accent-color) !important;
     }
 
+    /* All dialogs */
+    [role="dialog"],
     /* Bulk action button modal */
     [data-test-id="bulk-actions"] {
         background-color: var(--base-background) !important;
@@ -285,6 +314,9 @@
 
     /* Bulk action buttons */
     [data-test-id="bulk-actions"] [data-garden-id="buttons.button_group_view"],
+    /* Link tooltip editing container */
+    [data-test-id="link-tooltip-container"],
+    [data-garden-id="buttons.button_group_view"],
     .c-btn--primary {
         border-radius: 5px;
         border: solid var(--accent-color) 1px !important;
@@ -303,6 +335,8 @@
     .zd-tag-menu-root,
     [data-garden-id^="dropdowns"],
     [data-test-id="ticket-pane-subject"],
+    [data-garden-id="buttons.button"],
+    [data-test-id="ticket-footer-post-save-actions-menu-button"],
     .btn,
     .zd-tag-item,
     .section.ticket .tab-controls-container,
@@ -337,6 +371,7 @@
         background-color: var(--solved-background) !important;
     }
 
+    [data-garden-id="modals.backdrop"],
     /* modal login transparency */
     .u-bg-transparent {
         background-color: rgba(0, 0, 0, 0.8) !important;
