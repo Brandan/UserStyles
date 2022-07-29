@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to ZenDesk styls to enable a dark mode`
-@version        20220729
+@version        20220729.1
 @license        GPL
 ==/UserStyle== */
 
@@ -134,7 +134,7 @@
     [data-test-id="rich-text-editor-toolbar-container"],
     [data-test-id="rich-text-editor-toolbar-container"] div,
     [role="tooltip"],
-    [data-test-id="link-tooltip-container"] 
+    [data-test-id="link-tooltip-container"],
     /* ticket table header */
     .fiNJsl th,
     /* search table header */
