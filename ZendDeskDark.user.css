@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to ZenDesk styls to enable a dark mode`
-@version        20220729.2
+@version        20220729.3
 @license        GPL
 ==/UserStyle== */
 
@@ -147,6 +147,7 @@
     [data-test-id='standalone-composer-toolbar'],
     [data-test-id='table_popover'],
     [data-test-id='ticket_table_tooltip'],
+    .Select-menu,
     div[data-garden-id="tooltip.tooltip"] {
         background-color: var(--base-background) !important;
     }
@@ -207,6 +208,8 @@
     ._-_-node_modules--zendesk-knowledge-components-src-Sidebar-index---listItem---1NWra._-_-node_modules--zendesk-knowledge-components-src-Sidebar-index---active---28Pqn, ._-_-node_modules--zendesk-knowledge-components-src-Sidebar-index---listItem---1NWra._-_-node_modules--zendesk-knowledge-components-src-Sidebar-index---active---28Pqn:hover,
     .btn-group.open .dropdown-toggle:not(.btn-inverse),
     [role="menuitem"]:hover,
+    .Select-option.is-focused,
+    .Select-option.is-selected,
     [role="tab"][data-selected="true"] {
         background-color: var(--selected-color) !important;
     }
