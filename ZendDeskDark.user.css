@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to ZenDesk styls to enable a dark mode`
-@version        20220728.1
+@version        20220729
 @license        GPL
 ==/UserStyle== */
 
@@ -134,7 +134,20 @@
     [data-test-id="rich-text-editor-toolbar-container"],
     [data-test-id="rich-text-editor-toolbar-container"] div,
     [role="tooltip"],
-    [data-test-id="link-tooltip-container"] {
+    [data-test-id="link-tooltip-container"] 
+    /* ticket table header */
+    .fiNJsl th,
+    /* search table header */
+    .cDJdQS th,
+    #zd-product-tray ul,
+    .zd-menu-footer,
+    .popover-inner,
+    [data-test-id="submit_button-button"] div,
+    [data-garden-id="dropdowns.menu"],
+    [data-test-id='standalone-composer-toolbar'],
+    [data-test-id='table_popover'],
+    [data-test-id='ticket_table_tooltip'],
+    div[data-garden-id="tooltip.tooltip"] {
         background-color: var(--base-background) !important;
     }
 
@@ -157,13 +170,6 @@
     .pane.left nav [data-garden-id="buttons.button_group_view"],
     .bTccO {
         z-index: 1;
-    }
-
-    /* ticket table header */
-    .fiNJsl th,
-    /* search table header */
-    .cDJdQS th {
-        background-color: var(--base-background) !important;
     }
 
     /* ticket save button */
@@ -219,18 +225,6 @@
 
     .mast .profile.ticket {
         background-color: var(--accent-color) !important;
-    }
-
-    #zd-product-tray ul,
-    .zd-menu-footer,
-    .popover-inner,
-    [data-test-id="submit_button-button"] div,
-    [data-garden-id="dropdowns.menu"],
-    [data-test-id='standalone-composer-toolbar'],
-    [data-test-id='table_popover'],
-    [data-test-id='ticket_table_tooltip'],
-    div[data-garden-id="tooltip.tooltip"] {
-        background-color: var(--base-background) !important;
     }
 
     #zd-product-tray ul li,
@@ -320,7 +314,12 @@
         border-radius: 5px;
         border: solid var(--text-color) 1px;
     }
-
+    
+    /* set bulk action z-index so it doesn't fall behind the left sidebar when it is scrolling */
+    [data-test-id="bulk-actions"] {
+      z-index: 10;
+    }
+    
     /* Bulk action buttons */
     [data-test-id="bulk-actions"] [data-garden-id="buttons.button_group_view"],
     /* Link tooltip editing container */
