@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to ZenDesk styls to enable a dark mode`
-@version        20220729.1
+@version        20220729.2
 @license        GPL
 ==/UserStyle== */
 
@@ -204,6 +204,7 @@
 
     /* selected ticket tab */
     .dropdown-menu li a:hover,
+    ._-_-node_modules--zendesk-knowledge-components-src-Sidebar-index---listItem---1NWra._-_-node_modules--zendesk-knowledge-components-src-Sidebar-index---active---28Pqn, ._-_-node_modules--zendesk-knowledge-components-src-Sidebar-index---listItem---1NWra._-_-node_modules--zendesk-knowledge-components-src-Sidebar-index---active---28Pqn:hover,
     .btn-group.open .dropdown-toggle:not(.btn-inverse),
     [role="menuitem"]:hover,
     [role="tab"][data-selected="true"] {
