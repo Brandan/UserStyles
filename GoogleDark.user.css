@@ -86,7 +86,10 @@
   /* right-click menu icons on mail items */
   .J-N-JX,
   /* attachment icon */
-  .gW
+  .gW,
+  /* in-email label dropdown label checkboxes */
+  .J-LC-JR-Jp .J-LC-Jo,
+  .J-LC-Jo
   {
     filter:invert(1) !important;
   }
@@ -164,7 +167,9 @@
   }  
 
   /* Selected mail items */
-  tr.x7, .x7 td  {
+  tr.x7, .x7 td,
+  /* in-email label dropdown search box */
+  .agd .J-M-JJ input  {
       background-color: #666 !important;
   }
 
