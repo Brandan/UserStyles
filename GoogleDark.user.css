@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20220802
+@version        20220809
 @license        GPL
 ==/UserStyle== */
 
@@ -47,20 +47,15 @@
   .aDg > .aDj,
   .aZ > .J-Z
   {
+      border: solid var(--text-color) 1px !important;
       background-color: var(--theme-color) !important;        
       padding: 0.25rem;
   }
   
   /* Email compose floating bar */
-  .aDg > .aDj:after
+  .aDg > .aDj:after, .aC3
   {
       background-color: var(--theme-color) !important;        
-  }
-  
-  /* Email compose floating bar */
-  .aDg > .aDj:before
-  {
-    border: none !important;
   }
   
   [role="gridcell"] div.aaA,
@@ -120,6 +115,26 @@
   .aDh {
       border-top: solid #999 1px !important;
   }
+  
+  /* toolbar buttons on compose dialog */
+  .aDh [role="button"], .aDh
+  {
+      border: solid #999 1px !important;
+      border-radius: 3px;    
+  }
+  
+  /* toolbar buttons on compose dialog */
+  .btC .dv, .btC .aaA, .btC .J-N-JX, .L3.Xv.T-I.J-JN-M-I > .J-JN-M-I-JG, .oh .og.T-I-J3
+  {
+      background-color: #000 !important;
+  }
+  
+  /* formatting toolbar button on compose dialog */
+  .btC .dv
+  {
+    background-color: #fff !important;
+    filter:none !important;  
+  }
 
   .SK.ZF-zT input[type="text"], .SK.ZF-zT input[type="text"]:focus {
       padding: 1em;
@@ -129,7 +144,8 @@
       padding: 0.3em;
   }
 
-  .SK.ZF-zT [role="button"],.SK.ZF-zT [role="link"], [role="dialog"] button {
+  .SK.ZF-zT [role="button"],.SK.ZF-zT [role="link"], [role="dialog"] button
+  {
       border: solid var(--link-color) 1px !important;
   }
 
