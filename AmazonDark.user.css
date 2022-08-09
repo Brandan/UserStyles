@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220715
+@version        20220809
 @license        GPL
 ==/UserStyle== */
 
@@ -159,5 +159,10 @@
     .order.delivered:hover
     {
         opacity: 1;
+    }
+
+    .webPlayerContainer
+    {
+        background-color: rgba(0, 0, 0, 1) !important;
     }
 }
