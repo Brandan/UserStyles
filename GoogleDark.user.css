@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20220809
+@version        20220809.1
 @license        GPL
 ==/UserStyle== */
 
@@ -110,14 +110,9 @@
       border: solid #999 1px !important;
       border-radius: 3px;
   }
-
-  /* toolbar on compose dialog */
-  .aDh {
-      border-top: solid #999 1px !important;
-  }
   
   /* toolbar buttons on compose dialog */
-  .aDh [role="button"], .aDh
+  .aDh [role="button"]
   {
       border: solid #999 1px !important;
       border-radius: 3px;    
