@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AudibleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Audible's style to enable a dark mode`
-@version        20220812.2
+@version        20220812.3
 @license        GPL
 ==/UserStyle== */
 
@@ -78,12 +78,17 @@
     }
     
     /* icons reset */
-    .bc-icon.bc-icon-cart, 
+    .bc-icon.bc-icon-cart,
+    .bc-icon.bc-icon-caret-down,
     .bc-accordion .bc-accordion-icon-position-right .bc-icon,
     .bc-icon.bc-icon-chevron-down,
+    .bc-icon.bc-icon-chevron-left,
     .bc-icon.bc-icon-chevron-right,
+    .bc-icon.bc-icon-chevron-up,
+    .bc-icon.bc-icon-facebook-square,
+    .bc-icon.bc-icon-gift,
     .bc-icon.bc-icon-move-to-bottom,
-    .bc-icon.bc-icon-chevron-left {
+    .bc-icon.bc-icon-twitter {
         background-color: transparent !important;
     }
 
