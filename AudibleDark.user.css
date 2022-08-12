@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AudibleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Audible's style to enable a dark mode`
-@version        20220812
+@version        20220813
 @license        GPL
 ==/UserStyle== */
 
@@ -92,4 +92,8 @@
         border-color: var(--text-color) !important;
         box-shadow: 0 2px 5px 0 var(--accent-color) !important;
     }
+    
+    .slick-arrow .arrows
+    {
+        background-color: #e3e3e3 !important
 }
