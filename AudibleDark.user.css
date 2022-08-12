@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AudibleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Audible's style to enable a dark mode`
-@version        20220812.1
+@version        20220812.2
 @license        GPL
 ==/UserStyle== */
 
@@ -48,8 +48,9 @@
           background-color: var(--accent-color) !important;    
     }
 
-    .bc-button-primary {
-        background-color: var(--link-color) !important;
+    .bc-button-primary, .bc-button-primary a * {
+      background-color: var(--link-color) !important;
+      color: var(--text-color) !important;
     }
     
     .bc-button-secondary {
