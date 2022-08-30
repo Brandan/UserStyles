@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20220811
+@version        20220830
 @license        GPL
 ==/UserStyle== */
 
@@ -53,8 +53,14 @@
   }
   
   /* Email compose floating bar */
-  .aDg > .aDj:after, .aC3
+  .aDg > .aDj:after, .aC3, .azY, .azX,
+  /* email body elements with user defind styles that have background styles */
+  [id=':la'] [style*='background'],
+  [id=':ka'] [bgcolor],
+  .ii [style*='background'],
+  .ii [bgcolor]
   {
+      color: var(--text-color) !important;
       background-color: var(--theme-color) !important;        
   }
   
@@ -89,7 +95,8 @@
   .gW,
   /* in-email label dropdown label checkboxes */
   .J-LC-JR-Jp .J-LC-Jo,
-  .J-LC-Jo
+  .J-LC-Jo,
+  .aDh [role='button'] .a1
   {
     filter:invert(1) !important;
   }
@@ -98,7 +105,8 @@
   /* in-page help popup */
   .wa, 
   [role="alert"] .vh, 
-  [role="alertdialog"]
+  [role="alertdialog"],
+  [role="listbox"]
   {
       background-color: var(--theme-color) !important;
       border: solid var(--accent-color) 1px !important;
@@ -122,15 +130,15 @@
   }
   
   /* toolbar buttons on compose dialog */
-  .btC .dv, .btC .aaA, .btC .J-N-JX, .L3.Xv.T-I.J-JN-M-I > .J-JN-M-I-JG, .oh .og.T-I-J3
+  .btC .J-N-JX, .oh .og.T-I-J3
   {
       background-color: #000 !important;
   }
   
   /* formatting toolbar button on compose dialog */
-  .btC .dv, 
   /* email toolbar buttons */
   .bzn .ar8, .bzn .T-I-J3
+
   {
     background-color: #fff !important;
     filter:none !important;  
@@ -233,6 +241,16 @@
     color: var(--text-color);
     font-weight: bolder;
     top: -3px;
+  }
+  
+  .iN
+  {
+    background-color: #444 !important;    
+  }
+  
+  .gmail_quote {
+    border-left: solid #223 3px !important;
+    padding-left: 5px;
   }
   
   .TO:not(.nZ):not([data-tooltip="Chats"]) .qj {
