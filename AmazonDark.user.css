@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220809
+@version        20220830
 @license        GPL
 ==/UserStyle== */
 
@@ -35,7 +35,13 @@
     /* All formates slideout */
     #morpheus-sidesheet,
     #seller-profile-container.spp-redesigned.spp-desktop .page-box-container,
-    ._morpheus-popularity-rank-sidesheet-card_ss_tab-row__1Uxai
+    ._morpheus-popularity-rank-sidesheet-card_ss_tab-row__1Uxai,
+    .search-preview-results,
+    .drop-down-content,
+    .Dropdown-module_dropdown_container__2YGLm,
+    .NavigationBar-module__dropdown_content_3-4_ZaDohT-sNEqnDVyc5U,
+    #aod-container,
+    #aod-filter-list
     {
         background-color: var(--theme-color) !important;    
         background-image: none !important;
@@ -71,7 +77,9 @@
     }
     
     /* search bar customization */
-    #navbar.nav-flex #nav-belt #nav-search .nav-searchbar .nav-search-field {
+    #navbar.nav-flex #nav-belt #nav-search .nav-searchbar .nav-search-field,
+  .search-preview-results,
+    #aod-container {
         border: solid 1px var(--text-color) !important
     }
     
@@ -81,7 +89,9 @@
     }
     
     table.a-bordered tr:first-child th,
-    .a-dropdown-common .a-dropdown-item:hover .a-dropdown-link
+    .a-dropdown-common .a-dropdown-item:hover .a-dropdown-link,
+    /* amazon video season dropdown*/
+    .dv-node-dp-seasons ul
     {
         background-color: #222 !important;    
     }
@@ -100,7 +110,8 @@
     /* invert icon colors */
     .a-icon, 
     .rpi-icon,
-    #morpheus-sidesheet-close {
+    #morpheus-sidesheet-close, 
+    #aod-close {
         filter: invert(1) !important;
     }
     
@@ -132,7 +143,7 @@
         color: #999 !important;
     }
 
-    .DVPAWebWidgetsUI_Button__retail *, .returnItemButton.a-button .a-button-text *, .a-button-text, .nav-action-inner, .ewc-button-text, .sc-without-multicart, button.legal-button .aiv-submit *, .a-button-primary * {
+    .DVPAWebWidgetsUI_Button__retail *, .returnItemButton.a-button .a-button-text *, .a-button-text, .nav-action-inner, .ewc-button-text, .sc-without-multicart, button.legal-button .aiv-submit *, .a-button-primary *, .action_button * {
       color: #111 !important;
     }
         
@@ -142,9 +153,19 @@
       background-color: rgb(255, 255, 255)!important;
     }
   
-    .a-button-primary, .a-button-oneclick, #sc-buy-box-ptc-button .a-section    .a-button-primary, .a-button-oneclick, #sc-buy-box-ptc-button .a-section, .a-button-preorder
+    .a-button-primary, .a-button-oneclick, #sc-buy-box-ptc-button .a-section    .a-button-primary, .a-button-oneclick, #sc-buy-box-ptc-button .a-section, .a-button-preorder 
     {
       background-color: rgb(255, 216, 20)!important;
+    }
+  
+    .search-box-container,     
+    .search-container,
+    .NavigationBar-module__dropdown_content_3-4_ZaDohT-sNEqnDVyc5U {
+        border: solid #222 1px !important;
+    }
+
+    .action_button {
+      background: rgb(255, 216, 20)!important;    
     }
   
     .a-divider.a-divider-break::after {
@@ -161,7 +182,8 @@
         opacity: 1;
     }
 
-    .webPlayerContainer
+    .webPlayerContainer, 
+    .aod-darken-background
     {
         background-color: rgba(0, 0, 0, 1) !important;
     }
