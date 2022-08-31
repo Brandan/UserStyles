@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20220830
+@version        20220831
 @license        GPL
 ==/UserStyle== */
 
@@ -137,8 +137,8 @@
   
   /* formatting toolbar button on compose dialog */
   /* email toolbar buttons */
-  .bzn .ar8, .bzn .T-I-J3
-
+  .bzn .ar8, .bzn .T-I-J3,
+  .n6 .n4 .G-asx
   {
     background-color: #fff !important;
     filter:none !important;  
