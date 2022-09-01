@@ -138,7 +138,11 @@
   /* formatting toolbar button on compose dialog */
   /* email toolbar buttons */
   .bzn .ar8, .bzn .T-I-J3,
-  .n6 .n4 .G-asx
+  .n6 .n4 .G-asx,
+  /* email navigation arrows */
+  .aqJ .amI, .aqJ .amJ, .adg .adj, .adg .adk, 
+  /* print and open in new window icons */
+  .T-I .T-I-J3
   {
     background-color: #fff !important;
     filter:none !important;  
