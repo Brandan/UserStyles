@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220830
+@version        20220904
 @license        GPL
 ==/UserStyle== */
 
@@ -41,7 +41,9 @@
     .Dropdown-module_dropdown_container__2YGLm,
     .NavigationBar-module__dropdown_content_3-4_ZaDohT-sNEqnDVyc5U,
     #aod-container,
-    #aod-filter-list
+    #aod-filter-list,
+    /* drop down list on company pages */
+    [class*="style__navList"]
     {
         background-color: var(--theme-color) !important;    
         background-image: none !important;
