@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220904
+@version        20220906
 @license        GPL
 ==/UserStyle== */
 
@@ -13,6 +13,7 @@
     .a-color-base-background,
     .a-button.a-button-dropdown,
     .av-retail-m-nav-dropdown,
+    .dvui-callout,
     #hmenu-canvas,
     .gw-card-layout .a-cardui,
     .a-expander-content-fade,
@@ -80,7 +81,8 @@
     
     /* search bar customization */
     #navbar.nav-flex #nav-belt #nav-search .nav-searchbar .nav-search-field,
-  .search-preview-results,
+    .dvui-callout,
+    .search-preview-results,
     #aod-container {
         border: solid 1px var(--text-color) !important
     }
