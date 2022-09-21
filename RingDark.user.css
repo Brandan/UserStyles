@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/RingDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Ring's style to enable a dark mode`
-@version        20220906
+@version        20220921
 @license        GPL
 ==/UserStyle== */
 
@@ -25,7 +25,12 @@
   {
     background-color: var(--theme-color) !important;
   }
-  
+    
+  .NVQIG
+  {
+    background-color: rgba(21, 21, 31, 0.97) !important
+  }
+
   [class*='styled__Backdrop']
   {
     background-color: rgba(0,0,0,0.8) !important
