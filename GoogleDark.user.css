@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20220831
+@version        20220929
 @license        GPL
 ==/UserStyle== */
 
@@ -138,7 +138,6 @@
   /* formatting toolbar button on compose dialog */
   /* email toolbar buttons */
   .bzn .ar8, .bzn .T-I-J3,
-  .n6 .n4 .G-asx,
   /* email navigation arrows */
   .aqJ .amI, .aqJ .amJ, .adg .adj, .adg .adk, 
   /* print and open in new window icons */
@@ -166,11 +165,6 @@
   .ajA, [role="dialog"], [role="tooltip"] {
       background-color: var(--theme-color) !important;
       border: solid var(--accent-color) 1px !important;
-  }
-
-  .faEe, .aEc.aHS-bnr .qj {
-    background-color: #fff !important;
-    mask: url('https://www.gstatic.com/images/icons/material/system_gm_filled/1x/label_gm_grey_24dp.png') center/contain;
   }
 
   .at *, .hN, .hO {
@@ -257,10 +251,6 @@
     padding-left: 5px;
   }
   
-  .TO:not(.nZ):not([data-tooltip="Chats"]) .qj {
-    background-color: #fff !important;
-  }
-
   .bzn .G-asx {
     background-color: transparent !important;
   }
