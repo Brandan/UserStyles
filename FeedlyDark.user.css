@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/FeedlyDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Feedly's style to enable a dark mode`
-@version        20220831
+@version        20221004
 @license        GPL
 ==/UserStyle== */
 
@@ -67,5 +67,14 @@
   .theme--dark .LeftnavListRow:hover .LeftnavListRow__text {
       color: var(--accent-color) !important;
       background-color: rgba(0, 0, 0, 0.05) !important;
+  }
+    
+  /* dim paywalled links */
+  a[href*='fortune.com/'], a[href*='fortune.com/'] *,
+  a[href*='wsj.com/'], a[href*='wsj.com/'] *,
+  /* also dim abnormal returns self-referential-links */
+  div[data-alternate-link*='abnormalreturns.com/'] ul a[href*='abnormalreturns.com/']
+  {
+    opacity: 0.2 !important;
   }
 }
