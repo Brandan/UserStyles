@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20221005
+@version        20221006
 @license        GPL
 ==/UserStyle== */
 
@@ -258,5 +258,10 @@
   /* navigation areas */
   [role='navigation'] {
     z-index: 100;
+  }
+  
+  /* menus */
+  [role='menu'] {
+    z-index: 9999;
   }
 }
