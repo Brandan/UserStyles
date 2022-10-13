@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20221006
+@version        20221012
 @license        GPL
 ==/UserStyle== */
 
@@ -58,7 +58,12 @@
   [id=':la'] [style*='background'],
   [id=':ka'] [bgcolor],
   .ii [style*='background'],
-  .ii [bgcolor]
+  .ii [bgcolor],
+  /* add link dialog */
+  .LW-KX-Jm,
+  .LW-KX .J-KU,
+  .LW-KX .J-KU-Jg,
+  .LW-JD .J-KU-Jz
   {
       color: var(--text-color) !important;
       background-color: var(--theme-color) !important;        
@@ -101,7 +106,8 @@
     filter:invert(1) !important;
   }
   
-  [role="search"], .SK.ZF-zT,  [role="dialog"] [role="toolbar"], 
+  [role="search"], .SK.ZF-zT,  
+  [role="dialog"] [role="toolbar"], 
   /* in-page help popup */
   .wa, 
   [role="alert"] .vh, 
@@ -117,7 +123,8 @@
       color: var(--link-color) !important;
   }
 
-  [role="dialog"] input, [role="dialog"] .dC, .SK.ZF-zT input[type="text"], .SK.ZF-zT input[type="text"]:focus, .SK.ZF-zT select, .SK.ZF-zT [role="listbox"], [role="menu"] {
+  [role="dialog"] input, [role="dialog"] .dC, .SK.ZF-zT input[type="text"], .SK.ZF-zT input[type="text"]:focus, .SK.ZF-zT select, .SK.ZF-zT [role="listbox"], 
+  [role="menu"] {
       border: solid #999 1px !important;
       border-radius: 3px;
   }
@@ -130,23 +137,11 @@
   }
   
   /* toolbar buttons on compose dialog */
-  .btC .J-N-JX, .oh .og.T-I-J3
+  .btC .J-N-JX
   {
       background-color: #000 !important;
   }
   
-  /* formatting toolbar button on compose dialog */
-  /* email toolbar buttons */
-  .bzn .ar8, .bzn .T-I-J3,
-  /* email navigation arrows */
-  .aqJ .amI, .aqJ .amJ, .adg .adj, .adg .adk, 
-  /* print and open in new window icons */
-  .T-I .T-I-J3
-  {
-    background-color: #fff !important;
-    filter:none !important;  
-  }
-
   .SK.ZF-zT input[type="text"], .SK.ZF-zT input[type="text"]:focus {
       padding: 1em;
   }
@@ -235,7 +230,7 @@
   
   .acX > .L3.aap::after
   {
-    content: '︙';
+    content: '︙' !important;
     color: var(--text-color);
     font-weight: bolder;
     top: -3px;
@@ -260,8 +255,30 @@
     z-index: 100;
   }
   
+  /* alert areas */
+  [role='alert'], 
+  .w-asV {
+    z-index: 99999 !important;
+  }
+  
   /* menus */
   [role='menu'] {
     z-index: 9999;
   }
+  
+  /* email compose discard button */
+  [aria-label*='Discard draft'],
+  /* email navigation arrows */
+  [aria-label='Newer'] img,
+  [aria-label='Older'] img
+  {
+    background-color: transparent !important;
+  }
+  
+  /* More button */
+  [aria-label='More'] img
+  {
+    display:none !important;
+  }
+
 }
