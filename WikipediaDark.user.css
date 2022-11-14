@@ -3,13 +3,18 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/WikipediaDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Wikipedia's style to enable a dark mode`
-@version        20221114.1
+@version        20221114.2
 @license        GPL
 ==/UserStyle== */
 
 @-moz-document domain("wikipedia.org")
 {
-  #mw-page-base 
+  #mw-head {
+    background-color: var(--theme-color) !important;
+    border-bottom: solid var(--text-color) 1px !important;
+  }
+  
+  #mw-page-base, .vector-menu-tabs-legacy li 
   {
     background-image: none !important;
   }
