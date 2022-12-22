@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20220906.1
+@version        20221222
 @license        GPL
 ==/UserStyle== */
 
@@ -41,6 +41,7 @@
     .drop-down-content,
     .Dropdown-module_dropdown_container__2YGLm,
     .NavigationBar-module__dropdown_content_3-4_ZaDohT-sNEqnDVyc5U,
+    #all-offers-display .aod-sticky-pinned-offer,
     #aod-container,
     #aod-filter-list,
     /* drop down list on company pages */
@@ -49,7 +50,12 @@
         background-color: var(--theme-color) !important;    
         background-image: none !important;
     }
-    
+          
+    #all-offers-display .aod-sticky-pinned-offer
+    {
+      border-bottom: solid var(--text-color) 1px;
+    }
+
     #suggestToClubButtonSection .a-button-text,
     #wishlistButtonStack .a-button-text
     {
