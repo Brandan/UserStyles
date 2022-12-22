@@ -3,13 +3,14 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/WikipediaDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Wikipedia's style to enable a dark mode`
-@version        20221114.2
+@version        20221222
 @license        GPL
 ==/UserStyle== */
 
 @-moz-document domain("wikipedia.org")
 {
-  #mw-head {
+  #mw-head 
+  {
     background-color: var(--theme-color) !important;
     border-bottom: solid var(--text-color) 1px !important;
   }
@@ -17,5 +18,18 @@
   #mw-page-base, .vector-menu-tabs-legacy li 
   {
     background-image: none !important;
+  }
+  
+  .mwe-popups 
+  {
+    background-color: var(--theme-color) !important;    
+    border: solid var(--text-color) 1px !important;
+    box-shadow: 0 30px 90px -20px rgba(255,255,255,0.3),0 0 1px 1px rgba(255,255,255,0.05);
+  }
+  
+  .mwe-popups .mwe-popups-extract[dir="ltr"]::after 
+  {
+    right: 0;
+    background-image: linear-gradient(to right,rgba(0,0,0,0),var(--theme-color) 50%);
   }
 }
