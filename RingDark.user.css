@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/RingDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Ring's style to enable a dark mode`
-@version        20230106
+@version        20230203
 @license        GPL
 ==/UserStyle== */
 
@@ -58,5 +58,11 @@
   [class*='styled__LocationName']
   {
     overflow: unset !important;
+  }
+  
+  [class*='styled__Shortcuts'],   
+  [class*='styled__TilesAnchor']
+  {
+    display: none;
   }
 }
