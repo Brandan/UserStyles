@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/FeedlyDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Feedly's style to enable a dark mode`
-@version        20230124
+@version        20230204
 @license        GPL
 ==/UserStyle== */
 
@@ -76,5 +76,20 @@
   div[data-alternate-link*='abnormalreturns.com/'] ul a[href*='abnormalreturns.com/']
   {
     opacity: 0.2 !important;
+  }
+    
+  .SliderTabGraphic
+  {
+    filter: none !important;  
+  }
+  
+  .SliderCloseTab svg path:nth-child(1)
+  {
+    fill: #333 !important;
+  }
+  
+  .SliderCloseTab svg path:nth-child(2)
+  {
+    fill: #000 !important;
   }
 }
