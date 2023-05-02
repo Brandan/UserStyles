@@ -68,7 +68,14 @@
       color: var(--accent-color) !important;
       background-color: rgba(0, 0, 0, 0.05) !important;
   }
-    
+  
+  /* make some images larger */
+  img[src*='leasticoulddo.com']
+  {
+    scale: 135% !important;
+    margin: 2em;
+  }
+
   /* dim paywalled links */
   a[href*='fortune.com/'], a[href*='fortune.com/'] *,
   a[href*='wsj.com/'], a[href*='wsj.com/'] *,
