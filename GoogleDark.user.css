@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20221027
+@version        20230521
 @license        GPL
 ==/UserStyle== */
 
@@ -280,7 +280,13 @@
   {
     display:none !important;
   }
-
+  
+  /* download / save attachment */
+  .aQw
+  {
+    background-color: rgba(0,0,0, 0.5) !important;
+  }
+  
   /* pressed button */
   [aria-pressed='true']
   {
