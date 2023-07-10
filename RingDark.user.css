@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/RingDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Ring's style to enable a dark mode`
-@version        20230203
+@version        20230710
 @license        GPL
 ==/UserStyle== */
 
@@ -64,5 +64,11 @@
   [class*='styled__TilesAnchor']
   {
     display: none;
+  }
+
+  /* Selected Mode */
+  .eBVDyM
+  {
+    background: var(--negativeBase) !important;
   }
 }
