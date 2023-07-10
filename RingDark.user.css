@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/RingDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Ring's style to enable a dark mode`
-@version        20230710
+@version        20230710.1
 @license        GPL
 ==/UserStyle== */
 
@@ -22,7 +22,9 @@
   [role='alertdialog'],
   [data-sticky='true'],
   [class*='styled__TooltipBox'],
-  [class*='styled__List']
+  [class*='styled__List'],
+  [class*='styled__BackButton'],
+  [class*='styled__FullScreenContainer']
   {
     background-color: var(--theme-color) !important;
   }
