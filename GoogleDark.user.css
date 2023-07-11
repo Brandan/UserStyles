@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20230710.1
+@version        20230710.2
 @license        GPL
 ==/UserStyle== */
 
@@ -101,7 +101,10 @@
   /* in-email label dropdown label checkboxes */
   .J-LC-JR-Jp .J-LC-Jo,
   .J-LC-Jo,
-  .aDh [role='button'] .a1
+  .aDh [role='button'] .a1,
+  .aLF-aPX-bhP .aLF-aPX-N-JX.aLF-aPX-Mw-I-JX,
+  .asa > .aZh, 
+  .XF
   {
     filter:invert(1) !important;
   }
@@ -301,7 +304,9 @@
   .aLF-aPX-bhN .aLF-aPX-aPE-aLz-bhP, .aLF-aPX-bhN .aLF-aPX-aMO-auF-bhP, .aLF-aPX-bhP .aLF-aPX-aPU,
   .aLF-aPX-bhN .aLF-aPX-aPE-aLz-bhP, .aLF-aPX-bhN .aLF-aPX-aMO-auF-bhP,
   .aLF-aPX-bhP .aLF-aPX-aPU {
-      background-color: #000 !important;
+      background-color: #444 !important;
+      border: none !important;
+      border-radius: 0 !important;
       z-index: 99999 !important;
   }
 }
