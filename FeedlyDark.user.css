@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/FeedlyDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Feedly's style to enable a dark mode`
-@version        20230817
+@version        20230822
 @license        GPL
 ==/UserStyle== */
 
@@ -99,5 +99,11 @@
   .SliderCloseTab svg path:nth-child(2)
   {
     fill: #000 !important;
+  }
+  
+  /* Upgrade button */
+  [class*='TopHeaderBar__actions'] button
+  {
+    display: none;
   }
 }
