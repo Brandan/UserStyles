@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/carbmanager.com.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Carb Manager's style to enable a dark mode`
-@version        20220906
+@version        20230822
 @license        GPL
 ==/UserStyle== */
 
@@ -123,7 +123,7 @@
       background: var(--cm-color-gray75) !important;
     }
 
-    .fasting-banner {
+    .fasting-banner, #onetrust-banner-sdk {
         display:none;
     }
 
