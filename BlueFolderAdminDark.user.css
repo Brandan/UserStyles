@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name           BlueFolder Admin Dark
+@namespace      https://github.com/Brandan/UserStyles/raw/main/BlueFolderAdminDark.user.css
+@author         Brandan E. Lloyd
+@description    `Modifications to BlueFolder Admin's style to enable a dark mode`
+@version        20230928
+@license        GPL
+==/UserStyle== */
+
+@-moz-document domain("admin.bluefolder.com") {
+  
+    .bg-light {
+      background-color: var(--theme-color) !important;
+    }
+    .text-dark {
+      color: var(--text-color) !important;
+    }
+
+}
