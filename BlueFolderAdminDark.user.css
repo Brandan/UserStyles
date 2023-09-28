@@ -12,8 +12,21 @@
     .bg-light {
       background-color: var(--theme-color) !important;
     }
+  
     .text-dark {
       color: var(--text-color) !important;
     }
+      
+    .modal {
+      background-color: transparent !important;
+    }
 
+    .modal-content {
+      border: 1px solid var(--text-color) !important;
+    }
+  
+    .modal-backdrop.show {
+      opacity: 0.8 !important;
+      background-color: #000 !important;
+    }
 }
