@@ -1,12 +1,13 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      202300907
+@version      20230928
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
 
 @-moz-document domain("abnormalreturns.com"),
+                domain("admin.bluefolder.com"),
                 domain("aljazeera.com"),
                 domain("artofmanliness.com"),
                 domain("amazon.com"),
