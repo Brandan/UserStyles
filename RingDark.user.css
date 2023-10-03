@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/RingDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Ring's style to enable a dark mode`
-@version        20231002
+@version        20231003
 @license        GPL
 ==/UserStyle== */
 
@@ -52,6 +52,11 @@
   button
   {
     border: solid var(--text-color) 1px !important;
+  }
+  
+  button[class*='styled__DeviceSettingsButton']
+  {
+    border: none !important;
   }
   
   [disabled]
