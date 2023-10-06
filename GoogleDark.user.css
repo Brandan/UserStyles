@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Google's style to enable a dark mode`
-@version        20230710.3
+@version        202301006
 @license        GPL
 ==/UserStyle== */
 
@@ -66,7 +66,8 @@
   .LW-JD .J-KU-Jz
   {
       color: var(--text-color) !important;
-      background-color: var(--theme-color) !important;        
+      background-color: var(--theme-color) !important;
+      background-image: none !important;
   }
   
   [role="gridcell"] div.aaA,
@@ -207,7 +208,7 @@
   .brC-dA-I.aT5-aOt-I-Jp svg path:not([fill='none'])
   {
       fill: var(--text-color) !important;
-      transition : fill  500ms ease-out;
+      transition: fill  500ms ease-out;
   }
     
   .brC-dA-I.aT5-aOt-I-Jp
@@ -215,20 +216,20 @@
       background-color: var(--theme-color) !important;
       border: solid var(--text-color) 1px !important;
       border-radius: 35px 0 0 35px;
-      transition : border 500ms ease-out, right 250ms;
+      transition: border 500ms ease-out, right 250ms;
   }
 
   .brC-dA-I.aT5-aOt-I-Jp:hover
   {
       border: solid var(--accent-color) 1px !important;
       border-right: none !important;
-      transition : border 500ms ease-out, right 250ms;
+      transition: border 500ms ease-out, right 250ms;
   }
 
   .brC-dA-I.aT5-aOt-I-Jp:hover svg path:not([fill='none'])
   {
       fill: var(--accent-color) !important;
-      transition : fill  500ms ease-out;
+      transition: fill  500ms ease-out;
   }
   
   .acX > .L3.aap::after
