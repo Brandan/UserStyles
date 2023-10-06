@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Developer Apple
+@namespace      https://github.com/Brandan/UserStyles/raw/main/DeveloperApple.user.css
+@author         Brandan E. Lloyd
+@description    `Modifications to Apples developer style to fix bugs`
+@version        20231005
+@license        GPL
+==/UserStyle== */
+
+@-moz-document domain("developer.apple.com") {
+  a:visited, a:visited:hover {
+    color:#443366 !important;
+  }
+}
