@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/FeedlyDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Feedly's style to enable a dark mode`
-@version        20230828
+@version        20231005
 @license        GPL
 ==/UserStyle== */
 
@@ -44,7 +44,7 @@
       background-color: #444 !important;
   }
   
-  .Tipsy, menu {
+  .Tipsy, menu, #tipsyContainer [class*='__tipsy '] {
     border: solid var(--accent-color) 1px !important;
     background-color: rgba(48, 48, 48, .9) !important;
   }
