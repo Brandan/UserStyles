@@ -1,0 +1,875 @@
+[
+  {
+    "settings": {
+      "openEditInWindow": true,
+      "openEditInWindow.popup": false,
+      "windowPosition": {},
+      "show-badge": true,
+      "disableAll": false,
+      "exposeIframes": false,
+      "exposeStyleName": false,
+      "newStyleAsUsercss": true,
+      "styleViaXhr": false,
+      "patchCsp": false,
+      "urlInstaller": true,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "dark",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.breadcrumbs": true,
+      "popup.breadcrumbs.usePath": false,
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "u",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": true,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.minColumnWidth": 750,
+      "manage.newUI": true,
+      "manage.newUI.favicons": true,
+      "manage.newUI.faviconsGray": false,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "manage.searchMode": "meta",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": true,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 2,
+      "editor.keyMap": "default",
+      "editor.theme": "duotone-dark",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true
+      },
+      "editor.beautify.hotkey": "",
+      "editor.lintDelay": 300,
+      "editor.linter": "csslint",
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "selection",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": false,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.arrowKeysTraverse": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": false,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "rgba(68, 68, 68, 0.7)",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "sync.enabled": "none",
+      "iconset": 0,
+      "badgeDisabled": "#8b0000",
+      "badgeNormal": "#006666",
+      "headerWidth.edit": 281,
+      "headerWidth.install": 281,
+      "headerWidth.manage": 281,
+      "popupWidth": 246,
+      "updateInterval": 24
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    }
+  },
+  {
+    "enabled": true,
+    "installDate": 1649867064937,
+    "name": "www.amazon.com – Library Extension",
+    "sections": [
+      {
+        "code": ".libraryExtension {\n    position: absolute;\n    z-index: 198;\n    width: 20em !important;\n    top: 105px !important;\n  background-color: var(--theme-color)!important;\n}\n\n#aud_right_col .libraryExtension {\n    top: -130px !important;\n}\n\n.libraryExtension .mbcContainer, \n/* don't show on video pages  */\n.av-dp-container .libraryExtension {\n    display: none !important;\n}\n\n#buybox .a-expander-content,\n.libraryExtension:hover .mbcContainer,\n.libraryExtension:focus .mbcContainer,\n.libraryExtension:active .mbcContainer {\n    display: block !important;\n}",
+        "domains": [
+          "www.amazon.com"
+        ]
+      }
+    ],
+    "updateDate": 1661863768985,
+    "_id": "b5fdef74-3ac4-476c-bb33-752d1410f7dd",
+    "_rev": 1697204888076,
+    "id": 11
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://cdn.jsdelivr.net/gh/uso-archive/data@flomaster/data/usercss/96756.user.css",
+    "url": "https://uso.kkx.one/style/96756",
+    "installDate": 1648754367958,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "name": "Feedly (wide, un-pro, font, etc.)",
+    "originalDigest": "dedd5019747f1277c717b89d1ab18b75b395cbb2",
+    "_id": "bebe26f3-e5a5-4af8-8498-36b271da465a",
+    "_rev": 1697224285626,
+    "id": 12,
+    "etag": "W/\"5c9b-mMD8GmH08ALgZmnVc5NLYxuXZyk\"",
+    "sourceCode": "/* ==UserStyle==\n@name         Feedly (wide, un-pro, font, etc.)\n@namespace    USO Archive\n@author       #Ahad\n@description  ❖ In addition, you can use this style to change the Feedly theme ===> <a rel=\"nofollow\" href=\"http://userstyles.org/styles/89738\"> <b>Feedly (dark-light)</b> </a>    ❖ <b>Installation</b>  1. Click the “Customize Settings” button  2. Choose your preferred option from the drop-down menu  (or select the <b>No Change/No</b> option, to not apply an item)  3. Click the “Install” button    ❖ <b>Update or change the style settings without reinstalling (with Stylus) </b>  1. After installation, refresh the style page, now you will see an “Update” button  2. Change the settings  3. Click the “Update” button to apply new settings on Feedly  <b>EACH TIME</b>, you can change the settings and apply these new settings with the “Update” button            Hashtag:  Perfect, Vazir, tahoma, sans-serif, Segoe UI, Roboto, San Francisco, Helvetica, Ubuntu, Upgrade, Clean, Small, Cards\n@version      20191001.09.34\n@license      CC0-1.0\n@preprocessor uso\n@advanced dropdown font \"Choose a Font\" {\n    font1 \"No Change*\" <<<EOT  EOT;\n    font2 \"Vazir (a Persian/Arabic Font)\" <<<EOT /* Font *\\/\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir.woff2') format('woff2'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir.ttf') format('truetype');\n  font-weight: normal;\n}\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Bold.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Bold.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Bold.woff2') format('woff2'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Bold.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Bold.ttf') format('truetype');\n  font-weight: bold;\n}\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Light.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Light.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Light.woff2') format('woff2'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Light.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Light.ttf') format('truetype');\n  font-weight: 300;\n}\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Medium.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Medium.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Medium.woff2') format('woff2'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Medium.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Medium.ttf') format('truetype');\n  font-weight: 500;\n}\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Thin.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Thin.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Thin.woff2') format('woff2'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Thin.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Thin.ttf') format('truetype');\n  font-weight: 100;\n}\n\nbody, .unread, .read, .title, .entryBody, .summary, h1, h2, h3, h4, [class*=\"fx\"], .label {\nfont-family: 'Vazir'!important;\n}\n\n.entryHeader a {\nfont-size: 100%!important;\n}\n\n.entryTitle.title.read, .entryTitle.title.unread, .inlineFrame .title.read, .inlineFrame .title.unread {\nfont-size: 200%!important;\n}\n\n.inlineFrame .entryBody h1, .sliderContainer .entryBody h1 {\nfont-size: 130%!important;\n}\n\n.inlineFrame .entryBody h2, .sliderContainer .entryBody h2 {\nfont-size: 120%!important;\n}\n\n.inlineFrame .entryBody h3, .sliderContainer .entryBody h3, .inlineFrame .entryBody h4, .sliderContainer .entryBody h4 {\nfont-size: 110%!important;\n}\n\n.fx .entry.u0 .title {\nfont-size: 115%!important;\n} EOT;\n    font3 \"tahoma\" <<<EOT /* Font *\\/\n\n*, body {\nfont-family: \"tahoma\", tahoma!important;\n}\n\n.entryHeader a {\nfont-size: 100%!important;\n}\n\n.entryTitle.title.read, .entryTitle.title.unread, .inlineFrame .title.read, .inlineFrame .title.unread {\nfont-size: 200%!important;\n}\n\n.inlineFrame .entryBody h1, .sliderContainer .entryBody h1 {\nfont-size: 130%!important;\n}\n\n.inlineFrame .entryBody h2, .sliderContainer .entryBody h2 {\nfont-size: 120%!important;\n}\n\n.inlineFrame .entryBody h3, .sliderContainer .entryBody h3, .inlineFrame .entryBody h4, .sliderContainer .entryBody h4 {\nfont-size: 110%!important;\n} EOT;\n    font4 \"sans-serif\" <<<EOT /* Font *\\/\n\n*, body {\nfont-family: sans-serif, \"Microsoft Sans Serif\"!important;\n}\n\n.entryHeader a {\nfont-size: 100%!important;\n}\n\n.entryTitle.title.read, .entryTitle.title.unread, .inlineFrame .title.read, .inlineFrame .title.unread {\nfont-size: 200%!important;\n}\n\n.inlineFrame .entryBody h1, .sliderContainer .entryBody h1 {\nfont-size: 130%!important;\n}\n\n.inlineFrame .entryBody h2, .sliderContainer .entryBody h2 {\nfont-size: 120%!important;\n}\n\n.inlineFrame .entryBody h3, .sliderContainer .entryBody h3, .inlineFrame .entryBody h4, .sliderContainer .entryBody h4 {\nfont-size: 110%!important;\n} EOT;\n    font5 \"Segoe UI\" <<<EOT /* Font *\\/\n\n*, body {\nfont-family: \"Segoe UI\"!important;\n}\n\n.entryHeader a {\nfont-size: 100%!important;\n}\n\n.entryTitle.title.read, .entryTitle.title.unread, .inlineFrame .title.read, .inlineFrame .title.unread {\nfont-size: 200%!important;\n}\n\n.inlineFrame .entryBody h1, .sliderContainer .entryBody h1 {\nfont-size: 130%!important;\n}\n\n.inlineFrame .entryBody h2, .sliderContainer .entryBody h2 {\nfont-size: 120%!important;\n}\n\n.inlineFrame .entryBody h3, .sliderContainer .entryBody h3, .inlineFrame .entryBody h4, .sliderContainer .entryBody h4 {\nfont-size: 110%!important;\n} EOT;\n    font6 \"Roboto\" <<<EOT /* Font *\\/\n\n*, body {\nfont-family: \"Roboto\", Roboto!important;\n} EOT;\n    font7 \"San Francisco\" <<<EOT /* Font *\\/\n\n*, body {\nfont-family: \"San Francisco\", sanfrancisco, \"sanfrancisco\", \"San Francisco Display Regular\", '.System San Francisco Display', \"SystemSanFranciscoDisplayRegular\"!important;\n} EOT;\n    font8 \"Helvetica Neue\" <<<EOT /* Font *\\/\n\n*, body {\nfont-family: \"Helvetica Neue\"!important;\n} EOT;\n    font9 \"Helvetica\" <<<EOT /* Font *\\/\n\n*, body {\nfont-family: Helvetica, \"Helvetica\"!important;\n} EOT;\n    font10 \"Ubuntu\" <<<EOT /* Font *\\/\n\n*, body {\nfont-family: \"Ubuntu\", Ubuntu!important;\n} EOT;\n\n}\n@advanced dropdown article \"Article Content\" {\n    article2 \"Full Width*\" <<<EOT /* [Article Content]: Full Width *\\/\n\n.inlineFrame .u100Entry, .inlineFrame .entryBody {\nmax-width: 100%!important;\n} EOT;\n    article1 \"No Change\" <<<EOT  EOT;\n    article3 \"Justify Images\" <<<EOT /* [Article Content]: Justify Images *\\/\n\n.entryBody img, .entryBody video, .entryBody embed {\nmax-width: 100%!important;\nwidth: auto!important;\n}\n\nfigure[class*=\"webfeeds\"], div[class*=\"webfeeds\"], section[class*=\"webfeeds\"] {\nmargin-left: 0!important;\nmargin-right: 0!important;\nwidth: 100%!important;\n} EOT;\n    article4 \"Full Width + Justify Images\" <<<EOT /* [Article Content]: Full Width + Justify Images *\\/\n\n.inlineFrame .u100Entry, .inlineFrame .entryBody {\nmax-width: 100%!important;\n}\n\n.entryBody img, .entryBody video, .entryBody embed {\nmax-width: 100%!important;\nwidth: auto!important;\n}\n\nfigure[class*=\"webfeeds\"], div[class*=\"webfeeds\"], section[class*=\"webfeeds\"] {\nmargin-left: 0!important;\nmargin-right: 0!important;\nwidth: 100%!important;\n} EOT;\n\n}\n@advanced dropdown wide \"Wide\" {\n    wide4 \"Wide Magazine + Wide Feedly*\" <<<EOT /* Wide Magazine + Wide Feedly *\\/\n\n#sideArea, .col-xl-3.xlarge-only {\ndisplay: none!important;\n}\n\n.today .col-xs-12.col-md-12, .today .col-lg-12.col-xl-9,\n.board .col-xs-12.col-md-12, .board .col-lg-12.col-xl-9 {\nwidth: 100%!important;\n}\n\n.fx .entry.u4, .fx .entry.u12 {\nmax-width: none!important;\n}\n\n.inlineFrame .u100Entry {\nmargin-left: auto!important;\nmargin-right: auto!important;\n}\n\n.container.centered, .header.row {\nmax-width: none!important;\n}\n\n.fx .entry.u5 {\nclear: none!important;\n}\n\n.fx .entry.u5 {\nmargin: -8px 24px 40px -8px!important;\n}\n\n.inlineFrame {\nmargin-left: 0!important;\nmargin-right: 0!important;\n}\n\n.fx .entry.u4 .visual, .fx .entry.u12 .visual {\nwidth: 192px!important;\nheight: 114px!important;\n} EOT;\n    wide1 \"No Change\" <<<EOT  EOT;\n    wide2 \"Wide Magazine\" <<<EOT /* Wide Magazine *\\/\n\n#sideArea, .col-xl-3.xlarge-only {\ndisplay: none!important;\n}\n\n.today .col-xs-12.col-md-12, .today .col-lg-12.col-xl-9,\n.board .col-xs-12.col-md-12, .board .col-lg-12.col-xl-9 {\nwidth: 100%!important;\n}\n\n.fx .entry.u4, .fx .entry.u12 {\nmax-width: none!important;\n}\n\n.inlineFrame .u100Entry {\nmargin-left: auto!important;\nmargin-right: auto!important;\n} EOT;\n    wide3 \"Wide Feedly\" <<<EOT /* Wide Feedly *\\/\n\n.container.centered, .header.row {\nmax-width: none!important;\n}\n\n.fx .entry.u5 {\nmargin: -8px 24px 40px -8px!important;\nclear: none!important;\n}\n\n.inlineFrame {\nmargin-left: 0!important;\nmargin-right: 0!important;\n}\n\n.fx .entry.u4 .visual, .fx .entry.u12 .visual {\nwidth: 192px!important;\nheight: 114px!important;\n} EOT;\n\n}\n@advanced dropdown unpro \"Un-Pro\" {\n    unpro2 \"Remove Ads, Upgrade Button*\" <<<EOT /* Un-Pro *\\/\n\n.entry.density-29.bsa-native-ad, .fx .modal-overlay.is-inline.is-fading,\n.small.pro.primary, #searchBarFX .accent.primary.small {\ndisplay: none!important;\n} EOT;\n    unpro1 \"No Change\" <<<EOT  EOT;\n    unpro3 \"Remove Ads\" <<<EOT /* Un-Pro *\\/\n\n.entry.density-29.bsa-native-ad, .fx .modal-overlay.is-inline.is-fading {\ndisplay: none!important;\n} EOT;\n\n}\n@advanced dropdown cards \"Cards\" {\n    cards1 \"No Change*\" <<<EOT  EOT;\n    cards2 \"Clean Cards\" <<<EOT /* Clean Cards *\\/\n\n.fx .entry.u5 {\nborder: none!important;\nbox-shadow: 0 0 3px 2px rgba(0,0,0,0.5)!important;\nmargin: -8px 16px 24px 0!important;\npadding: 0!important;\nwidth: 264px!important;\nposition: relative!important;\n}\n\n.fx .entry.selected.u5 {\nborder: 1px solid #959595!important;\nbox-shadow: 0 0 8px 2px #222222!important;\n}\n\n.fx .entry.u5 .visual {\nbackground-color: rgba(0,0,0,0.25)!important;\nbox-shadow: 0 0 0 1px rgba(0,0,0,0.05) inset!important;\nborder-color: #333333!important;\n}\n\n.fx .entry.u5 .visual-container, .fx .entry.u5 .visual-overlay, .fx .entry.u5 .visual {\nborder-radius: 5px 5px 0 0!important;\n}\n\n.fx .entry.u5 .content, .fx .entry.u5 .title {\nmargin: 0!important;\n}\n\n.fx .entry.u5 .title, .fx .entry.u5 .metadata {\npadding: 5px 10px!important;\n}\n\n.fx .entry.unread.u5 .title {\nbackground: #090A0B!important;\n}\n\n.fx .entry.read.u5 .title, .fx .entry.u5 .metadata {\nbackground: #595A5B!important;\n}\n\n.fx .entry.quicklisted.unread.u5 .title {\nbackground: #2B9848!important;\n}\n\n.fx .entry.quicklisted.read.u5 .title {\nbackground: #29643B!important;\n}\n\n.fx .entry.unread.u5:hover .title, .fx .entry.quicklisted.unread.u5:hover .title {\nbackground: #882222!important;\n}\n\n.fx .entry.read.u5:hover .title, .fx .entry.quicklisted.read.u5:hover .title {\nbackground: #64282A!important;\n}\n\n.fx .entry.u5 .summary {\nbackground: transparent!important;\ncolor: transparent!important;\npadding: 0 10px!important;\n-webkit-transition: all 0.8s!important;\n-moz-transition: all 0.8s!important;\n-ms-transition: all 0.8s!important;\n-o-transition: all 0.8s!important;\ntransition: all 0.8s!important;\nposition: absolute!important;\ntop: 0!important;\n}\n\n.fx .entry.u5:hover .summary {\nbackground: #000000!important;\ncolor: #FFFFFF!important;\n-webkit-transform: translate(0,70px)!important;\n-moz-transform: translate(0,70px)!important;\n-ms-transform: translate(0,70px)!important;\n-o-transform: translate(0,70px)!important;\ntransform: translate(0,70px)!important;\n}\n\n.fx .entry.unread.u5 .title, .fx .entry.unread.u5 .metadata, .fx .entry.unread.u5 .lessThanAnHour, .fx .entry.unread.u5 .ago, .fx .entry.unread.u5 .lastModified {\ncolor: #FFFFFF!important;\n}\n\n.fx .entry.read.u5 .title, .fx .entry.read.u5 .metadata {\ncolor: #DDDDDD!important;\n}\n\n.fx .entry.read.u5 .metadata, .fx .entry.read.u5 .lessThanAnHour, .fx .entry.read.u5 .ago, .fx .entry.read.u5 .lastModified, .fx .entry.read.u5:hover .summary {\ncolor: #BBBBBB!important;\n}\n\n.fx .entry.quicklisted.read.u5 .title {\ncolor: rgba(255,255,255,0.65)!important;\n} EOT;\n    cards3 \"Big-Visual Cards\" <<<EOT /* Big-Visual Cards *\\/\n\n.fx .entry.u5 {\nmargin: -8px 16px 20px -8px!important;\npadding: 4px!important;\nwidth: 272px!important;\nheight: 277px!important;\n}\n\n.fx .entry.u5 .visual {\nbackground-color: rgba(0,0,0,0.25)!important;\nbox-shadow: 0 0 0 1px rgba(0,0,0,0.05) inset!important;\nborder-color: #333333!important;\n}\n\n.fx .entry.u5 .visual, .fx .entry.u5 .visual-overlay {\nheight: 265px!important;\n}\n\n.fx .entry.u5 .content {\nmargin: 10px 0!important;\nposition: relative!important;\ntop: -115px!important;\n}\n\n.fx .entry.u5 .title, .fx .entry.u5 .metadata {\npadding: 5px 10px!important;\n}\n\n.fx .entry.u5 .title {\nposition: relative!important;\n}\n\n.fx .entry.unread.u5 .title {\nbackground: rgba(0,0,0,0.8)!important;\n}\n\n.fx .entry.read.u5 .title, .fx .entry.u5 .metadata {\nbackground: rgba(100,100,100,0.8)!important;\n}\n\n.fx .entry.quicklisted.unread.u5 .title {\nbackground: #2B9848!important;\n}\n\n.fx .entry.quicklisted.read.u5 .title {\nbackground: #29643B!important;\n}\n\n.fx .entry.unread.u5:hover .title, .fx .entry.quicklisted.unread.u5:hover .title {\nbackground: #882222!important;\n}\n\n.fx .entry.read.u5:hover .title, .fx .entry.quicklisted.read.u5:hover .title {\nbackground: rgba(136,34,34,0.6)!important;\n}\n\n.fx .entry.u5 .summary {\nbackground: transparent!important;\ncolor: transparent!important;\npadding: 0 10px!important;\nmax-height: 0!important;\nmin-height: 0!important;\n-webkit-transition: all 0.8s!important;\n-moz-transition: all 0.8s!important;\n-ms-transition: all 0.8s!important;\n-o-transition: all 0.8s!important;\ntransition: all 0.8s!important;\nposition: relative!important;\ntop: -252px!important;\n}\n\n.fx .entry.u5:hover .summary {\nbackground: #000000!important;\ncolor: #FFFFFF!important;\nmax-height: inherit!important;\nmin-height: inherit!important;\n-webkit-transform: translate(0,70px)!important;\n-moz-transform: translate(0,70px)!important;\n-ms-transform: translate(0,70px)!important;\n-o-transform: translate(0,70px)!important;\ntransform: translate(0,70px)!important;\nposition: relative!important;\ntop: -253px!important;\n}\n\n.fx .entry.unread.u5 .title, .fx .entry.unread.u5 .metadata, .fx .entry.unread.u5 .lessThanAnHour, .fx .entry.unread.u5 .ago, .fx .entry.unread.u5 .lastModified {\ncolor: #FFFFFF!important;\n}\n\n.fx .entry.read.u5 .title, .fx .entry.read.u5 .metadata {\ncolor: #DDDDDD!important;\n}\n\n.fx .entry.quicklisted.read.u5 .title, .fx .entry.read.u5 .summary, .fx .entry.read.u5 .metadata, .fx .entry.read.u5 .lessThanAnHour, .fx .entry.read.u5 .ago, .fx .entry.read.u5 .lastModified {\ncolor: #BBBBBB!important;\n} EOT;\n    cards4 \"Colored Cards\" <<<EOT /* Colored Cards *\\/\n\n.fx .entry.u5 {\nborder: none!important;\nborder-radius: 5px!important;\nbox-shadow: 0 0 3px 2px rgba(0,0,0,0.5)!important;\nmargin: -8px 12px 24px 0!important;\npadding: 0!important;\nwidth: 268px!important;\n}\n\n.fx .entry.selected.u5 {\nborder: 1px solid #959595!important;\nbox-shadow: 0 0 8px 2px #222222!important;\n}\n\n.fx .entry.u5 .visual {\nbackground-color: rgba(0,0,0,0.25)!important;\nbox-shadow: 0 0 0 1px rgba(0,0,0,0.05) inset!important;\nborder-color: #333333!important;\n}\n\n.fx .entry.u5 .visual-container, .fx .entry.u5 .visual-overlay, .fx .entry.u5 .visual {\nborder-radius: 5px 5px 0 0!important;\n}\n\n.fx .entry.u5 .content {\nbackground: #282E32!important;\nborder-radius: 0 0 5px 5px!important;\npadding-bottom: 3px!important;\n}\n\n.fx .entry.u5 .title {\nbackground: #111111!important;\nmargin: 0!important;\npadding: 10px!important;\n}\n\n.fx .entry.unread.u5 .title, .fx .entry.unread.u5 .metadata, .fx .entry.unread.u5 .lessThanAnHour, .fx .entry.unread.u5 .ago, .fx .entry.unread.u5 .lastModified {\ncolor: #FFFFFF!important;\n}\n\n.fx .entry.read.u5 .title, .fx .entry.read.u5 .metadata, .fx .entry.read.u5 .lessThanAnHour, .fx .entry.read.u5 .ago, .fx .entry.read.u5 .lastModified {\ncolor: #BBBBBB!important;\n}\n\n.fx .entry.u5 .metadata {\npadding: 5px 10px!important;\n}\n\n.fx .entry.u5 div .metadata a:hover {\ncolor: #330000!important;\n}\n\n.fx .entry.u5 .summary {\npadding: 0 10px!important;\n}\n\n.fx .entry.u5:hover, .fx .entry.u5:hover .visual-container, .fx .entry.u5:hover .content, .fx .entry.unread.u5:hover .title, .fx .entry.read.u5:hover .title {\nbackground: #882222!important;\n} EOT;\n    cards5 \"Small Cards\" <<<EOT /* Small Cards *\\/\n\n.fx .entry.u5 {\nmargin: 0 12px 20px 0!important;\npadding: 0 0 3px 0!important;\nborder: none!important;\nwidth: 15.2%!important;\nmax-width: 202px!important;\nmin-width: 122px!important;\nclear: none!important;\n}\n\n.fx .entry.selected.u5 {\nborder: 1px solid #959595!important;\nbox-shadow: none!important;\n}\n\n.fx .entry.u5 .visual-container, .fx .entry.u5 .visual-overlay, .fx .entry.u5 .visual {\nborder-radius: 3px 3px 0 0!important;\n}\n\n.fx .entry.u5 .visual-overlay>button, .fx .entry.u5 .visual-overlay .button-icon-only-micro {\nmargin-right: 2px!important;\nwidth: 26px!important;\nheight: 20px!important;\n}\n\n.fx .entry.u5 .title, .fx .entry.u5 .metadata, .fx .entry.u5 .summary {\npadding-left: 5px!important;\npadding-right: 5px!important;\n}\n\n.fx .entry.unread.u5 .metadata, .fx .entry.unread.u5 .lessThanAnHour, .fx .entry.unread.u5 .ago, .fx .entry.unread.u5 .lastModified,\n.fx .entry.read.u5 .metadata, .fx .entry.read.u5 .lessThanAnHour, .fx .entry.read.u5 .ago, .fx .entry.read.u5 .lastModified {\nfont-size: 11px!important;\n} EOT;\n    cards6 \"Small + Colored Cards\" <<<EOT /* Small + Colored Cards *\\/\n\n.fx .entry.u5 {\nborder: none!important;\nborder-radius: 5px 5px 0 0!important;\nbox-shadow: 0 0 3px 2px rgba(0,0,0,0.5)!important;\nmargin: 0 12px 20px 0!important;\npadding: 0!important;\nwidth: 15.2%!important;\nmax-width: 202px!important;\nmin-width: 122px!important;\nclear: none!important;\n}\n\n.fx .entry.selected.u5 {\nborder: 1px solid #959595!important;\nbox-shadow: 0 0 8px 2px #222222!important;\n}\n\n.fx .entry.u5 .visual {\nbackground-color: rgba(0,0,0,0.25)!important;\nbox-shadow: 0 0 0 1px rgba(0,0,0,0.05) inset!important;\nborder-color: #333333!important;\n}\n\n.fx .entry.u5 .visual-container, .fx .entry.u5 .visual-overlay, .fx .entry.u5 .visual {\nborder-radius: 5px 5px 0 0!important;\n}\n\n.fx .entry.u5 .visual-overlay>button, .fx .entry.u5 .visual-overlay .button-icon-only-micro {\nmargin-right: 2px!important;\nwidth: 26px!important;\nheight: 20px!important;\n}\n\n.fx .entry.u5 .content {\nbackground: #282E32!important;\npadding-bottom: 3px!important;\n}\n\n.fx .entry.u5 .title {\nbackground: #111111!important;\nfont-size: 15px!important;\nmargin: 0!important;\npadding: 10px 5px!important;\n}\n\n.fx .entry.unread.u5 .title {\ncolor: #FFFFFF!important;\n}\n\n.fx .entry.read.u5 .title {\ncolor: #BBBBBB!important;\n}\n\n.fx .entry.u5 .metadata {\nline-height: 12px!important;\npadding: 5px 5px 0 5px!important;\n}\n\n.fx .entry.unread.u5 .metadata, .fx .entry.unread.u5 .lessThanAnHour, .fx .entry.unread.u5 .ago, .fx .entry.unread.u5 .lastModified,\n.fx .entry.read.u5 .metadata, .fx .entry.read.u5 .lessThanAnHour, .fx .entry.read.u5 .ago, .fx .entry.read.u5 .lastModified {\ncolor: #959595!important;\nfont-size: 11px!important;\n}\n\n.fx .entry.u5 div .metadata a:hover {\ncolor: #330000!important;\n}\n\n.fx .entry.u5 .summary {\nmargin-top: 3px!important;\npadding: 0 5px!important;\n}\n\n.fx .entry.u5:hover, .fx .entry.u5:hover .visual-container, .fx .entry.u5:hover .content, .fx .entry.unread.u5:hover .title, .fx .entry.read.u5:hover .title {\nbackground: #882222!important;\n} EOT;\n    cards7 \"Epitome (+Small +Colored) Cards\" <<<EOT /* Epitome (+Small +Colored) Cards *\\/\n\n.fx .entry.u5 {\nborder: none!important;\nborder-radius: 5px!important;\nbox-shadow: 0 0 3px 2px rgba(0,0,0,0.5)!important;\nmargin: 0 12px 20px 0!important;\npadding: 0!important;\nwidth: 15.2%!important;\nmax-width: 202px!important;\nmin-width: 122px!important;\nclear: none!important;\n}\n\n.fx .entry.selected.u5 {\nborder: 1px solid #959595!important;\nbox-shadow: 0 0 8px 2px #222222!important;\n}\n\n.fx .entry.u5 .visual {\nbackground-color: rgba(0,0,0,0.25)!important;\nbox-shadow: 0 0 0 1px rgba(0,0,0,0.05) inset!important;\nborder-color: #333333!important;\n}\n\n.fx .entry.u5 .visual-container, .fx .entry.u5 .visual-overlay, .fx .entry.u5 .visual {\nborder-radius: 5px 5px 0 0!important;\n}\n\n.fx .entry.u5 .title {\nbackground: #111111!important;\nfont-size: 15px!important;\nborder-radius: 0 0 5px 5px!important;\nmargin: 0!important;\npadding: 10px 5px!important;\n}\n\n.fx .entry.unread.u5 .title {\ncolor: #FFFFFF!important;\n}\n\n.fx .entry.read.u5 .title {\ncolor: #BBBBBB!important;\n}\n\n.fx .entry.u5:hover, .fx .entry.u5:hover .visual-container, .fx .entry.unread.u5:hover .title, .fx .entry.read.u5:hover .title {\nbackground: #882222!important;\n}\n\n.fx .entry.u5 .visual-overlay>button, .fx .entry.u5 .visual-overlay .button-icon-only-micro {\nmargin-right: 2px!important;\nwidth: 26px!important;\nheight: 20px!important;\n}\n\n.fx .entry.u5 .metadata {\ndisplay: none!important;\n}\n\n.fx .entry.u5 .summary {\ndisplay: none!important;\n} EOT;\n\n}\n@advanced dropdown title-only \"Title-Only\" {\n    title-only1 \"No Change*\" <<<EOT  EOT;\n    title-only2 \"Title-Only Colored (for Dark Style)\" <<<EOT /* Title-Only Colored *\\/\n\n.theme--dark .fx .entry.u0 {\nbackground: #1E2428!important;\nborder-top-color: transparent!important;\nborder-bottom-color: transparent!important;\n}\n\n.theme--dark .fx .entry.u0:hover {\nbackground: #171D21!important;\n}\n\n.theme--dark .fx .entry.quicklisted.unread.u0, .theme--dark .fx .entry.quicklisted.read.u0 {\nbackground: #0E0E0E!important;\nborder-top-color: #0E0E0E!important;\nborder-bottom-color: #0E0E0E!important;\nbox-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)!important;\n}\n\n.theme--dark .fx .entry.quicklisted.unread.u0:hover, .theme--dark .fx .entry.quicklisted.read.u0:hover {\nbackground: #000000!important;\nborder-top-color: #000000!important;\nborder-bottom-color: #000000!important;\n} EOT;\n\n}\n==/UserStyle== */\n@-moz-document domain(\"feedly.com\") {\n/*[[font]]*/\n\n/*[[article]]*/\n\n/*[[wide]]*/\n\n/*[[unpro]]*/\n\n/*[[cards]]*/\n\n/*[[title-only]]*/\n}",
+    "usercssData": {
+      "name": "Feedly (wide, un-pro, font, etc.)",
+      "namespace": "USO Archive",
+      "author": "#Ahad",
+      "description": "❖ In addition, you can use this style to change the Feedly theme ===> <a rel=\"nofollow\" href=\"http://userstyles.org/styles/89738\"> <b>Feedly (dark-light)</b> </a>    ❖ <b>Installation</b>  1. Click the “Customize Settings” button  2. Choose your preferred option from the drop-down menu  (or select the <b>No Change/No</b> option, to not apply an item)  3. Click the “Install” button    ❖ <b>Update or change the style settings without reinstalling (with Stylus) </b>  1. After installation, refresh the style page, now you will see an “Update” button  2. Change the settings  3. Click the “Update” button to apply new settings on Feedly  <b>EACH TIME</b>, you can change the settings and apply these new settings with the “Update” button            Hashtag:  Perfect, Vazir, tahoma, sans-serif, Segoe UI, Roboto, San Francisco, Helvetica, Ubuntu, Upgrade, Clean, Small, Cards",
+      "version": "20191001.09.34",
+      "license": "CC0-1.0",
+      "preprocessor": "uso",
+      "vars": {
+        "font": {
+          "type": "select",
+          "label": "Choose a Font",
+          "name": "font",
+          "value": null,
+          "default": "font1",
+          "options": [
+            {
+              "name": "font1",
+              "label": "No Change*",
+              "value": ""
+            },
+            {
+              "name": "font2",
+              "label": "Vazir (a Persian/Arabic Font)",
+              "value": "/* Font */\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir.woff2') format('woff2'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir.ttf') format('truetype');\n  font-weight: normal;\n}\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Bold.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Bold.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Bold.woff2') format('woff2'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Bold.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Bold.ttf') format('truetype');\n  font-weight: bold;\n}\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Light.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Light.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Light.woff2') format('woff2'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Light.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Light.ttf') format('truetype');\n  font-weight: 300;\n}\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Medium.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Medium.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Medium.woff2') format('woff2'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Medium.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Medium.ttf') format('truetype');\n  font-weight: 500;\n}\n\n@font-face {\n  font-family: Vazir;\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Thin.eot');\n  src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Thin.eot?#iefix') format('embedded-opentype'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Thin.woff2') format('woff2'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Thin.woff') format('woff'),\n       url('https://cdn.rawgit.com/rastikerdar/vazir-font/11b55926/dist/Vazir-Thin.ttf') format('truetype');\n  font-weight: 100;\n}\n\nbody, .unread, .read, .title, .entryBody, .summary, h1, h2, h3, h4, [class*=\"fx\"], .label {\nfont-family: 'Vazir'!important;\n}\n\n.entryHeader a {\nfont-size: 100%!important;\n}\n\n.entryTitle.title.read, .entryTitle.title.unread, .inlineFrame .title.read, .inlineFrame .title.unread {\nfont-size: 200%!important;\n}\n\n.inlineFrame .entryBody h1, .sliderContainer .entryBody h1 {\nfont-size: 130%!important;\n}\n\n.inlineFrame .entryBody h2, .sliderContainer .entryBody h2 {\nfont-size: 120%!important;\n}\n\n.inlineFrame .entryBody h3, .sliderContainer .entryBody h3, .inlineFrame .entryBody h4, .sliderContainer .entryBody h4 {\nfont-size: 110%!important;\n}\n\n.fx .entry.u0 .title {\nfont-size: 115%!important;\n}"
+            },
+            {
+              "name": "font3",
+              "label": "tahoma",
+              "value": "/* Font */\n\n*, body {\nfont-family: \"tahoma\", tahoma!important;\n}\n\n.entryHeader a {\nfont-size: 100%!important;\n}\n\n.entryTitle.title.read, .entryTitle.title.unread, .inlineFrame .title.read, .inlineFrame .title.unread {\nfont-size: 200%!important;\n}\n\n.inlineFrame .entryBody h1, .sliderContainer .entryBody h1 {\nfont-size: 130%!important;\n}\n\n.inlineFrame .entryBody h2, .sliderContainer .entryBody h2 {\nfont-size: 120%!important;\n}\n\n.inlineFrame .entryBody h3, .sliderContainer .entryBody h3, .inlineFrame .entryBody h4, .sliderContainer .entryBody h4 {\nfont-size: 110%!important;\n}"
+            },
+            {
+              "name": "font4",
+              "label": "sans-serif",
+              "value": "/* Font */\n\n*, body {\nfont-family: sans-serif, \"Microsoft Sans Serif\"!important;\n}\n\n.entryHeader a {\nfont-size: 100%!important;\n}\n\n.entryTitle.title.read, .entryTitle.title.unread, .inlineFrame .title.read, .inlineFrame .title.unread {\nfont-size: 200%!important;\n}\n\n.inlineFrame .entryBody h1, .sliderContainer .entryBody h1 {\nfont-size: 130%!important;\n}\n\n.inlineFrame .entryBody h2, .sliderContainer .entryBody h2 {\nfont-size: 120%!important;\n}\n\n.inlineFrame .entryBody h3, .sliderContainer .entryBody h3, .inlineFrame .entryBody h4, .sliderContainer .entryBody h4 {\nfont-size: 110%!important;\n}"
+            },
+            {
+              "name": "font5",
+              "label": "Segoe UI",
+              "value": "/* Font */\n\n*, body {\nfont-family: \"Segoe UI\"!important;\n}\n\n.entryHeader a {\nfont-size: 100%!important;\n}\n\n.entryTitle.title.read, .entryTitle.title.unread, .inlineFrame .title.read, .inlineFrame .title.unread {\nfont-size: 200%!important;\n}\n\n.inlineFrame .entryBody h1, .sliderContainer .entryBody h1 {\nfont-size: 130%!important;\n}\n\n.inlineFrame .entryBody h2, .sliderContainer .entryBody h2 {\nfont-size: 120%!important;\n}\n\n.inlineFrame .entryBody h3, .sliderContainer .entryBody h3, .inlineFrame .entryBody h4, .sliderContainer .entryBody h4 {\nfont-size: 110%!important;\n}"
+            },
+            {
+              "name": "font6",
+              "label": "Roboto",
+              "value": "/* Font */\n\n*, body {\nfont-family: \"Roboto\", Roboto!important;\n}"
+            },
+            {
+              "name": "font7",
+              "label": "San Francisco",
+              "value": "/* Font */\n\n*, body {\nfont-family: \"San Francisco\", sanfrancisco, \"sanfrancisco\", \"San Francisco Display Regular\", '.System San Francisco Display', \"SystemSanFranciscoDisplayRegular\"!important;\n}"
+            },
+            {
+              "name": "font8",
+              "label": "Helvetica Neue",
+              "value": "/* Font */\n\n*, body {\nfont-family: \"Helvetica Neue\"!important;\n}"
+            },
+            {
+              "name": "font9",
+              "label": "Helvetica",
+              "value": "/* Font */\n\n*, body {\nfont-family: Helvetica, \"Helvetica\"!important;\n}"
+            },
+            {
+              "name": "font10",
+              "label": "Ubuntu",
+              "value": "/* Font */\n\n*, body {\nfont-family: \"Ubuntu\", Ubuntu!important;\n}"
+            }
+          ]
+        },
+        "article": {
+          "type": "select",
+          "label": "Article Content",
+          "name": "article",
+          "value": "article2",
+          "default": "article2",
+          "options": [
+            {
+              "name": "article2",
+              "label": "Full Width*",
+              "value": "/* [Article Content]: Full Width */\n\n.inlineFrame .u100Entry, .inlineFrame .entryBody {\nmax-width: 100%!important;\n}"
+            },
+            {
+              "name": "article1",
+              "label": "No Change",
+              "value": ""
+            },
+            {
+              "name": "article3",
+              "label": "Justify Images",
+              "value": "/* [Article Content]: Justify Images */\n\n.entryBody img, .entryBody video, .entryBody embed {\nmax-width: 100%!important;\nwidth: auto!important;\n}\n\nfigure[class*=\"webfeeds\"], div[class*=\"webfeeds\"], section[class*=\"webfeeds\"] {\nmargin-left: 0!important;\nmargin-right: 0!important;\nwidth: 100%!important;\n}"
+            },
+            {
+              "name": "article4",
+              "label": "Full Width + Justify Images",
+              "value": "/* [Article Content]: Full Width + Justify Images */\n\n.inlineFrame .u100Entry, .inlineFrame .entryBody {\nmax-width: 100%!important;\n}\n\n.entryBody img, .entryBody video, .entryBody embed {\nmax-width: 100%!important;\nwidth: auto!important;\n}\n\nfigure[class*=\"webfeeds\"], div[class*=\"webfeeds\"], section[class*=\"webfeeds\"] {\nmargin-left: 0!important;\nmargin-right: 0!important;\nwidth: 100%!important;\n}"
+            }
+          ]
+        },
+        "wide": {
+          "type": "select",
+          "label": "Wide",
+          "name": "wide",
+          "value": "wide4",
+          "default": "wide4",
+          "options": [
+            {
+              "name": "wide4",
+              "label": "Wide Magazine + Wide Feedly*",
+              "value": "/* Wide Magazine + Wide Feedly */\n\n#sideArea, .col-xl-3.xlarge-only {\ndisplay: none!important;\n}\n\n.today .col-xs-12.col-md-12, .today .col-lg-12.col-xl-9,\n.board .col-xs-12.col-md-12, .board .col-lg-12.col-xl-9 {\nwidth: 100%!important;\n}\n\n.fx .entry.u4, .fx .entry.u12 {\nmax-width: none!important;\n}\n\n.inlineFrame .u100Entry {\nmargin-left: auto!important;\nmargin-right: auto!important;\n}\n\n.container.centered, .header.row {\nmax-width: none!important;\n}\n\n.fx .entry.u5 {\nclear: none!important;\n}\n\n.fx .entry.u5 {\nmargin: -8px 24px 40px -8px!important;\n}\n\n.inlineFrame {\nmargin-left: 0!important;\nmargin-right: 0!important;\n}\n\n.fx .entry.u4 .visual, .fx .entry.u12 .visual {\nwidth: 192px!important;\nheight: 114px!important;\n}"
+            },
+            {
+              "name": "wide1",
+              "label": "No Change",
+              "value": ""
+            },
+            {
+              "name": "wide2",
+              "label": "Wide Magazine",
+              "value": "/* Wide Magazine */\n\n#sideArea, .col-xl-3.xlarge-only {\ndisplay: none!important;\n}\n\n.today .col-xs-12.col-md-12, .today .col-lg-12.col-xl-9,\n.board .col-xs-12.col-md-12, .board .col-lg-12.col-xl-9 {\nwidth: 100%!important;\n}\n\n.fx .entry.u4, .fx .entry.u12 {\nmax-width: none!important;\n}\n\n.inlineFrame .u100Entry {\nmargin-left: auto!important;\nmargin-right: auto!important;\n}"
+            },
+            {
+              "name": "wide3",
+              "label": "Wide Feedly",
+              "value": "/* Wide Feedly */\n\n.container.centered, .header.row {\nmax-width: none!important;\n}\n\n.fx .entry.u5 {\nmargin: -8px 24px 40px -8px!important;\nclear: none!important;\n}\n\n.inlineFrame {\nmargin-left: 0!important;\nmargin-right: 0!important;\n}\n\n.fx .entry.u4 .visual, .fx .entry.u12 .visual {\nwidth: 192px!important;\nheight: 114px!important;\n}"
+            }
+          ]
+        },
+        "unpro": {
+          "type": "select",
+          "label": "Un-Pro",
+          "name": "unpro",
+          "value": "unpro2",
+          "default": "unpro2",
+          "options": [
+            {
+              "name": "unpro2",
+              "label": "Remove Ads, Upgrade Button*",
+              "value": "/* Un-Pro */\n\n.entry.density-29.bsa-native-ad, .fx .modal-overlay.is-inline.is-fading,\n.small.pro.primary, #searchBarFX .accent.primary.small {\ndisplay: none!important;\n}"
+            },
+            {
+              "name": "unpro1",
+              "label": "No Change",
+              "value": ""
+            },
+            {
+              "name": "unpro3",
+              "label": "Remove Ads",
+              "value": "/* Un-Pro */\n\n.entry.density-29.bsa-native-ad, .fx .modal-overlay.is-inline.is-fading {\ndisplay: none!important;\n}"
+            }
+          ]
+        },
+        "cards": {
+          "type": "select",
+          "label": "Cards",
+          "name": "cards",
+          "value": "cards1",
+          "default": "cards1",
+          "options": [
+            {
+              "name": "cards1",
+              "label": "No Change*",
+              "value": ""
+            },
+            {
+              "name": "cards2",
+              "label": "Clean Cards",
+              "value": "/* Clean Cards */\n\n.fx .entry.u5 {\nborder: none!important;\nbox-shadow: 0 0 3px 2px rgba(0,0,0,0.5)!important;\nmargin: -8px 16px 24px 0!important;\npadding: 0!important;\nwidth: 264px!important;\nposition: relative!important;\n}\n\n.fx .entry.selected.u5 {\nborder: 1px solid #959595!important;\nbox-shadow: 0 0 8px 2px #222222!important;\n}\n\n.fx .entry.u5 .visual {\nbackground-color: rgba(0,0,0,0.25)!important;\nbox-shadow: 0 0 0 1px rgba(0,0,0,0.05) inset!important;\nborder-color: #333333!important;\n}\n\n.fx .entry.u5 .visual-container, .fx .entry.u5 .visual-overlay, .fx .entry.u5 .visual {\nborder-radius: 5px 5px 0 0!important;\n}\n\n.fx .entry.u5 .content, .fx .entry.u5 .title {\nmargin: 0!important;\n}\n\n.fx .entry.u5 .title, .fx .entry.u5 .metadata {\npadding: 5px 10px!important;\n}\n\n.fx .entry.unread.u5 .title {\nbackground: #090A0B!important;\n}\n\n.fx .entry.read.u5 .title, .fx .entry.u5 .metadata {\nbackground: #595A5B!important;\n}\n\n.fx .entry.quicklisted.unread.u5 .title {\nbackground: #2B9848!important;\n}\n\n.fx .entry.quicklisted.read.u5 .title {\nbackground: #29643B!important;\n}\n\n.fx .entry.unread.u5:hover .title, .fx .entry.quicklisted.unread.u5:hover .title {\nbackground: #882222!important;\n}\n\n.fx .entry.read.u5:hover .title, .fx .entry.quicklisted.read.u5:hover .title {\nbackground: #64282A!important;\n}\n\n.fx .entry.u5 .summary {\nbackground: transparent!important;\ncolor: transparent!important;\npadding: 0 10px!important;\n-webkit-transition: all 0.8s!important;\n-moz-transition: all 0.8s!important;\n-ms-transition: all 0.8s!important;\n-o-transition: all 0.8s!important;\ntransition: all 0.8s!important;\nposition: absolute!important;\ntop: 0!important;\n}\n\n.fx .entry.u5:hover .summary {\nbackground: #000000!important;\ncolor: #FFFFFF!important;\n-webkit-transform: translate(0,70px)!important;\n-moz-transform: translate(0,70px)!important;\n-ms-transform: translate(0,70px)!important;\n-o-transform: translate(0,70px)!important;\ntransform: translate(0,70px)!important;\n}\n\n.fx .entry.unread.u5 .title, .fx .entry.unread.u5 .metadata, .fx .entry.unread.u5 .lessThanAnHour, .fx .entry.unread.u5 .ago, .fx .entry.unread.u5 .lastModified {\ncolor: #FFFFFF!important;\n}\n\n.fx .entry.read.u5 .title, .fx .entry.read.u5 .metadata {\ncolor: #DDDDDD!important;\n}\n\n.fx .entry.read.u5 .metadata, .fx .entry.read.u5 .lessThanAnHour, .fx .entry.read.u5 .ago, .fx .entry.read.u5 .lastModified, .fx .entry.read.u5:hover .summary {\ncolor: #BBBBBB!important;\n}\n\n.fx .entry.quicklisted.read.u5 .title {\ncolor: rgba(255,255,255,0.65)!important;\n}"
+            },
+            {
+              "name": "cards3",
+              "label": "Big-Visual Cards",
+              "value": "/* Big-Visual Cards */\n\n.fx .entry.u5 {\nmargin: -8px 16px 20px -8px!important;\npadding: 4px!important;\nwidth: 272px!important;\nheight: 277px!important;\n}\n\n.fx .entry.u5 .visual {\nbackground-color: rgba(0,0,0,0.25)!important;\nbox-shadow: 0 0 0 1px rgba(0,0,0,0.05) inset!important;\nborder-color: #333333!important;\n}\n\n.fx .entry.u5 .visual, .fx .entry.u5 .visual-overlay {\nheight: 265px!important;\n}\n\n.fx .entry.u5 .content {\nmargin: 10px 0!important;\nposition: relative!important;\ntop: -115px!important;\n}\n\n.fx .entry.u5 .title, .fx .entry.u5 .metadata {\npadding: 5px 10px!important;\n}\n\n.fx .entry.u5 .title {\nposition: relative!important;\n}\n\n.fx .entry.unread.u5 .title {\nbackground: rgba(0,0,0,0.8)!important;\n}\n\n.fx .entry.read.u5 .title, .fx .entry.u5 .metadata {\nbackground: rgba(100,100,100,0.8)!important;\n}\n\n.fx .entry.quicklisted.unread.u5 .title {\nbackground: #2B9848!important;\n}\n\n.fx .entry.quicklisted.read.u5 .title {\nbackground: #29643B!important;\n}\n\n.fx .entry.unread.u5:hover .title, .fx .entry.quicklisted.unread.u5:hover .title {\nbackground: #882222!important;\n}\n\n.fx .entry.read.u5:hover .title, .fx .entry.quicklisted.read.u5:hover .title {\nbackground: rgba(136,34,34,0.6)!important;\n}\n\n.fx .entry.u5 .summary {\nbackground: transparent!important;\ncolor: transparent!important;\npadding: 0 10px!important;\nmax-height: 0!important;\nmin-height: 0!important;\n-webkit-transition: all 0.8s!important;\n-moz-transition: all 0.8s!important;\n-ms-transition: all 0.8s!important;\n-o-transition: all 0.8s!important;\ntransition: all 0.8s!important;\nposition: relative!important;\ntop: -252px!important;\n}\n\n.fx .entry.u5:hover .summary {\nbackground: #000000!important;\ncolor: #FFFFFF!important;\nmax-height: inherit!important;\nmin-height: inherit!important;\n-webkit-transform: translate(0,70px)!important;\n-moz-transform: translate(0,70px)!important;\n-ms-transform: translate(0,70px)!important;\n-o-transform: translate(0,70px)!important;\ntransform: translate(0,70px)!important;\nposition: relative!important;\ntop: -253px!important;\n}\n\n.fx .entry.unread.u5 .title, .fx .entry.unread.u5 .metadata, .fx .entry.unread.u5 .lessThanAnHour, .fx .entry.unread.u5 .ago, .fx .entry.unread.u5 .lastModified {\ncolor: #FFFFFF!important;\n}\n\n.fx .entry.read.u5 .title, .fx .entry.read.u5 .metadata {\ncolor: #DDDDDD!important;\n}\n\n.fx .entry.quicklisted.read.u5 .title, .fx .entry.read.u5 .summary, .fx .entry.read.u5 .metadata, .fx .entry.read.u5 .lessThanAnHour, .fx .entry.read.u5 .ago, .fx .entry.read.u5 .lastModified {\ncolor: #BBBBBB!important;\n}"
+            },
+            {
+              "name": "cards4",
+              "label": "Colored Cards",
+              "value": "/* Colored Cards */\n\n.fx .entry.u5 {\nborder: none!important;\nborder-radius: 5px!important;\nbox-shadow: 0 0 3px 2px rgba(0,0,0,0.5)!important;\nmargin: -8px 12px 24px 0!important;\npadding: 0!important;\nwidth: 268px!important;\n}\n\n.fx .entry.selected.u5 {\nborder: 1px solid #959595!important;\nbox-shadow: 0 0 8px 2px #222222!important;\n}\n\n.fx .entry.u5 .visual {\nbackground-color: rgba(0,0,0,0.25)!important;\nbox-shadow: 0 0 0 1px rgba(0,0,0,0.05) inset!important;\nborder-color: #333333!important;\n}\n\n.fx .entry.u5 .visual-container, .fx .entry.u5 .visual-overlay, .fx .entry.u5 .visual {\nborder-radius: 5px 5px 0 0!important;\n}\n\n.fx .entry.u5 .content {\nbackground: #282E32!important;\nborder-radius: 0 0 5px 5px!important;\npadding-bottom: 3px!important;\n}\n\n.fx .entry.u5 .title {\nbackground: #111111!important;\nmargin: 0!important;\npadding: 10px!important;\n}\n\n.fx .entry.unread.u5 .title, .fx .entry.unread.u5 .metadata, .fx .entry.unread.u5 .lessThanAnHour, .fx .entry.unread.u5 .ago, .fx .entry.unread.u5 .lastModified {\ncolor: #FFFFFF!important;\n}\n\n.fx .entry.read.u5 .title, .fx .entry.read.u5 .metadata, .fx .entry.read.u5 .lessThanAnHour, .fx .entry.read.u5 .ago, .fx .entry.read.u5 .lastModified {\ncolor: #BBBBBB!important;\n}\n\n.fx .entry.u5 .metadata {\npadding: 5px 10px!important;\n}\n\n.fx .entry.u5 div .metadata a:hover {\ncolor: #330000!important;\n}\n\n.fx .entry.u5 .summary {\npadding: 0 10px!important;\n}\n\n.fx .entry.u5:hover, .fx .entry.u5:hover .visual-container, .fx .entry.u5:hover .content, .fx .entry.unread.u5:hover .title, .fx .entry.read.u5:hover .title {\nbackground: #882222!important;\n}"
+            },
+            {
+              "name": "cards5",
+              "label": "Small Cards",
+              "value": "/* Small Cards */\n\n.fx .entry.u5 {\nmargin: 0 12px 20px 0!important;\npadding: 0 0 3px 0!important;\nborder: none!important;\nwidth: 15.2%!important;\nmax-width: 202px!important;\nmin-width: 122px!important;\nclear: none!important;\n}\n\n.fx .entry.selected.u5 {\nborder: 1px solid #959595!important;\nbox-shadow: none!important;\n}\n\n.fx .entry.u5 .visual-container, .fx .entry.u5 .visual-overlay, .fx .entry.u5 .visual {\nborder-radius: 3px 3px 0 0!important;\n}\n\n.fx .entry.u5 .visual-overlay>button, .fx .entry.u5 .visual-overlay .button-icon-only-micro {\nmargin-right: 2px!important;\nwidth: 26px!important;\nheight: 20px!important;\n}\n\n.fx .entry.u5 .title, .fx .entry.u5 .metadata, .fx .entry.u5 .summary {\npadding-left: 5px!important;\npadding-right: 5px!important;\n}\n\n.fx .entry.unread.u5 .metadata, .fx .entry.unread.u5 .lessThanAnHour, .fx .entry.unread.u5 .ago, .fx .entry.unread.u5 .lastModified,\n.fx .entry.read.u5 .metadata, .fx .entry.read.u5 .lessThanAnHour, .fx .entry.read.u5 .ago, .fx .entry.read.u5 .lastModified {\nfont-size: 11px!important;\n}"
+            },
+            {
+              "name": "cards6",
+              "label": "Small + Colored Cards",
+              "value": "/* Small + Colored Cards */\n\n.fx .entry.u5 {\nborder: none!important;\nborder-radius: 5px 5px 0 0!important;\nbox-shadow: 0 0 3px 2px rgba(0,0,0,0.5)!important;\nmargin: 0 12px 20px 0!important;\npadding: 0!important;\nwidth: 15.2%!important;\nmax-width: 202px!important;\nmin-width: 122px!important;\nclear: none!important;\n}\n\n.fx .entry.selected.u5 {\nborder: 1px solid #959595!important;\nbox-shadow: 0 0 8px 2px #222222!important;\n}\n\n.fx .entry.u5 .visual {\nbackground-color: rgba(0,0,0,0.25)!important;\nbox-shadow: 0 0 0 1px rgba(0,0,0,0.05) inset!important;\nborder-color: #333333!important;\n}\n\n.fx .entry.u5 .visual-container, .fx .entry.u5 .visual-overlay, .fx .entry.u5 .visual {\nborder-radius: 5px 5px 0 0!important;\n}\n\n.fx .entry.u5 .visual-overlay>button, .fx .entry.u5 .visual-overlay .button-icon-only-micro {\nmargin-right: 2px!important;\nwidth: 26px!important;\nheight: 20px!important;\n}\n\n.fx .entry.u5 .content {\nbackground: #282E32!important;\npadding-bottom: 3px!important;\n}\n\n.fx .entry.u5 .title {\nbackground: #111111!important;\nfont-size: 15px!important;\nmargin: 0!important;\npadding: 10px 5px!important;\n}\n\n.fx .entry.unread.u5 .title {\ncolor: #FFFFFF!important;\n}\n\n.fx .entry.read.u5 .title {\ncolor: #BBBBBB!important;\n}\n\n.fx .entry.u5 .metadata {\nline-height: 12px!important;\npadding: 5px 5px 0 5px!important;\n}\n\n.fx .entry.unread.u5 .metadata, .fx .entry.unread.u5 .lessThanAnHour, .fx .entry.unread.u5 .ago, .fx .entry.unread.u5 .lastModified,\n.fx .entry.read.u5 .metadata, .fx .entry.read.u5 .lessThanAnHour, .fx .entry.read.u5 .ago, .fx .entry.read.u5 .lastModified {\ncolor: #959595!important;\nfont-size: 11px!important;\n}\n\n.fx .entry.u5 div .metadata a:hover {\ncolor: #330000!important;\n}\n\n.fx .entry.u5 .summary {\nmargin-top: 3px!important;\npadding: 0 5px!important;\n}\n\n.fx .entry.u5:hover, .fx .entry.u5:hover .visual-container, .fx .entry.u5:hover .content, .fx .entry.unread.u5:hover .title, .fx .entry.read.u5:hover .title {\nbackground: #882222!important;\n}"
+            },
+            {
+              "name": "cards7",
+              "label": "Epitome (+Small +Colored) Cards",
+              "value": "/* Epitome (+Small +Colored) Cards */\n\n.fx .entry.u5 {\nborder: none!important;\nborder-radius: 5px!important;\nbox-shadow: 0 0 3px 2px rgba(0,0,0,0.5)!important;\nmargin: 0 12px 20px 0!important;\npadding: 0!important;\nwidth: 15.2%!important;\nmax-width: 202px!important;\nmin-width: 122px!important;\nclear: none!important;\n}\n\n.fx .entry.selected.u5 {\nborder: 1px solid #959595!important;\nbox-shadow: 0 0 8px 2px #222222!important;\n}\n\n.fx .entry.u5 .visual {\nbackground-color: rgba(0,0,0,0.25)!important;\nbox-shadow: 0 0 0 1px rgba(0,0,0,0.05) inset!important;\nborder-color: #333333!important;\n}\n\n.fx .entry.u5 .visual-container, .fx .entry.u5 .visual-overlay, .fx .entry.u5 .visual {\nborder-radius: 5px 5px 0 0!important;\n}\n\n.fx .entry.u5 .title {\nbackground: #111111!important;\nfont-size: 15px!important;\nborder-radius: 0 0 5px 5px!important;\nmargin: 0!important;\npadding: 10px 5px!important;\n}\n\n.fx .entry.unread.u5 .title {\ncolor: #FFFFFF!important;\n}\n\n.fx .entry.read.u5 .title {\ncolor: #BBBBBB!important;\n}\n\n.fx .entry.u5:hover, .fx .entry.u5:hover .visual-container, .fx .entry.unread.u5:hover .title, .fx .entry.read.u5:hover .title {\nbackground: #882222!important;\n}\n\n.fx .entry.u5 .visual-overlay>button, .fx .entry.u5 .visual-overlay .button-icon-only-micro {\nmargin-right: 2px!important;\nwidth: 26px!important;\nheight: 20px!important;\n}\n\n.fx .entry.u5 .metadata {\ndisplay: none!important;\n}\n\n.fx .entry.u5 .summary {\ndisplay: none!important;\n}"
+            }
+          ]
+        },
+        "title-only": {
+          "type": "select",
+          "label": "Title-Only",
+          "name": "title-only",
+          "value": "title-only1",
+          "default": "title-only1",
+          "options": [
+            {
+              "name": "title-only1",
+              "label": "No Change*",
+              "value": ""
+            },
+            {
+              "name": "title-only2",
+              "label": "Title-Only Colored (for Dark Style)",
+              "value": "/* Title-Only Colored */\n\n.theme--dark .fx .entry.u0 {\nbackground: #1E2428!important;\nborder-top-color: transparent!important;\nborder-bottom-color: transparent!important;\n}\n\n.theme--dark .fx .entry.u0:hover {\nbackground: #171D21!important;\n}\n\n.theme--dark .fx .entry.quicklisted.unread.u0, .theme--dark .fx .entry.quicklisted.read.u0 {\nbackground: #0E0E0E!important;\nborder-top-color: #0E0E0E!important;\nborder-bottom-color: #0E0E0E!important;\nbox-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)!important;\n}\n\n.theme--dark .fx .entry.quicklisted.unread.u0:hover, .theme--dark .fx .entry.quicklisted.read.u0:hover {\nbackground: #000000!important;\nborder-top-color: #000000!important;\nborder-bottom-color: #000000!important;\n}"
+            }
+          ]
+        }
+      }
+    },
+    "author": "#Ahad",
+    "description": "❖ In addition, you can use this style to change the Feedly theme ===> <a rel=\"nofollow\" href=\"http://userstyles.org/styles/89738\"> <b>Feedly (dark-light)</b> </a>    ❖ <b>Installation</b>  1. Click the “Customize Settings” button  2. Choose your preferred option from the drop-down menu  (or select the <b>No Change/No</b> option, to not apply an item)  3. Click the “Install” button    ❖ <b>Update or change the style settings without reinstalling (with Stylus) </b>  1. After installation, refresh the style page, now you will see an “Update” button  2. Change the settings  3. Click the “Update” button to apply new settings on Feedly  <b>EACH TIME</b>, you can change the settings and apply these new settings with the “Update” button            Hashtag:  Perfect, Vazir, tahoma, sans-serif, Segoe UI, Roboto, San Francisco, Helvetica, Ubuntu, Upgrade, Clean, Small, Cards",
+    "updateDate": 1569954840000,
+    "installationUrl": "https://uso.kkx.one/style/96756"
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/carbmanager.com.user.css",
+    "installDate": 1651370493666,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Carb Manager Dark\n@namespace      https://github.com/Brandan/UserStyles/raw/main/carbmanager.com.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to Carb Manager's style to enable a dark mode`\n@version        20230822\n@license        GPL\n==/UserStyle== */\n\n@-moz-document domain(\"carbmanager.com\") {\n\n    :root {\n        --cm-color-gray800: #363636;\n        --cm-color-gray750: #393939;\n        --cm-color-gray700: #414141;\n        --cm-color-gray650: #424242;\n        --cm-color-gray600: #444;\n        --cm-color-gray400: #666;\n        --cm-color-gray300: #999;\n        --cm-color-gray200: #aaa;\n        --cm-color-gray150: #bbb;\n        --cm-color-gray100: #ccc;\n        --cm-color-gray75: #ddd;\n        --cm-color-gray50: #eee;\n    }\n  \n    .flat-card {\n      --flat-card-bg:#414141 !important;\n      --flat-card-border-hover: var(--text-link) !important;\n    }\n\n    .confirm-dialog[data-v-3d1a8d64] {\n      background-color: var(--cm-color-gray700) !important;\n    }\n  \n    .video.video--loading {\n        background: var(--cm-color-gray600) !important;\n    }\n        \n    .video-loader__video {\n      filter: invert(0.7399999999) !important\n    }\n\n    .cm-header--scrolled {\n        --header-scrolled-bg: var(--cm-color-gray800) !important;\n    }\n    .food-search {\n        --food-search-result-title-color: var(--cm-color-gray100);\n    }\n    .nutritional-facts {\n        --nutritional-facts-heading-color: var(--cm-color-gray75) !important;\n        --nutritional-facts-default-value-color: var(--cm-color-gray75) !important;\n    }\n\n    .app--with-background {\n        background-image: none;\n    }\n\n    .account-base__inner {\n        background: var(--cm-color-gray400) !important;\n    }\n    .page-header {\n      background-color: var(--cm-color-gray400);\n      border-radius: 1.25rem;\n      box-shadow: var(--box-shadow-default);\n      padding: var(--lh-2);\n      padding: 0;\n    }\n\n    .app-sidebar {\n      --nav-user-profile-link-color: var(--cm-color-gray300) !important;\n      --nav-hover-background: var(--cm-color-gray150) !important;\n      --nav-focus-background: var(--cm-color-gray150) !important;\n      --nav-active-background: var(--cm-color-gray300) !important;\n      --nav-active-hover-background: var(--cm-color-gray150) !important;\n      --nav-active-color: var(--cm-color-green) !important;\n    }\n\n    .app-sidebar__header, .progress__title--darkened {\n      color: var(--cm-color-gray800) !important;\n    }\n    .q-select__dropdown-icon {\n      background: url(\"data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 11 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.5 4.631L10.322 0 11 .718 5.5 6 0 .718.678 0 5.5 4.631z' fill='%23eeeeee'/%3E%3C/svg%3E\") no-repeat;\n    }\n\n    .cm-more-menu__option-cta,\n    .cm-more-menu__inner,\n    .q-card,\n    .q-date,\n    .q-drawer,\n    .q-menu,\n    .q-header {\n      background: #666;\n      color: #fff;\n    }\n\n    .cm-modal-footer, .cm-modal-bar, .cm-modal-bar__toolbar {\n       background-color: var(--cm-color-gray400) !important;   \n    }\n\n    .connect-card,\n    .daily-card__content,\n    .header{\n       background-color: var(--cm-color-gray400) !important;\n    }\n\n    .planned-item,\n    .food-finder-autocomplete__result-container {\n       background-color: var(--cm-color-gray800) !important;\n    }\n\n    .food-nutrition__label,\n    .recipe-details__value,\n    .macro-progress__label,\n    .food-finder-autocomplete__container input,\n    .user-edits-notice,\n    .daily-steps-info__value,\n    input { \n        color: var(--cm-color-gray50)!important;\n    }\n\n    .food-verification-link {\n      background: var(--cm-color-gray75) !important;\n    }\n\n    .fasting-banner, #onetrust-banner-sdk {\n        display:none;\n    }\n\n    .recipe-card-slider__shadow-after,\n    .swiper-navigation__shadow-after {\n      background: -webkit-gradient(linear,left top,right top,from(rgba(33,33,33,0)),color-stop(rgba(33,33,33,.25)),color-stop(rgba(33,33,33,.5)),color-stop(rgba(33,33,33,.75)),to(var(--cm-color-gray700))) !important;\n      background: linear-gradient(90deg,rgba(33,33,33,0) 0,rgba(33,33,33,.25) var(--lh),rgba(33,33,33,.5) calc(var(--lh) * 1.5),rgba(33,33,33,.75) var(--lh-2),var(--cm-color-gray700) calc(var(--lh) * 2.5)) !important;\n    }\n\n    .recipe-card-slider__shadow-before,\n    .swiper-navigation__shadow-before {\n      background: -webkit-gradient(linear,left top,right top,from(rgba(33,33,33,0)),color-stop(rgba(33,33,33,.25)),color-stop(rgba(33,33,33,.5)),color-stop(rgba(33,33,33,.75)),to(var(--cm-color-gray700))) !important;\n      background: linear-gradient(270deg,rgba(33,33,33,0) 0,rgba(33,33,33,.25) var(--lh),rgba(33,33,33,.5) calc(var(--lh) * 1.5),rgba(33,33,33,.75) var(--lh-2),var(--cm-color-gray700) calc(var(--lh) * 2.5)) !important;\n    }\n\n    .goals-base,\n    .goal,\n    .goal-info,\n    .settings-container {\n       background-color: var(--cm-color-gray600) !important;\n    }\n    \n    .progress__title {\n        color: var(--cm-color-gray800) !important;\n    }\n    \n    .pie-chart .ct-label, \n    .progress__title--inverted {\n        color: white !important;\n        fill: white !important;\n    }\n\n    .goal-info__name, .fixed-toolbar-nav {\n        background-color: var(--cm-color-gray800) !important;\n    }\n    \n    aside.daily-log__page-sidebar button, aside.daily-log__page-sidebar .daily-log-button, .cm-more-menu {\n        border: solid var(--cm-color-green-dark) 1px !important;\n    }\n\n    .message-list__item[data-v-201d6c0d]{\n        display:none;\n    }\n\n    .planned-item__hint {\n      font-size: var(--cm-text-xxs) !important;\n    }\n}\n",
+    "usercssData": {
+      "name": "Carb Manager Dark",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/carbmanager.com.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to Carb Manager's style to enable a dark mode",
+      "version": "20230822",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to Carb Manager's style to enable a dark mode",
+    "name": "Carb Manager Dark",
+    "originalDigest": "065e41d3aa07af934a57ced944e6d95a3d0e5586",
+    "_id": "aca3d692-f61a-4222-93ca-2e048db4b2f4",
+    "_rev": 1697204888080,
+    "id": 26,
+    "etag": "W/\"54228ed5595c77e1bc5a88be318bf6a61b55195f34661f90ef96f378b6134931\"",
+    "updateDate": 1693533994258
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css",
+    "installDate": 1651371215273,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           ZendDesk Dark\n@namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to ZenDesk styls to enable a dark mode`\n@version        20220729.3\n@license        GPL\n==/UserStyle== */\n\n@-moz-document \n  domain(\"zendesk.com\"),\n  domain(\"zdusercontent.com\") {\n    :root {\n        --theme-color: #1a1a1a;\n        --selected-color: #334;\n        --text-color: #ccc;\n        --border-color: rgba(204, 204, 204, .2);\n        --accent-color: #3397fa;\n        --base-background: #27292b;\n        --open-background: rgb(227, 79, 50);\n        --closed-background: rgb(216, 220, 222);\n        --new-background: rgb(255, 176, 87);\n        --pending-background: rgb(48, 145, 236);\n        --solved-background: rgb(135, 146, 157);\n    }\n\n    html,\n    body,\n    div,\n    object,\n    iframe,\n    h1,\n    h2,\n    h3,\n    h4,\n    h5,\n    h6,\n    input,\n    p,\n    blockquote,\n    button,\n    button *,\n    pre,\n    abbr,\n    address,\n    cite,\n    code,\n    del,\n    dfn,\n    em,\n    img,\n    ins,\n    kbd,\n    q,\n    samp,\n    small,\n    strong,\n    sub,\n    sup,\n    var,\n    b,\n    i,\n    dl,\n    dt,\n    dd,\n    ol,\n    ul,\n    li,\n    fieldset,\n    form,\n    label,\n    legend,\n    table,\n    caption,\n    tbody,\n    tfoot,\n    thead,\n    td,\n    th,\n    tr,\n    article,\n    aside,\n    canvas,\n    details,\n    figcaption,\n    figure,\n    footer,\n    header,\n    hgroup,\n    main,\n    menu,\n    nav,\n    section,\n    summary,\n    time,\n    mark,\n    audio,\n    video {\n        margin: 0;\n        padding: 0;\n        border: 0;\n        outline: 0;\n        vertical-align: baseline;\n        background-color: transparent !important;\n        color: var(--text-color) !important;\n    }\n\n    body,\n    header,\n    footer,\n    nav,\n    menu,\n    div:after,\n    div:before,\n    .main-menu,\n    .dropdown-menu,\n    .Popover,\n    .tooltip,\n    .navbarmain *,\n    .navbar,\n    .footer,\n    .modal,\n    .LRhc, .LRfn,\n    [role=\"navigation\"],\n    [role=\"menu\"],\n    [role=\"treeitem\"],\n    [role=\"dialog\"],\n    [data-test-id=\"search_advanced-search-box_filter-button_filter-button-content_filter-modal\"],\n    [data-garden-container-id=\"containers.accordion\"],\n    #admin_content .overview .overview_content .system_updates--announcement,\n    .jGrowl-notification,\n    .pane.left.section.ticket-sidebar,\n    .pane.right,\n    [data-test-id=\"rich-text-editor-toolbar-container\"],\n    [data-test-id=\"rich-text-editor-toolbar-container\"] div,\n    [role=\"tooltip\"],\n    [data-test-id=\"link-tooltip-container\"],\n    /* ticket table header */\n    .fiNJsl th,\n    /* search table header */\n    .cDJdQS th,\n    #zd-product-tray ul,\n    .zd-menu-footer,\n    .popover-inner,\n    [data-test-id=\"submit_button-button\"] div,\n    [data-garden-id=\"dropdowns.menu\"],\n    [data-test-id='standalone-composer-toolbar'],\n    [data-test-id='table_popover'],\n    [data-test-id='ticket_table_tooltip'],\n    .Select-menu,\n    div[data-garden-id=\"tooltip.tooltip\"] {\n        background-color: var(--base-background) !important;\n    }\n\n    a {\n        color: var(--accent-color);\n    }\n\n    #branding_header {\n        padding: 0;\n        height: 50px;\n        position: absolute;\n        top: 0;\n        right: 0;\n        left: 60px;\n        z-index: 11;\n        background: transparent;\n    }\n\n    .pane.left nav,\n    .pane.left nav [data-garden-id=\"buttons.button_group_view\"],\n    .bTccO {\n        z-index: 1;\n    }\n\n    /* ticket save button */\n    .bhZefU {\n        background: rgb(47, 57, 65) !important\n    }\n\n    /* transparent backgrounds*/\n    .btn,\n    ul.nav-tab-list,\n    .nav-tab-list li,\n    .nav-tab-list div,\n    .hpXXWx,\n    .LRhe,\n    .fsxnHQ.fsxnHQ.fsxnHQ,\n    .zd-searchmenu-base,\n    .LRgt,\n    .LRax,\n    .fGPLUj,\n    .channel,\n    .nav_tab button,\n    #branding_header button,\n    .VxCKy div,\n    [data-garden-id=\"modals.tooltip_modal.backdrop\"] {\n        background-color: transparent !important;\n    }\n\n    /* selected view color*/\n    .VxCKy div {\n        color: var(--theme-color) !important;\n    }\n\n    /* selected ticket tab */\n    .dropdown-menu li a:hover,\n    ._-_-node_modules--zendesk-knowledge-components-src-Sidebar-index---listItem---1NWra._-_-node_modules--zendesk-knowledge-components-src-Sidebar-index---active---28Pqn, ._-_-node_modules--zendesk-knowledge-components-src-Sidebar-index---listItem---1NWra._-_-node_modules--zendesk-knowledge-components-src-Sidebar-index---active---28Pqn:hover,\n    .btn-group.open .dropdown-toggle:not(.btn-inverse),\n    [role=\"menuitem\"]:hover,\n    .Select-option.is-focused,\n    .Select-option.is-selected,\n    [role=\"tab\"][data-selected=\"true\"] {\n        background-color: var(--selected-color) !important;\n    }\n\n    /* view badge counts */\n    .gtrjgl {\n        background-color: var(--accent-color) !important;\n        border-radius: 10px;\n        text-align: center;\n        padding: 5px;\n        vertical-align: middle;\n        line-height: 0.8em;\n        color: var(--main-theme-color) !important;\n        font-size: 0.8rem;\n        margin-left: 1rem;\n    }\n\n    .mast .profile.ticket {\n        background-color: var(--accent-color) !important;\n    }\n\n    #zd-product-tray ul li,\n    [data-garden-id=\"dropdowns.menu\"] li {\n        border-bottom: solid 1px #333;\n    }\n\n    .fsxnHQ.fsxnHQ.fsxnHQ,\n    .btn,\n    .dropdown-menu li a,\n    .phone-number-select-menu .zd-menu-item > a,\n    .fGPLUj,\n    .zd-tag-item a,\n    [data-test-id='standalone-composer-toolbar'] button,\n    .event .header .actor .name a,\n    .Select.has-value.Select--single > .Select-control .Select-value .Select-value-label, \n    .LRil, .LRce,\n    div[data-garden-id=\"tooltip.tooltip\"] {\n        color: var(--text-color) !important;\n    }\n\n    /* internal comments */\n    .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container,\n    .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container *,\n    .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container p,\n    .event:not(.is-public) .comment,\n    .event:not(.is-public) .zd-comment,\n    .event:not(.is-public) .comment li,\n    .event:not(.is-public) .zd-comment li,\n    .cechoF,\n    .modal .fJnKTR,\n    [data-test-id='table_popover'] .LRhk {\n        background-color: #fff6d9 !important;\n        color: #222 !important;\n    }\n\n    /* internal comments */\n    .modal .fJnKTR *,\n    .event:not(.is-public) .zd-comment * {\n        color: #222 !important;\n    }\n\n    /* internal links */\n    .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container a,\n    .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container p a,\n    .event:not(.is-public) .comment a,\n    .event:not(.is-public) .zd-comment a,\n    .event:not(.is-public) .comment li a,\n    .event:not(.is-public) .zd-comment li a,\n    .cechoF a,\n    .modal .fJnKTR,\n    [data-test-id='table_popover'] .LRhk a, \n    .iDSXyx,\n    .phone-number-select-menu .zd-menu-item > a:hover,\n    .modal .fJnKTR a,\n    .event:not(.is-public) .zd-comment a {\n        color: var(--accent-color) !important;\n    }\n\n    /* dropdown action button on ticket */\n    .dropdown-toggle:after,\n    .mast .object_options_btn:after {\n        filter: invert(70%)\n    }\n\n    /* ticket table title links */\n    .jydokf,\n    table a,\n    table a span, \n    .fOdaZx button,\n    [role=\"treeitem\"] {\n        color: var(--accent-color) !important;\n    }\n\n    .fOdaZx button,\n    [data-test-id=\"talk-ticket-composer-outbound-call-menu\"]\n    { \n      border: none;\n    }\n\n    /* All dialogs */\n    [role=\"dialog\"],\n    /* Bulk action button modal */\n    [data-test-id=\"bulk-actions\"] {\n        background-color: var(--base-background) !important;\n        padding: 1em;\n        border-radius: 5px;\n        border: solid var(--text-color) 1px;\n    }\n    \n    /* set bulk action z-index so it doesn't fall behind the left sidebar when it is scrolling */\n    [data-test-id=\"bulk-actions\"] {\n      z-index: 10;\n    }\n    \n    /* Bulk action buttons */\n    [data-test-id=\"bulk-actions\"] [data-garden-id=\"buttons.button_group_view\"],\n    /* Link tooltip editing container */\n    [data-test-id=\"link-tooltip-container\"],\n    [data-garden-id=\"buttons.button_group_view\"],\n    .c-btn--primary {\n        border-radius: 5px;\n        border: solid var(--accent-color) 1px !important;\n    }\n\n    header,\n    table tr,\n    table td,\n    [role=\"tab\"],\n    [data-test-id=\"header-toolbar\"],\n    .activities .item,\n    .indicators ul,\n    .indicators li,\n    [data-test-id=\"ticket-fields\"] input,\n    [aria-haspopup=\"listbox\"],\n    .zd-tag-menu-root,\n    [data-garden-id^=\"dropdowns\"],\n    [data-test-id=\"ticket-pane-subject\"],\n    [data-garden-id=\"buttons.button\"],\n    [data-test-id=\"ticket-footer-post-save-actions-menu-button\"],\n    .btn,\n    .zd-tag-item,\n    .section.ticket .tab-controls-container,\n    .event,\n    .property_box {\n        border-color: var(--border-color) !important;\n    }\n\n    [data-garden-id=\"tabs.tabs\"] [aria-selected=\"true\"]\n    {\n      border-bottom: solid var(--accent-color) 2px !important;\n    }\n    \n    a[role=\"treeitem\"]:hover span {\n        filter: brightness(250%);\n    }\n\n    /* badges */\n    [data-test-id=\"status-badge-closed\"] {\n        color: var(--theme-color) !important;\n        background-color: var(--closed-background) !important;\n    }\n\n    [data-test-id=\"status-badge-open\"] {\n        background-color: var(--open-background) !important;\n    }\n\n    [data-test-id=\"status-badge-new\"] {\n        background-color: var(--new-background) !important;\n    }\n\n    [data-test-id=\"status-badge-pending\"] {\n        background-color: var(--pending-background) !important;\n    }\n\n    [data-test-id=\"status-badge-solved\"] {\n        background-color: var(--solved-background) !important;\n    }\n\n    [data-garden-id=\"modals.backdrop\"],\n    /* modal login transparency */\n    .u-bg-transparent {\n        background-color: rgba(0, 0, 0, 0.8) !important;\n    }\n\n    .u-bg-transparent body {\n        background-color: transparent !important;\n    }\n}\n",
+    "usercssData": {
+      "name": "ZendDesk Dark",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to ZenDesk styls to enable a dark mode",
+      "version": "20220729.3",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to ZenDesk styls to enable a dark mode",
+    "name": "ZendDesk Dark",
+    "originalDigest": "3951ff0aaa866b16bc2dbd79131cf31dba6c4b1a",
+    "_id": "d6d9ba43-8eae-4532-964c-f0a7669bccdf",
+    "_rev": 1697204888081,
+    "id": 27,
+    "etag": "W/\"ab91a173a127029569c2490b1dc51555ffe993c65d2c0ff57d1e18786fecbc22\"",
+    "updateDate": 1659194043635
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css",
+    "installDate": 1651371406354,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Google Dark\n@namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to Google's style to enable a dark mode`\n@version        202301006\n@license        GPL\n==/UserStyle== */\n\n@-moz-document domain(\"mail.google.com\")\n{\n  :root {\n      --badge-color: #666;\n  }\n\n  /* Loading... */ \n  .vX .vh {\n    background-color: #f9edbe !important;\n    border: 1px solid #f0c36d !important;\n    border-radius: 0 0 2px 2px !important;\n    box-shadow: 0 2px 4px rgba(0,0,0,.2) !important;\n    color: #222 !important;\n    padding: 6px 10px !important;\n  }\n  \n  .vX .vh div span {\n    color: #222 !important;\n  }\n\n  [role=\"search\"] >table, \n  /* Personal Information Card */\n  .DYLA1c,\n  /* Email contact popup card */\n  .YADHBe, \n  /* Message on the bottom allowing the standard view to be loaded */\n  .msgb,\n  /* Minimized Email compose */\n  .Hy .k,\n  /* RSVP popup */\n  .aTk\n  {\n      background-color: var(--theme-color) !important;\n      border: solid var(--accent-color) 1px !important;\n  }\n  \n  /* Email compose floating bar */\n  .aDg > .aDj,\n  .aZ > .J-Z\n  {\n      border: solid var(--text-color) 1px !important;\n      background-color: var(--theme-color) !important;        \n      padding: 0.25rem;\n  }\n  \n  /* Email compose floating bar */\n  .aDg > .aDj:after, .aC3, .azY, .azX,\n  /* email body elements with user defind styles that have background styles */\n  [id=':la'] [style*='background'],\n  [id=':ka'] [bgcolor],\n  .ii [style*='background'],\n  .ii [bgcolor],\n  /* add link dialog */\n  .LW-KX-Jm,\n  .LW-KX .J-KU,\n  .LW-KX .J-KU-Jg,\n  .LW-JD .J-KU-Jz\n  {\n      color: var(--text-color) !important;\n      background-color: var(--theme-color) !important;\n      background-image: none !important;\n  }\n  \n  [role=\"gridcell\"] div.aaA,\n  .mL,  \n  .Un::after, \n  .J-Ph-hFsbo,\n  .J-Ks-KO .J-N-Jo,\n  .aDg > .aDj [role=\"listbox\"] .J-Z-M-I-J6-H > .J-Z-M-I-JG,\n  .T-axO .J-JN-M-I-JG,\n  .bs1 + .bs3::before, .btj + .aD::before,\n  .bs5::after,\n  .ajy > .ajz,\n  .ha .pH-A7, .ha .aoj,\n  .bi4 > .T-KT:not(.T-KT-Jp):not(.byM)::before,\n  .hB, .mK, .aaq .mK, .mI, .g1, .gZ, .aeT, .ajT, .SB, .By, .Bq,\n  .ams::before,\n  .OB, .XO, .SV,\n  .J-Z-M-I-J6-H > .J-Z-M-I-JG,\n  .aaA.eY, .aaA.eS, .aaA.fb, .Ie, .Id, .aaA, .dv, \n  .Xv.T-I.J-JN-M-I > .J-JN-M-I-JG, .og, .aeC,\n  .asor.asor_i5, .gsoi_msra, .gsaq_b,\n  /*Email icon in dragging label*/\n  .lC::before,\n  /* snooze calendar icon */\n  .bsI,\n  /* snooze last icon */\n  .bwh,\n  /* right-click menu icons on mail items */\n  .J-N-JX,\n  /* attachment icon */\n  .gW,\n  /* in-email label dropdown label checkboxes */\n  .J-LC-JR-Jp .J-LC-Jo,\n  .J-LC-Jo,\n  .aDh [role='button'] .a1,\n  .aLF-aPX-bhP .aLF-aPX-N-JX.aLF-aPX-Mw-I-JX,\n  .asa > .aZh, \n  .XF\n  {\n    filter:invert(1) !important;\n  }\n  \n  [role=\"search\"], .SK.ZF-zT,  \n  [role=\"dialog\"] [role=\"toolbar\"], \n  /* in-page help popup */\n  .wa, \n  [role=\"alert\"] .vh, \n  [role=\"alertdialog\"],\n  [role=\"listbox\"]\n  {\n      background-color: var(--theme-color) !important;\n      border: solid var(--accent-color) 1px !important;\n      border-radius: 8px\n  }\n\n  [role=\"link\"] {\n      color: var(--link-color) !important;\n  }\n\n  [role=\"dialog\"] input, [role=\"dialog\"] .dC, .SK.ZF-zT input[type=\"text\"], .SK.ZF-zT input[type=\"text\"]:focus, .SK.ZF-zT select, .SK.ZF-zT [role=\"listbox\"], \n  [role=\"menu\"] {\n      border: solid #999 1px !important;\n      border-radius: 3px;\n  }\n  \n  /* toolbar buttons on compose dialog */\n  .aDh [role=\"button\"]\n  {\n      border: solid #999 1px !important;\n      border-radius: 3px;    \n  }\n  \n  /* toolbar buttons on compose dialog */\n  .btC .J-N-JX\n  {\n      background-color: #000 !important;\n  }\n  \n  .SK.ZF-zT input[type=\"text\"], .SK.ZF-zT input[type=\"text\"]:focus {\n      padding: 1em;\n  }\n\n  [role=\"dialog\"] input, .SK.ZF-zT [role=\"listbox\"] {\n      padding: 0.3em;\n  }\n\n  .SK.ZF-zT [role=\"button\"],.SK.ZF-zT [role=\"link\"], [role=\"dialog\"] button\n  {\n      border: solid var(--link-color) 1px !important;\n  }\n\n  header iframe, \n  /* dropdown contact card in email */\n  .ajA, [role=\"dialog\"], [role=\"tooltip\"] {\n      background-color: var(--theme-color) !important;\n      border: solid var(--accent-color) 1px !important;\n  }\n\n  .at *, .hN, .hO {\n      background-color: var(--badge-color) !important;\n      color: var(--accent-color) !important;\n  }  \n\n  /* Selected mail items */\n  tr.x7, .x7 td,\n  /* in-email label dropdown search box */\n  .agd .J-M-JJ input,\n  .J-LC-JT,\n  .J-N-JT\n  {\n      background-color: #666 !important;\n  }\n\n  .aeN {\n      border-right: solid #222 1px;\n  }\n      \n  /* label when dragging email */\n  .lE\n  {\n      background-color: var(--theme-color) !important;\n      border: solid var(--accent-color) 1px !important;\n      opacity: 0.9;\n      border-radius: 5px;\n  }\n  \n  /* label when dragging email */\n  .lE > .lC {\n    height: 35px;\n  }\n  \n  /* floating toolbar on an email */\n  .bqY {\n      background: transparent !important;\n  }\n  \n  /* side-panel navigation menu */\n  .brC-dA-I.aT5-aOt-I-Jp svg path:not([fill='none'])\n  {\n      fill: var(--text-color) !important;\n      transition: fill  500ms ease-out;\n  }\n    \n  .brC-dA-I.aT5-aOt-I-Jp\n  {\n      background-color: var(--theme-color) !important;\n      border: solid var(--text-color) 1px !important;\n      border-radius: 35px 0 0 35px;\n      transition: border 500ms ease-out, right 250ms;\n  }\n\n  .brC-dA-I.aT5-aOt-I-Jp:hover\n  {\n      border: solid var(--accent-color) 1px !important;\n      border-right: none !important;\n      transition: border 500ms ease-out, right 250ms;\n  }\n\n  .brC-dA-I.aT5-aOt-I-Jp:hover svg path:not([fill='none'])\n  {\n      fill: var(--accent-color) !important;\n      transition: fill  500ms ease-out;\n  }\n  \n  .acX > .L3.aap::after\n  {\n    content: '︙' !important;\n    color: var(--text-color);\n    font-weight: bolder;\n    top: -3px;\n  }\n  \n  .iN\n  {\n    background-color: #444 !important;    \n  }\n  \n  .gmail_quote {\n    border-left: solid #223 3px !important;\n    padding-left: 5px;\n  }\n  \n  .bzn .G-asx {\n    background-color: transparent !important;\n  }\n  \n  /* navigation areas */\n  [role='navigation'] {\n    z-index: 100;\n  }\n  \n  /* alert areas */\n  [role='alert'], \n  .w-asV {\n    z-index: 99999 !important;\n  }\n  \n  .aAU.aLF-aPX-aPs-JQ div[aria-hidden='true'] {\n    display: none !important;\n  }\n  \n  /* menus */\n  [role='menu'] {\n    z-index: 9999;\n  }\n  \n  /* email compose discard button */\n  [aria-label*='Discard draft'],\n  /* email navigation arrows */\n  [aria-label='Newer'] img,\n  [aria-label='Older'] img\n  {\n    background-color: transparent !important;\n  }\n  \n  /* More button */\n  [aria-label='More'] img\n  {\n    display:none !important;\n  }\n  \n  /* download / save attachment */\n  .aQw\n  {\n    background-color: rgba(0,0,0, 0.5) !important;\n  }\n  \n  /* pressed button */\n  [aria-pressed='true']\n  {\n    border: solid var(--link-color) 1px !important;\n    background-color: #444 !important;\n  }\n  \n  .aLF-aPX-bhN .aLF-aPX-aPE-aLz-bhP, .aLF-aPX-bhN .aLF-aPX-aMO-auF-bhP, .aLF-aPX-bhP .aLF-aPX-aPU,\n  .aLF-aPX-bhN .aLF-aPX-aPE-aLz-bhP, .aLF-aPX-bhN .aLF-aPX-aMO-auF-bhP,\n  .aLF-aPX-bhP .aLF-aPX-aPU {\n      background-color: #444 !important;\n      border: none !important;\n      border-radius: 0 !important;\n      z-index: 99999 !important;\n  }\n\n  /* doc viewer highlight */\n  .aLF-aPX-LD-K0-axQ .aLF-aPX-LD-K0-JT.aLF-aPX-LD-K0-JT-SX {\n      background-color: #28f !important;\n  }\n}\n",
+    "usercssData": {
+      "name": "Google Dark",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to Google's style to enable a dark mode",
+      "version": "202301006",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to Google's style to enable a dark mode",
+    "name": "Google Dark",
+    "originalDigest": "6e09fb93cc4e81918733bbf4fe029bb840604ca2",
+    "_id": "6ba878a2-60b0-4ca9-bf4b-26d02fed8307",
+    "_rev": 1697224163882,
+    "id": 28,
+    "etag": "W/\"852d31fbe8411f0e20161791af3a5df019a823337ad437fe9a02c73e8dbc0301\"",
+    "updateDate": 1697224162924
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/HumbleDollar.user.css",
+    "installDate": 1651371695555,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Humble Dollar Dark\n@namespace      https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to Google's style to enable a dark mode`\n@version        20220430\n@license        GPL\n==/UserStyle== */\n\n@-moz-document domain(\"humbledollar.com\")\n{\n  #wpdcom .wpd-comment-text p, #wpdcom .wpd-comment-text {\n    color: #ccc !important;\n  }\n  .top-bar, .in-story-subscribe{\n      display: none;\n  }\n\n  .button, button, input.search-button {\n    color: #f60 !important;\n    border-color: #f60;\n  }\n}\n",
+    "usercssData": {
+      "name": "Humble Dollar Dark",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/GoogleDark.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to Google's style to enable a dark mode",
+      "version": "20220430",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to Google's style to enable a dark mode",
+    "name": "Humble Dollar Dark",
+    "originalDigest": "ce8c265009acc6352590fd6d1c255509d2fef923",
+    "_id": "38fcde04-5e52-4c6e-8d92-4fb5a066bc05",
+    "_rev": 1697204888083,
+    "id": 29,
+    "etag": "W/\"0fb1e7f1eedf0e8a89fc8b488a4382004c2b138c4fbb13b14aa9e9bd53900aa3\""
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/FeedlyDark.user.css",
+    "installDate": 1651371912781,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Feedly Dark\n@namespace      https://github.com/Brandan/UserStyles/raw/main/FeedlyDark.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to Feedly's style to enable a dark mode`\n@version        20231005.3\n@license        GPL\n==/UserStyle== */\n\n@-moz-document domain(\"feedly.com\")\n{\n  article[data-alternate-link^=\"https://ahead.feedly.com/\"] {\n    display: none !important;\n  }\n\n  .floatingEntryContent, .theme--dark #feedlyPageHolderFX, #headerBarFX {\n      background-color: var(--theme-color) !important;\n  }\n\n  .entry-overlay {\n      background-color: rgba(0,0,0,.7) !important;\n  }\n\n  .theme--dark .floatingEntryContent__tab--current\n  {\n      background-color: var(--theme-color) !important;\n      background-image: none;\n      border-radius: 30px 0 0 30px;\n      border-top: solid #2a2a2a 1px;        \n      border-left: solid #2a2a2a 1px;        \n      border-bottom: solid #2a2a2a 1px;        \n  }\n\n  .theme--dark .Popover {\n      box-shadow: 5px 5px 10px rgba(51, 151, 250, 0.1),0 0 0px rgba(51, 151, 250, 0.1) !important;\n  }\n\n  .entry--read {\n      opacity: 0.6;\n  }\n\n  .entry--focused .MagazineEntry, .entry--selected .MagazineEntry, .modal {\n      border: solid var(--accent-color) 1px !important;\n      background-color: #444 !important;\n  }\n  \n  .Tipsy, menu, #tipsyContainer [class*='__tipsy '], \n  #tipsyContainer .nIBPFo6iBl_0_0jRulKA, \n  .RSSBuilder {\n    border: solid var(--accent-color) 1px !important;\n    background-color: rgba(48, 48, 48, .9) !important;\n  }\n  \n  .sluaNmDifJ3fslxNky8J {\n    background-color: var(--button-color) !important;    \n  }\n  \n  menu {\n    border-top: none !important;  \n  }\n\n  .LeftnavList [role=\"button\"]:hover,\n  .LeftnavList button:hover,\n  .LeftnavPin__background:after,\n  .LeftnavPin__background:before{\n      background-color: transparent !important;\n  }\n\n  .theme--dark .LeftnavListRow:hover .LeftnavListRow__text {\n      color: var(--accent-color) !important;\n      background-color: rgba(0, 0, 0, 0.05) !important;\n  }\n  \n  /* make some images larger */\n  img[src*='leasticoulddo.com']\n  {\n    scale: 135% !important;\n    margin: 2em;\n  }\n\n  /* dim paywalled links */\n  a[href*='fortune.com/'], a[href*='fortune.com/'] *,\n  a[href*='twitter.com/'], a[href*='twitter.com/'] *,\n  a[href*='wsj.com/'], a[href*='wsj.com/'] *,\n  /* also dim abnormal returns self-referential-links */\n  div[data-alternate-link*='abnormalreturns.com/'] ul a[href*='abnormalreturns.com/']\n  {\n    opacity: 0.2 !important;\n  }\n  \n  a[href*='fortune.com/'],\n  a[href*='twitter.com/'],\n  a[href*='wsj.com/'],\n  /* also add icons to abnormal returns self-referential-links */\n  ul a[href*='abnormalreturns.com/']\n  {\n    padding-right: 25px;\n    background: no-repeat right center;\n    background-size: 20px 20px;\n  }\n  \n  a[href*='abnormalreturns.com']\n  {\n    background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABAhJREFUWAntVl9sk1UUP+d2/VrYkBg3FdyDDzMaKsS5QPkKXUVnhn8xgiEk+rAYFfHPg29ooi9KQuCBxIQXjGMgkWDEiHFhsnVYdAUXQjL0YT6YgSgkiujcpqXtd/2db7vf921dV/vMbtKef79z7znnnnNbovk1X4EbvQJcqQD9KfsTIt4kOK31dw9msvGZPv2t9hAxL5+pn5LH4HgZe1zCDp/n8nRwfTb7h8Eqw8xGu+PxRjg+ZWzMvKo3lVhp5P9J6xDcXcS0DnSPZfGvfWsTHcZ3zgCiUbUNwBoDFqq0fjUoV8uj5BEO0b50Mr7R3a/cBt1NTREmfqHEzry5O9ncUKKfUmhNx0YLV28yn5yTW1ooOuugP2R8EESIOLS3H8lNy84AhEaW1G8BqRcezj/BaRHK2CAZRFVEAtshttKlCxu+Hf47oBcePUAn0632Alzj02JjpluLqURz2SsA8DUBytJEnZqcjyclOBO/fESyqHIh+K+CLkzO7bMGkE6uXoMA7hcwOt8pUL6rSLzfd+bG+mTca05fX5G7M4hwCvq3WQMgVl72yLavPTP488OZ7DlEc95swEpV1YzpNStjmuk54y+J5XhiuKQH+mz7DtyP26ECdhzdaZxQ/C7wuydlfqAnkbi3fWDge98OjjmWTtluf+AQhQTq8FmGwxPSPwHswce/OX+tJAAV1luxi9H/efHS5c+M08Q/+UMLFoZ3YiP3/sM17kgC7y/Y7ob/dtHgGj2Dz7lN/aPO01tinHYFMnqa1Iuel9aHO0ZG/jXyY4ODV9CRPUZGNz57oqVlsSdXYDTpq4B88NfoRPyhbPYXgZtMXdfo0obNMh6ugC9HU6D8nrYLcT8qEkpbqxZaHcYiFBMzjO+jkzp+EpnHpuxj42PX73ni7Nnfp2SXTAsgOHqwFhDMNsyuvIaBxdGAQErRK5C9KqFRf8DvxZuCSSftHlJ8Unisurpa6x1Qr8FF6V1Nb2qVHaKaAVFWu5B1ERu5fYHGO4oAvCZOtya+RCJuxQRX1LoZE+VNk9cDikLTIqsmCHP4bD6OLm6XkROb4BDl+0GcW4HjyZYlEbYuoG3DYoRDBs8vfobLL6X4eVjvm4mYWQGxYywPoF+8N6Do0Ja2UwOHxeb2gEXWVnO4KB123m3LnDkhfLnV37r6Gh6sj8rZg/pcTr8dsQgNzpboQ0rv6lmx4ov2oaFxdSQWszCMLxkHjMqFtq/P9Bq5HB25eOVTZOv9sSiHE/0jp0+PoNR7fQw3hm+unXwHGm5Z9AzKc5tvpA/Bo1/mXu77wNQ1N8q3jo1ffw8Bj/oafuO4bTcpTfy6UQLg5HWh08iVKDp6XyWMscv846xdRkZFIlaY9hh5ns5X4MatwH+/skeVerC2sAAAAABJRU5ErkJggg==\");    \n  }\n  \n  a[href*='fortune.com']\n  {\n    background-image: url(\"data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABM0lEQVQ4y52Rzy5DURDGvzkOKfVvQTSil3AXIqmkkbKzxCtYSFh4BomlhRfoOwhJE3sbvQ/AqulGcasbbHHdyOmMRWlO0Xt7ze7LfPPLzDcEqx49xwNhvaUEiye74Vj5fEC/vyrLdnFb9ze/hd34VW/zOd3YPsCLmzfSxRMJAABOpdXzxo5+2tozZnCYf/a1Lap3YACmpQgQuba2QZiZxeTlWRV1vz1DNmDBmbMyAIgoXfPvg6gNdVSz2FRuIet+fMlwolHzEwFKxFd5UVqDIEAFQC5RiGUSfUhsDKSrJ/YLXhuSNANFDJFTCNgjwTGaD8kAS1OsVmb2b45KAQAUE50w1M+0nIk970+ACECFLJPu+x+ApkcMOeMaPVYnQBPTmqNA1Ot8Z4i06gQ0mgosOMcBPgESUF6m2OFoAQAAAABJRU5ErkJggg==\");\n  }\n  \n  a[href*='wsj.com']\n  {\n    background-image: url(\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNTguMTQ2OSA3NS4yNUM1NS41MjYgNzUuMjUgNTMuOTk2OCA3NC4xMDI0IDUyLjg4MjkgNzMuMjY2NUM1Mi4yNDQ5IDcyLjc4NzYgNTEuNzQzIDcyLjQxMSA1MS4yNTAzIDcyLjQxMUM1MC40Njg4IDcyLjQxMSA0OS41NDU2IDcyLjYyNTUgNDguODMyNiA3NC45NjdINDcuOTgwM1Y1OC43NzUxSDQ5LjA0NzRDNDkuOTAyMSA2Ny45NDAzIDUzLjMxNjEgNzMuNjkzNiA1OC4wODA3IDczLjY5MzZDNjEuMjc5OSA3My42OTM2IDYzLjQ4NTEgNzAuNzgxNSA2My40ODUxIDY1LjUyMzRDNjMuNDg1MSA2MC4xMjc5IDU5LjcyMjcgNTYuMjMwOSA1NS44NjMgNTIuMjMzMkM1MS43OTg1IDQ4LjAyMzMgNDcuNjI2MSA0My43MDE3IDQ3LjYyNjEgMzcuNDAwNEM0Ny42MjM4IDMwLjc5MzYgNTAuOTY3IDI1Ljc1IDU3LjAxMTIgMjUuNzVDNTkuMzg3IDI1Ljc1IDYwLjYwODIgMjYuNjkyNiA2MS41Njc0IDI3LjQzM0M2Mi4xODc4IDI3LjkxMTggNjIuNjk4NSAyOC4zMDYgNjMuMzQxMSAyOC4zMDZDNjQuMjY0MyAyOC4zMDYgNjQuOTA0MSAyNy41OTg1IDY1LjI2MDYgMjYuMDM1M0g2Ni4xMTUzVjQyLjIyNzJINjUuMDQ4MUM2NC4xOTM1IDM0LjA1NzEgNjIuMDYxNCAyNy4zMTMzIDU2Ljk0MDQgMjcuMzEzM0M1My4zODQ3IDI3LjMxMzMgNTIuNzQ0OCAzMC44NjQzIDUyLjc0NDggMzMuMjc4OEM1Mi43NDQ4IDM4LjEyODUgNTYuMDc2OSA0MS41MTYxIDU5LjY4NjQgNDUuMTg1OEM2My45NTE0IDQ5LjUyMiA2OC42MDM4IDU0LjI1MiA2OC42MDM4IDYyLjI1MzFDNjguNjAzOCA2OS43ODQyIDY0LjQ3OTEgNzUuMjUgNTguMTQ5MiA3NS4yNUg1OC4xNDY5WiIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTguMjI3NzIgMzIuNTY5MUM3LjMwMjIzIDI4LjM3NDUgNy4wODk3MSAyNy42NjcgNS43MzY5IDI3LjMxMzNMNC43NDI4NiAyNy4wMjhWMjYuMDMzSDE3LjMyOTVWMjcuMDI4TDE2LjI2IDI3LjI0MDJDMTMuOTg4NiAyNy43Mzc3IDE0LjIwMzQgMzAuMDEwOCAxNC44NDMyIDMzLjA2NDNMMjAuNDYwMiA2MC45MDY2TDI0LjU4NDkgMzguNzQ2OUwyMy4wOTA0IDMxLjE0NzNDMjIuNTIxNCAyOC40NDk4IDIyLjMwNjYgMjcuNTk4NSAyMC44ODI5IDI3LjI0MDJMMTkuOTYyIDI3LjAyOFYyNi4wMzNIMzIuOTc2VjI3LjAyOEwzMS40MTA2IDI3LjMxMzNDMjkuMDYzOCAyNy43Mzc3IDI5LjQyMjUgMzAuMjk2IDI5Ljk4OTMgMzMuMDY0M0wzNS4zOTM3IDYwLjkwNjZMNDAuNzI3MiAzNC41NTkxQzQxLjcyMzUgMjkuMDg4OCA0MS4yMjU0IDI3LjczNTUgMzkuMDkxIDI3LjMxMUwzNy42MDM0IDI3LjAyOFYyNi4wMzNINDYuNjM0M1YyNy4wMjhMNDUuNjM4IDI3LjM4NEM0NC4yMTY2IDI3Ljg3OTIgNDMuODYwMiAyOS4yMzI2IDQyLjg2NjEgMzMuOTE3OEwzNC4xOTE3IDc1LjI0NzdIMzIuMzQwN0wyNS42NTIgNDMuMDA5OUwxOS42MDU1IDc1LjI1NjhIMTcuMjU4N0w4LjIyNzcyIDMyLjU2NjhWMzIuNTY5MVoiIGZpbGw9ImJsYWNrIi8+CjxwYXRoIGQ9Ik03OS4xOTk5IDc1LjI1MjFDODUuMTAyNSA3NS4yNTIxIDg4Ljk0MTUgNzEuMjc0MyA4OC45NDE1IDYzLjY3NDdWMzAuNDM3NEM4OC45NDE1IDI4LjQ0NzQgODkuNDM5NyAyNy44MDg0IDkwLjg2MTEgMjcuNDU0Nkw5Mi40MjQxIDI3LjAyNzlWMjYuMDMyOEg3OC40MTYxVjI3LjAyNzlMODAuMTkxNyAyNy40NTY5QzgxLjc1NyAyNy44MTI5IDgyLjM5NjggMjguMzc4OSA4Mi4zOTY4IDMwLjM2ODlWNjQuODExM0M4Mi4zOTY4IDY4LjY0OTggODIuMzk2OCA3My42ODg5IDc4LjQxMTUgNzMuNjg4OUM3Ni4xNDAxIDczLjY4ODkgNzQuMzYyMiA3MS43MDM0IDc0LjUwMzkgNzAuMzU2OUM3NC41NjYzIDY5LjM4NjEgNzUuMzQ2MiA2OC44NzAyIDc2LjIxNzggNjguMjkzNkM3Ny4zMjU1IDY3LjU2MDkgNzguNTgxNSA2Ni43MzAxIDc4LjcwMTcgNjQuNzQyOEM3OC45MTQzIDYyLjI1NTIgNzcuMzUxMiA2MS4xMjEgNzUuNzg4MiA2MC45MDg4QzczLjU4MDcgNjAuNjIzNSA3MC44Nzk3IDYyLjQ2NzUgNzAuODA2NSA2Ni4xNjQ2QzcwLjczNTcgNzAuOTIyOSA3My44NjQxIDc1LjI1MjEgNzkuMTk5OSA3NS4yNTIxWiIgZmlsbD0iYmxhY2siLz4KPC9zdmc+Cg==\");\n  }\n    \n  a[href*='twitter.com']\n  {\n    background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcgaWQ9InR3aXR0ZXIiCiAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIKICAgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIgogICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHZlcnNpb249IjEuMSIKICAgd2lkdGg9IjMwMCIKICAgaGVpZ2h0PSIzMDAiCiAgIHZpZXdCb3g9IjAgMCAzMDAgMzAwIgogICB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGRlZnMgaWQ9ImRlZnMiIC8+CjxwYXRoIGlkPSJiaXJkIgogICAgIGQ9Im0gMjUwLDg3Ljk3NCBjIC03LjM1OCwzLjI2NCAtMTUuMjY3LDUuNDY5IC0yMy41NjYsNi40NjEgOC40NzEsLTUuMDc4IDE0Ljk3OCwtMTMuMTE5IDE4LjA0MSwtMjIuNzAxIC03LjkyOSw0LjcwMyAtMTYuNzEsOC4xMTcgLTI2LjA1Nyw5Ljk1NyAtNy40ODQsLTcuOTc1IC0xOC4xNDgsLTEyLjk1NyAtMjkuOTUsLTEyLjk1NyAtMjIuNjYsMCAtNDEuMDMzLDE4LjM3MSAtNDEuMDMzLDQxLjAzMSAwLDMuMjE2IDAuMzYzLDYuMzQ4IDEuMDYyLDkuMzUxIC0zNC4xMDIsLTEuNzExIC02NC4zMzYsLTE4LjA0NyAtODQuNTc0LC00Mi44NzIgLTMuNTMyLDYuMDYgLTUuNTU2LDEzLjEwOCAtNS41NTYsMjAuNjI4IDAsMTQuMjM2IDcuMjQ0LDI2Ljc5NSAxOC4yNTQsMzQuMTUzIC02LjcyNiwtMC4yMTMgLTEzLjA1MywtMi4wNTkgLTE4LjU4NSwtNS4xMzIgLTAuMDA0LDAuMTcxIC0wLjAwNCwwLjM0MyAtMC4wMDQsMC41MTYgMCwxOS44OCAxNC4xNDQsMzYuNDY0IDMyLjkxNSw0MC4yMzQgLTMuNDQzLDAuOTM4IC03LjA2OCwxLjQzOSAtMTAuODEsMS40MzkgLTIuNjQ0LDAgLTUuMjE0LC0wLjI1OCAtNy43MiwtMC43MzYgNS4yMjIsMTYuMzAxIDIwLjM3NSwyOC4xNjUgMzguMzMxLDI4LjQ5NSAtMTQuMDQzLDExLjAwNiAtMzEuNzM1LDE3LjU2NSAtNTAuOTYsMTcuNTY1IC0zLjMxMiwwIC02LjU3OCwtMC4xOTQgLTkuNzg4LC0wLjU3NCAxOC4xNTksMTEuNjQzIDM5LjcyNywxOC40MzcgNjIuODk5LDE4LjQzNyA3NS40NzMsMCAxMTYuNzQ2LC02Mi41MjQgMTE2Ljc0NiwtMTE2Ljc0NyAwLC0xLjc3OSAtMC4wNCwtMy41NDggLTAuMTE5LC01LjMwOSA4LjAxNywtNS43ODQgMTQuOTczLC0xMy4wMTEgMjAuNDc0LC0yMS4yMzkgeiIKICAgICBzdHlsZT0iZmlsbDojM2FhYWUxIiAvPgo8L3N2Zz4=\");\n  }\n  \n  .SliderTabGraphic\n  {\n    filter: none !important;  \n  }\n  \n  .SliderCloseTab svg path:nth-child(1)\n  {\n    fill: #333 !important;\n  }\n  \n  .SliderCloseTab svg path:nth-child(2)\n  {\n    fill: #000 !important;\n  }\n  \n  /* Upgrade button */\n  [class*='TopHeaderBar__actions'] button\n  {\n    display: none;\n  }\n}\n",
+    "usercssData": {
+      "name": "Feedly Dark",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/FeedlyDark.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to Feedly's style to enable a dark mode",
+      "version": "20231005.3",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to Feedly's style to enable a dark mode",
+    "name": "Feedly Dark",
+    "originalDigest": "c599272500939c4c7f384de9d186df81bfa14b9b",
+    "_id": "60636cff-157c-4313-8a41-7f384d0fc3a5",
+    "_rev": 1697224172787,
+    "id": 30,
+    "etag": "W/\"14e0b0aa14cad11263163be471911ae1b6e9f9485fcf25a115cd03235e0b7a42\"",
+    "updateDate": 1697224167883
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/BloombergDark.user.css",
+    "installDate": 1651372148360,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Bloomberg Dark\n@namespace      https://github.com/Brandan/UserStyles/raw/main/BloombergDark.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to Bloomberg's style to enable a dark mode`\n@version        20220528\n@license        GPL\n==/UserStyle== */\n\n@-moz-document domain(\"bloomberg.com\")\n{\n  #fortress-paywall-container-root {\n      display:none\n  }\n\n  body[data-paywall-overlay-status=\"show\"] {\n    overflow: scroll;\n  }\n\n  article * {\n      mask: none !important;\n  }\n    \n  .navi-sections__submenu\n  {\n      background-color: var(--theme-color) !important;\n      border: solid var(--text-color) 1px !important;\n  }\n}\n",
+    "usercssData": {
+      "name": "Bloomberg Dark",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/BloombergDark.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to Bloomberg's style to enable a dark mode",
+      "version": "20220528",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to Bloomberg's style to enable a dark mode",
+    "name": "Bloomberg Dark",
+    "originalDigest": "14c8f4b0a45a79a17d2d5340236b5c067ab97ede",
+    "_id": "0286b07b-fb83-4498-aeb2-634e9767a566",
+    "_rev": 1697204888084,
+    "id": 31,
+    "etag": "W/\"1ecde9e39ae76607e52ccb36aa1528c7cd35c079ee897b7cf63d98436c934396\"",
+    "updateDate": 1653833633069
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/NationalGeographic.user.css",
+    "installDate": 1651373860041,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           National Geographic Dark\n@namespace      https://github.com/Brandan/UserStyles/raw/main/NationalGeographic.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to National Geographic's style to enable a dark mode`\n@version        20220430.1\n@license        GPL\n==/UserStyle== */\n\n@-moz-document domain(\"nationalgeographic.com\")\n{\n  body.Scroll--locked {\n      overflow-y: scroll !important;\n      position: relative !important;\n      top: 0 !important;\n  }\n  \n  /* Main menu */\n  .ImmersiveLead--text-panel::before,\n  .lightbox__contentBox--dark {\n      background-color: var(--theme-color) !important;\n  }\n}\n",
+    "usercssData": {
+      "name": "National Geographic Dark",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/NationalGeographic.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to National Geographic's style to enable a dark mode",
+      "version": "20220430.1",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to National Geographic's style to enable a dark mode",
+    "name": "National Geographic Dark",
+    "originalDigest": "b7d76348049847448ca3353bff46488ba67df86e",
+    "_id": "cc45a098-ac3c-4c99-9897-6e48c0697ef5",
+    "_rev": 1697204888084,
+    "id": 33,
+    "updateDate": 1651375784914,
+    "etag": "W/\"673ebd96c2b23596cbcf7448d9b1b4d0b46e5d2a782871d613166bd91d02397c\""
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/MacWorldDark.user.css",
+    "installDate": 1651374057308,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           MacWorld Dark\n@namespace      https://github.com/Brandan/UserStyles/raw/main/MacWorldDark.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to MacWorld's style to enable a dark mode`\n@version        20220430.1\n@license        GPL\n==/UserStyle== */\n\n@-moz-document domain(\"macworld.com\")\n{\n  #primaryNav,\n  #mobileNav, \n  #mobileNav a,\n  #mobileNav a svg,\n  .tag-button {\n      background-color: var(--theme-color) !important;\n  }\n\n  .tag-button {\n      border: solid 1px var(--accent-color);\n  }\n}\n",
+    "usercssData": {
+      "name": "MacWorld Dark",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/MacWorldDark.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to MacWorld's style to enable a dark mode",
+      "version": "20220430.1",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to MacWorld's style to enable a dark mode",
+    "name": "MacWorld Dark",
+    "originalDigest": "094d21848bbee0602dccf33a4618189218a951eb",
+    "_id": "b09d58c3-c08c-4cba-8f9b-7ac684633bcd",
+    "_rev": 1697204888085,
+    "id": 34,
+    "updateDate": 1661966341891,
+    "etag": "W/\"9b23f649ccdb36db4e483e964f78541eef7bb53171fd87c411be5f56eee005f2\""
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/LetsRun.user.css",
+    "installDate": 1651375087701,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           LetsRun Dark\n@namespace      https://github.com/Brandan/UserStyles/raw/main/LetsRun.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to Lets Run's style to enable a dark mode`\n@version        20220430\n@license        GPL\n==/UserStyle== */\n\n@-moz-document domain(\"letsrun.com\")\n{\n  .fixed.top-0 {\n      background-color: var(--theme-color) !important;        \n  }\n\n  .dbr-dropdown {\n      background-color: var(--theme-color) !important;\n      border: solid var(--accent-color) 1px !important;\n      border-radius: 8px !important;\n  }\n\n  img[src*=\".gif\"] {\n      display: none;\n  }\n}\n",
+    "usercssData": {
+      "name": "LetsRun Dark",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/LetsRun.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to Lets Run's style to enable a dark mode",
+      "version": "20220430",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to Lets Run's style to enable a dark mode",
+    "name": "LetsRun Dark",
+    "originalDigest": "ce3dff2f83b197c93a51f35a153e935d28529bb7",
+    "_id": "c80665e1-b245-45ec-a278-e1282a27ca45",
+    "_rev": 1697204888085,
+    "id": 36,
+    "etag": "W/\"ad882f941b86cd28f0c823b5f14bcf741d4f5c5350132ab6ca719a89639c7c4b\""
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/NYTimes.user.css",
+    "installDate": 1651375138501,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           NY Times Dark\n@namespace      https://github.com/Brandan/UserStyles/raw/main/NYTimes.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to NY Times' style to enable a dark mode`\n@version        20220514\n@license        GPL\n==/UserStyle== */\n\n@-moz-document domain(\"nytimes.com\")\n{\n  body, .css-mcm29f\n  {\n      position: relative!important;\n      overflow: scroll!important;\n      height: auto!important;\n      width:auto!important;\n  }\n  \n  #in-story-masthead {\n    background-color: var(--theme-color) !important;\n  }\n  \n  #in-story-masthead, .css-1q2w90k, in-story-masthead button, .css-1q2w90k button {\n      transition: none;\n  }\n\n  .css-gx5sib {\n      display: none!important;\n  }\n\n  .css-tvohiw {\n      box-shadow: none;\n  }\n}\n",
+    "usercssData": {
+      "name": "NY Times Dark",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/NYTimes.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to NY Times' style to enable a dark mode",
+      "version": "20220514",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to NY Times' style to enable a dark mode",
+    "name": "NY Times Dark",
+    "originalDigest": "11b480c729ce1d768763b9e187bdda986283b5c0",
+    "_id": "64f642db-6b4b-4ef0-8722-8d329815ff75",
+    "_rev": 1697204888085,
+    "id": 37,
+    "etag": "W/\"3a56109ef953d5c9de356d6581a164e1d6a5cde256525e53f6a07e99fb013d47\"",
+    "updateDate": 1652582147183
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/WSJDark.user.css",
+    "installDate": 1651376049799,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           WSJ Dark\n@namespace      https://github.com/Brandan/UserStyles/raw/main/WSJDark.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to WSJ's style to enable a dark mode`\n@version        20220502.2\n@license        GPL\n==/UserStyle== */\n\n@-moz-document domain(\"wsj.com\")\n{\n  header, \n  [data-testid=\"column-wrapper\" ],\n  #masthead-container,\n  .style--collapsed-header-7sa1KNOWxi_hujucmXqzt {\n      background-color: var(--theme-color) !important;    \n  }\n  \n  .wsj-snippet-body:after {\n    position:relative !important;\n    height: auto !important;\n    background: none !important;\n  }\n\n}\n",
+    "usercssData": {
+      "name": "WSJ Dark",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/WSJDark.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to WSJ's style to enable a dark mode",
+      "version": "20220502.2",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to WSJ's style to enable a dark mode",
+    "name": "WSJ Dark",
+    "originalDigest": "f8b507ecbc89361b7a4c691b1c0e859d8afaa0fb",
+    "_id": "893b4bce-5200-4a30-9817-1b4dc7fcc095",
+    "_rev": 1697204888086,
+    "id": 38,
+    "etag": "W/\"0bdd5ccf4fe9ea6016aadb6572b2c7849e1dcb2d5359f2577fa58924578fa13b\"",
+    "updateDate": 1651538956689
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/OverdriveDarkTheme.user.css",
+    "installDate": 1652644673979,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name         Overdrive Dark Theme\n@namespace    https://github.com/Brandan/UserStyles/raw/main/OverdriveDarkTheme.user.css\n@version      20220728\n@license      GPL\n@preprocessor default\n==/UserStyle== */\n\n@-moz-document domain(\"overdrive.com\")\n{\n    \n    :root {\n        --text-disabled: rgba(204, 204, 204, 0.3);\n    }\n\n    .accordion .accordion-navigation > a,\n    .NotificationsContainer, .ContextMenu-drop, \n    .drop, .open.content, .open.f-dropdown, \n    .Facets-showMobileFacets,\n    .search-bar input, .Autocompletions, \n    .popover, .settings-panel, \n    ul.settings-audience-buttons label:not(.active) {\n        background-color: var(--theme-color) !important;\n        color: var(--text-color) !important;\n        box-shadow: none !important;\n    }\n    \n    .TitleCard {\n       border: solid rgba(66, 66, 66, 0.3) 1px;\n    }\n    \n    [role=\"dialog\"] {\n        border: solid var(--accent-color) 1px !important;        \n    }\n    \n    [role=\"dialog\"] [role=\"dialog\"] {\n        border: none !important;\n    }\n    \n    ul label.active, .primary-background {\n        background-color: var(--accent-color) !important;        \n    }\n\n    .open a,\n    a svg, a svg g, a svg path,\n    i[class^=\"icon-\"]::before,\n    .title-container.card .bottomButtons .button {\n        color: var(--link-color) !important;\n        fill: var(--link-color) !important;\n        stroke: var(--link-color) !important;\n    }\n    \n    select, .button.sample-button, .title-container .title-name a:not(.secondary-color) {\n        color: var(--text-color) !important;\n    }\n        \n    .title-container .title-name a:not(.secondary-color):hover, \n    .icon-audiobook, .title-container.card .bottomButtons:hover i:before,\n    .icon-audiobook, .title-container.card .bottomButtons:hover .button {\n        color: var(--accent-color) !important;\n    }\n    \n    .icon-ebook {\n        color: var(--text-disabled) !important;\n    }\n    \n    .button.is-recommend {\n        border: solid var(--accent-color) 1px !important;\n    }\n    \n    .button.secondary {\n        border: solid var(--text-color) 1px !important;\n    }\n    \n    .button.primary {\n        border: solid var(--accent-color) 1px !important;\n    }\n    \n    select::after, \n    .SearchViewOptions::after, .AccountSortOptions::after {\n        background: none !important;\n    }\n    \n    .read-more-container {\n      background: linear-gradient(180deg,rgba(255,255,255,0) 25%,var(--theme-color) 100%); \n    }\n  \n    select, select option, select optgroup {\n        background-color: var(--theme-color) !important;\n        color: var(--text-color) !important;\n        border: none;\n        margin:0;\n   }    \n\n    .is-short::before {\n        background-image: none !important;\n    }\n\n    #ringer path {\n        fill: var(--accent-color) !important;\n    }\n    \n    .Facets .Facets-facetTotal {\n        box-shadow: none !important;\n    }\n    \n    .BrowseSubjects .BrowseSubjects-count {\n        border-radius: 5px !important;\n        border-color: rgba(204, 204, 204,0.3) !important;\n    }\n        \n    [disabled].secondary,\n    .secondary-background {\n        background-color: rgba(245, 150, 60, 0.2) !important;\n    }\n\n    .nav-container {\n        border-color: var(--accent-color) !important;\n    }\n    \n    footer a, footer li {\n      color: var(--link-color) !important;\n    }\n}\n",
+    "usercssData": {
+      "name": "Overdrive Dark Theme",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/OverdriveDarkTheme.user.css",
+      "version": "20220728",
+      "license": "GPL",
+      "preprocessor": "default"
+    },
+    "name": "Overdrive Dark Theme",
+    "originalDigest": "6a65770f0b90791fbcad507c6db131df78367c21",
+    "_id": "6aa574fd-bc9c-4e32-9d75-8ef69fe773c7",
+    "_rev": 1697204888086,
+    "id": 39,
+    "etag": "W/\"63906b526b3b81952d0e2dd31623d01cb4050749a71a11670e5955d990508a15\"",
+    "updateDate": 1659107643804
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css",
+    "installDate": 1653447201034,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Amazon Dark\n@namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to Amazon's style to enable a dark mode`\n@version        20221222\n@license        GPL\n==/UserStyle== */\n\n@-moz-document domain(\"amazon.com\")\n{\n    /* Customize element's background */\n    .a-color-base-background,\n    .a-button.a-button-dropdown,\n    .av-retail-m-nav-dropdown,\n    .dvui-callout,\n    #hmenu-canvas,\n    .gw-card-layout .a-cardui,\n    .a-expander-content-fade,\n    .a-color-alternate-background,\n    .a-box.a-color-alternate-background, .a-box.a-color-offset-background,\n    .a-button-group .a-button,\n    .a-button-group .a-button .a-button-inner,\n    .a-divider.a-divider-section .a-divider-inner::after,\n    .a-popover,\n    .a-popover-wrapper::after,\n    .ChatRoller__chatRoller___SwO92,\n    .nav-flyout, .nav-flyout-sidePanel,\n    .sc-background-dark,\n    select,\n    table.a-bordered tr:first-child th,\n    #checkout-page-container .turbo-checkout-push-to-bottom,\n    #checkout-page-container .turbo-checkout-panel-link:hover,\n    /* Devices hover */\n    #mars-fs-flyouts,\n    /* All formates slideout */\n    #morpheus-sidesheet,\n    #seller-profile-container.spp-redesigned.spp-desktop .page-box-container,\n    ._morpheus-popularity-rank-sidesheet-card_ss_tab-row__1Uxai,\n    .search-preview-results,\n    .drop-down-content,\n    .Dropdown-module_dropdown_container__2YGLm,\n    .NavigationBar-module__dropdown_content_3-4_ZaDohT-sNEqnDVyc5U,\n    #all-offers-display .aod-sticky-pinned-offer,\n    #aod-container,\n    #aod-filter-list,\n    /* drop down list on company pages */\n    [class*=\"style__navList\"]\n    {\n        background-color: var(--theme-color) !important;    \n        background-image: none !important;\n    }\n          \n    #all-offers-display .aod-sticky-pinned-offer\n    {\n      border-bottom: solid var(--text-color) 1px;\n    }\n\n    #suggestToClubButtonSection .a-button-text,\n    #wishlistButtonStack .a-button-text\n    {\n        color: var(--text-color) !important;  \n    }\n\n    /* Customize text color */\n    .a-color-base, \n    select, \n    .displayAddressDiv .displayAddressUL li {\n        color: var(--text-color) !important;   \n    }\n\n    .a-color-secondary {\n        color: #999 !important;   \n    }\n\n    /* Customize border color */\n    ul.a-tabs,\n    .av-retail-m-nav-dropdown,\n    .a-dropdown-common .a-dropdown-item:hover .a-dropdown-link {\n        border-color: var(--text-disabled) !important;   \n    }\n\n    /* Customize darker border color */\n    .s-card-border, .a-popover.a-arrow-bottom .a-arrow {\n        border-color: #222 !important;   \n    }\n    \n    /* search bar customization */\n    #navbar.nav-flex #nav-belt #nav-search .nav-searchbar .nav-search-field,\n    .dvui-callout,\n    .search-preview-results,\n    #aod-container {\n        border: solid 1px var(--text-color) !important\n    }\n    \n    #navbar.nav-bluebeacon #nav-search .nav-search-submit {\n        background-color: var(--link-color) !important;    \n        border: solid 1px var(--text-color) !important\n    }\n    \n    table.a-bordered tr:first-child th,\n    .a-dropdown-common .a-dropdown-item:hover .a-dropdown-link,\n    /* amazon video season dropdown*/\n    .dv-node-dp-seasons ul\n    {\n        background-color: #222 !important;    \n    }\n\n    /* menu background  */\n    #hmenu-canvas-background,\n    ._morpheus-popularity-rank-sidesheet-card_ingress_overlay__T88OB\n    {\n        background-color: rgba(0,0,0,.8) !important;\n    }\n    \n    .a-expander-partial-collapse-header {\n        background-color: rgba(51,51,51,.95) !important;\n    }\n    \n    /* invert icon colors */\n    .a-icon, \n    .rpi-icon,\n    #morpheus-sidesheet-close, \n    #aod-close {\n        filter: invert(1) !important;\n    }\n    \n    /* filtered images with white backgrounds */\n    img.nav-categ-image,\n    img.wfv-read-and-listen-icon {\n        filter: invert(0.8) !important;\n    }\n\n    #morpheus-sidesheet-close {\n        filter:none !important;\n    }\n    \n    /* Customize the selected page button */\n    .s-pagination-selected {\n        background-color: #2f2f2f !important;\n        border: none !important;\n        border-top: solid var(--text-color)  1px !important;\n        border-bottom: solid var(--text-color)  1px !important;\n        color: var(--accent-color) !important;\n    }\n    \n    #checkout-page-container .turbo-checkout-panel-link:hover\n    {\n        background-color: #2f2f2f !important;\n    }\n    \n    .a-color-secondary, .a-color-tertiary {\n        color: #999 !important;\n    }\n\n    .DVPAWebWidgetsUI_Button__retail *, .returnItemButton.a-button .a-button-text *, .a-button-text, .nav-action-inner, .ewc-button-text, .sc-without-multicart, button.legal-button .aiv-submit *, .a-button-primary *, .action_button * {\n      color: #111 !important;\n    }\n        \n    /* various buttons */\n    .author-follow-button, #GLUXZipUpdate\n    {\n      background-color: rgb(255, 255, 255)!important;\n    }\n  \n    .a-button-primary, .a-button-oneclick, #sc-buy-box-ptc-button .a-section    .a-button-primary, .a-button-oneclick, #sc-buy-box-ptc-button .a-section, .a-button-preorder \n    {\n      background-color: rgb(255, 216, 20)!important;\n    }\n  \n    .search-box-container,     \n    .search-container,\n    .NavigationBar-module__dropdown_content_3-4_ZaDohT-sNEqnDVyc5U {\n        border: solid #222 1px !important;\n    }\n\n    .action_button {\n      background: rgb(255, 216, 20)!important;    \n    }\n  \n    .a-divider.a-divider-break::after {\n      border-top-color: #444 !important;\n    }\n    /* style delivered orders (requires some JS to run to add the delivered class to the order) */\n    .order.delivered\n    {\n        opacity: 0.25;\n    }\n\n    .order.delivered:hover\n    {\n        opacity: 1;\n    }\n\n    .webPlayerContainer, \n    .aod-darken-background\n    {\n        background-color: rgba(0, 0, 0, 1) !important;\n    }\n    \n    /* web player progress bar */\n    .f15vbt64 \n    {\n        background-color: rgb(221, 221, 221) !important\n    }\n}\n",
+    "usercssData": {
+      "name": "Amazon Dark",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to Amazon's style to enable a dark mode",
+      "version": "20221222",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to Amazon's style to enable a dark mode",
+    "name": "Amazon Dark",
+    "originalDigest": "62e1d723ff90020ca25bacd77fa83936a5974329",
+    "_id": "f233b6b9-09e0-4ee4-8923-f2bcb1350c11",
+    "_rev": 1697204888087,
+    "id": 40,
+    "etag": "W/\"0eb08bbf225168c20f586275f4e94d081878667721bb3810e6a0536da684b627\"",
+    "updateDate": 1671743854055
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/RingDark.user.css",
+    "installDate": 1654267876497,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Ring Dark\n@namespace      https://github.com/Brandan/UserStyles/raw/main/RingDark.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to Ring's style to enable a dark mode`\n@version        20231003\n@license        GPL\n==/UserStyle== */\n\n@-moz-document domain(\"ring.com\")\n{\n  img[src*=\"cloudfront.net/icons/\"]\n  {\n    filter:invert(1) !important;\n  }\n\n  .eMjRjo,\n  .geNAPp,\n  .jIkExR,\n  .jFiLcK,\n  .yXiAQ,\n  [role='alertdialog'],\n  [data-sticky='true'],\n  [class*='styled__TooltipBox'],\n  [class*='styled__List'],\n  [class*='styled__BackButton'],\n  [class*='styled__FullScreenContainer'],\n  [class*='styled__Container']\n  {\n    background-color: var(--theme-color) !important;\n  }\n    \n  .NVQIG\n  {\n    background-color: rgba(21, 21, 31, 0.97) !important\n  }\n\n  [class*='styled__Backdrop']\n  {\n    background-color: rgba(0,0,0,0.8) !important\n  }\n  \n  .busAsX\n  {\n    background-color: var(--accent-color) !important;\n  }\n  \n  .iIVGIZ, \n  .iAYRqk,\n  .jIkExR,\n  .kNPZlK,\n  button\n  {\n    border: solid var(--text-color) 1px !important;\n  }\n  \n  button[class*='styled__DeviceSettingsButton']\n  {\n    border: none !important;\n  }\n  \n  [disabled]\n  {\n    opacity: 0.5;\n  }\n  \n  [class*='styled__LocationName']\n  {\n    overflow: unset !important;\n  }\n  \n  [class*='styled__Shortcuts'],   \n  [class*='styled__TilesAnchor'],\n  [class*='consent-banner']\n  {\n    display: none;\n  }\n\n  /* Selected Mode */\n  .eBVDyM\n  {\n    background: var(--negativeBase) !important;\n  }\n  \n  .modal-backdrop, .action-banner-backdrop {\n    background-color: rgba(0, 0, 0, 0.65) !important;\n  }\n  \n  .modal-container {\n    background-color: var(--theme-color) !important;\n  }\n}\n",
+    "usercssData": {
+      "name": "Ring Dark",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/RingDark.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to Ring's style to enable a dark mode",
+      "version": "20231003",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to Ring's style to enable a dark mode",
+    "name": "Ring Dark",
+    "originalDigest": "a4f66d6282b12d6259efab7185bb6fce20b6a18c",
+    "_id": "64c405b9-2487-434d-bd83-2c11da71752c",
+    "_rev": 1697224172788,
+    "id": 41,
+    "etag": "W/\"5a0065a2648bc7d8d66c39e1f66558d9cb840dc46414403de87067c5d43da90b\"",
+    "updateDate": 1697224168046
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/AudibleDark.user.css",
+    "installDate": 1660336518801,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Audible Dark\n@namespace      https://github.com/Brandan/UserStyles/raw/main/AudibleDark.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to Audible's style to enable a dark mode`\n@version        20220812.3\n@license        GPL\n==/UserStyle== */\n\n@-moz-document domain(\"audible.com\")\n{\n    ::placeholder {\n        color: var(--placeholder-color) !important;    \n    }\n    \n    .bc-input,\n    select, \n    option {\n        background-color: var(--theme-color) !important;        \n    }\n    \n    .bc-color-base, \n    .bc-dropdown-color\n    {\n        color: var(--text-color) !important;    \n    }\n\n    .bc-input-box-color,\n    .bc-color-border-base,\n    .bc-chip.bc-chip-outline .bc-chip-border\n    {\n        border-color: var(--text-color) !important;    \n    }\n\n    .bc-color-error\n    {\n        color: #e00 !important;    \n    }\n\n    /* progress bar fill  */\n    .bc-color-background-progress {\n        background-color: var(--accent-color) !important;\n    }\n    \n    /* button colors */\n    \n    .bc-button-active {\n          background-color: var(--accent-color) !important;    \n    }\n\n    .bc-button-primary, .bc-button-primary a * {\n      background-color: var(--link-color) !important;\n      color: var(--text-color) !important;\n    }\n    \n    .bc-button-secondary {\n        background-color: var(--accent-color) !important;\n    }\n    \n    .bc-button-preorder {\n        background-color: purple !important;\n    }\n    \n    /* icon partial invert */\n    .bc-popover-beak {\n        filter:invert(0.8) !important;\n    }\n\n    /* icon inverts */\n    .library-button-row-icon {\n        filter:invert(1) !important;\n    }\n    \n    /* Ratings */\n    .bc-icon-fill-progress, \n    .bc-icon-fill-base {\n        background-color: var(--accent-color) !important;\n    }\n    \n    /* icons reset */\n    .bc-icon.bc-icon-cart,\n    .bc-icon.bc-icon-caret-down,\n    .bc-accordion .bc-accordion-icon-position-right .bc-icon,\n    .bc-icon.bc-icon-chevron-down,\n    .bc-icon.bc-icon-chevron-left,\n    .bc-icon.bc-icon-chevron-right,\n    .bc-icon.bc-icon-chevron-up,\n    .bc-icon.bc-icon-facebook-square,\n    .bc-icon.bc-icon-gift,\n    .bc-icon.bc-icon-move-to-bottom,\n    .bc-icon.bc-icon-twitter {\n        background-color: transparent !important;\n    }\n\n    /* Added styling for the popover container */\n    .bc-popover-inner\n    {\n        border-color: var(--text-color) !important;\n        box-shadow: 0 2px 5px 0 var(--accent-color) !important;\n    }\n    \n    .slick-arrow .arrows\n    {\n        background-color: #e3e3e3 !important\n    }\n}\n",
+    "usercssData": {
+      "name": "Audible Dark",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/AudibleDark.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to Audible's style to enable a dark mode",
+      "version": "20220812.3",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to Audible's style to enable a dark mode",
+    "name": "Audible Dark",
+    "originalDigest": "b6b0a55277db8e4ea3f56ae5dfa78682e0a1a82e",
+    "_id": "8474ece0-8bd9-4e91-b1ca-2e6a3b131572",
+    "_rev": 1697204888087,
+    "id": 42,
+    "etag": "W/\"6c6e4bcad008cc1fe8fe3f02c573f7d28d274b1bcd496ae1d14a8b8dda177a8f\"",
+    "updateDate": 1660426111553
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/WikipediaDark.user.css",
+    "installDate": 1668434519684,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Wikipedia Dark\n@namespace      https://github.com/Brandan/UserStyles/raw/main/WikipediaDark.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to Wikipedia's style to enable a dark mode`\n@version        20221222\n@license        GPL\n==/UserStyle== */\n\n@-moz-document domain(\"wikipedia.org\")\n{\n  #mw-head \n  {\n    background-color: var(--theme-color) !important;\n    border-bottom: solid var(--text-color) 1px !important;\n  }\n  \n  #mw-page-base, .vector-menu-tabs-legacy li \n  {\n    background-image: none !important;\n  }\n  \n  .mwe-popups \n  {\n    background-color: var(--theme-color) !important;    \n    border: solid var(--text-color) 1px !important;\n    box-shadow: 0 30px 90px -20px rgba(255,255,255,0.3),0 0 1px 1px rgba(255,255,255,0.05);\n  }\n  \n  .mwe-popups .mwe-popups-extract[dir=\"ltr\"]::after \n  {\n    right: 0;\n    background-image: linear-gradient(to right,rgba(0,0,0,0),var(--theme-color) 50%);\n  }\n}\n",
+    "usercssData": {
+      "name": "Wikipedia Dark",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/WikipediaDark.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to Wikipedia's style to enable a dark mode",
+      "version": "20221222",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to Wikipedia's style to enable a dark mode",
+    "name": "Wikipedia Dark",
+    "originalDigest": "616f3740d9af8c17892fb11e32f70406a2cd92a0",
+    "_id": "d97f1961-0c7a-48ee-936c-7252153eea9d",
+    "_rev": 1697204888088,
+    "id": 43,
+    "etag": "W/\"7c0ed3d5676a682b5360203b95432a3dbfe3b556e15df59df096bbe4a60e5e96\"",
+    "updateDate": 1671741011126
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/BlueFolderAdminDark.user.css",
+    "installDate": 1696199995792,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           BlueFolder Admin Dark\n@namespace      https://github.com/Brandan/UserStyles/raw/main/BlueFolderAdminDark.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to BlueFolder Admin's style to enable a dark mode`\n@version        20230928\n@license        GPL\n==/UserStyle== */\n\n@-moz-document domain(\"admin.bluefolder.com\") {\n  \n    .bg-light {\n      background-color: var(--theme-color) !important;\n    }\n  \n    .text-dark {\n      color: var(--text-color) !important;\n    }\n      \n    .modal {\n      background-color: transparent !important;\n    }\n\n    .modal-content {\n      border: 1px solid var(--text-color) !important;\n    }\n  \n    .modal-backdrop.show {\n      opacity: 0.8 !important;\n      background-color: #000 !important;\n    }\n}\n",
+    "usercssData": {
+      "name": "BlueFolder Admin Dark",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/BlueFolderAdminDark.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to BlueFolder Admin's style to enable a dark mode",
+      "version": "20230928",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to BlueFolder Admin's style to enable a dark mode",
+    "name": "BlueFolder Admin Dark",
+    "originalDigest": "5de2062cd96f3755b9d69f7fe1895751145cd17f",
+    "_id": "17560c5f-5e2e-41f3-b1c8-1b199176e607",
+    "_rev": 1697204888088,
+    "id": 44,
+    "etag": "W/\"dd4230b70e1e10191365cebde0447062e3f27e8cd145064c16e1091cb0300d26\""
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/DeveloperApple.user.css",
+    "installDate": 1697224221267,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Developer Apple\n@namespace      https://github.com/Brandan/UserStyles/raw/main/DeveloperApple.user.css\n@author         Brandan E. Lloyd\n@description    `Modifications to Apples developer style to fix bugs`\n@version        20231005\n@license        GPL\n==/UserStyle== */\n\n@-moz-document domain(\"developer.apple.com\") {\n  a:visited, a:visited:hover {\n    color:#443366 !important;\n  }\n}\n",
+    "usercssData": {
+      "name": "Developer Apple",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/DeveloperApple.user.css",
+      "author": "Brandan E. Lloyd",
+      "description": "Modifications to Apples developer style to fix bugs",
+      "version": "20231005",
+      "license": "GPL"
+    },
+    "author": "Brandan E. Lloyd",
+    "description": "Modifications to Apples developer style to fix bugs",
+    "name": "Developer Apple",
+    "originalDigest": "7f37c3e030dddfdf97e0643a48d883cf27c51ea4",
+    "_id": "15c2f464-cbc3-4c79-a49c-a5a156b1dc46",
+    "_rev": 1697224221268,
+    "id": 45,
+    "etag": "W/\"96acf24c3119b2c76f250e4189ba9a0847fa99b2f02bfa5a66491ade43f46221\""
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css",
+    "installDate": 1697224253345,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name         Brandan's Dark Theme\n@namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css\n@version      20230928\n@license      GPL\n@preprocessor default\n==/UserStyle== */\n\n@-moz-document domain(\"abnormalreturns.com\"),\n                domain(\"admin.bluefolder.com\"),\n                domain(\"aljazeera.com\"),\n                domain(\"artofmanliness.com\"),\n                domain(\"amazon.com\"),\n                domain(\"audible.com\"),\n                domain(\"axios.com\"),\n                domain(\"behavioralvalueinvestor.com\"),\n                domain(\"bloomberg.com\"),\n                domain(\"contacts.google.com\"),\n                domain(\"crossingwallstreet.com\"),\n                domain(\"econofact.org\"),\n                domain(\"fortune.com\"),\n                domain(\"fastcompany.com\"),\n                domain(\"feedly.com\"),\n                domain(\"fivethirtyeight.com\"),\n                domain(\"fullsteampay.net\"),\n                domain(\"hechingerreport.org\"),\n                domain(\"investmentnews.com\"),\n                domain(\"mail.google.com\"),\n                domain(\"housingwire.com\"),\n                domain(\"humbledollar.com\"),\n                domain(\"letsrun.com\"),\n                domain(\"macworld.com\"),\n                domain(\"medium.com\"),\n                domain(\"morningstar.com\"),\n                domain(\"moretothat.com\"),\n                domain(\"nationalgeographic.com\"),\n                domain(\"nationalreview.com\"),\n                domain(\"newretirement.com\"),\n                domain(\"nytimes.com\"),\n                domain(\"om.co\"),\n                domain(\"overdrive.com\"),\n                domain(\"patents.google.com\"),\n                domain(\"politico.com\"),\n                domain(\"professionalbooknerds.com\"),\n                domain(\"protocol.com\"),\n                domain(\"ring.com\"),\n                domain(\"science.org\"),\n                domain(\"sciencenews.org\"),\n                domain(\"simplecast.com\"),\n                domain(\"substack.com\"),\n                domain(\"theatlantic.com\"),\n                domain(\"thehustle.co\"),\n                domain(\"theirrelevantinvestor.com\"),\n                domain(\"theverge.com\"),\n                domain(\"thewaiterspad.com\"),\n                domain(\"thomaskopelman.com\"),\n                domain(\"tor.com\"),\n                domain(\"vox.com\"),\n                domain(\"vulture.com\"),\n                domain(\"washingtonpost.com\"),\n                domain(\"wikipedia.org\"),\n                domain(\"wired.com\"),\n                domain(\"wsj.com\"),\n                domain(\"yahoo.com\") {\n    \n    :root {\n        --theme-color: #333;\n        --text-color: #ccc;\n        --text-disabled: rgba(245, 158, 60, 0.3);\n        --text-placeholder: rgba(51, 151, 250, 0.5);\n        --link-color: rgb(245, 158, 60);\n        --accent-color: rgba(51, 151, 250);\n        --accent-blur-color: rgba(var(--accent-color), 0.2)\n    }\n\n    html,\n    body,\n    div,\n    object,\n    iframe,\n    h1,\n    h2,\n    h3,\n    h4,\n    h5,\n    h6,\n    input,\n    p,\n    blockquote,\n    button,\n    button *,\n    pre,\n    abbr,\n    address,\n    cite,\n    code,\n    del,\n    dfn,\n    em,\n    img,\n    ins,\n    kbd,\n    main,\n    q,\n    samp,\n    small,\n    span,\n    strong,\n    sub,\n    sup,\n    var,\n    b,\n    i,\n    dl,\n    dt,\n    dd,\n    ol,\n    ul,\n    li,\n    fieldset,\n    form,\n    label,\n    legend,\n    table,\n    caption,\n    tbody,\n    tfoot,\n    thead,\n    td,\n    th, \n    tr,\n    article,\n    aside,\n    canvas,\n    details,\n    figcaption,\n    figure,\n    footer,\n    header,\n    hgroup,\n    menu,\n    nav,\n    option, \n    optgroup,\n    section,\n    select, \n    svg,\n    svg path,\n    summary,\n    time,\n    mark,\n    audio,\n    video\n     {\n        background-color: transparent !important;\n        color: var(--text-color) !important;\n        box-shadow: none !important;\n    }\n\n    body, header, footer, nav, menu, .main-menu, .topbar, .dropdown-menu, .Popover, .tooltip, .navbarmain *, .navbar, .sub-menu, .submenu .footer, [role=\"alert\"], [role=\"banner\"], [role=\"dialog\"], [role=\"listbox\"], [role=\"navigation\"], [role=\"menu\"], [role=\"toolbar\"], [role=\"tooltip\"], [class^=\"ExpandedNav\"], .c-tab-bar\n    {\n        background-color: var(--theme-color) !important;    \n        background-image: none !important;\n    }\n\n    svg,\n    svg path {\n        fill: var(--accent-color) !important;\n    }\n\n    a,\n    [role=\"button\"],\n    [role=\"button\"] *:after,\n    [role=\"button\"] *:before {\n\n        background-color: transparent !important;\n    }\n\n    a *,\n    a:visited,\n    a:link,\n    a:hover,\n    a svg,\n    a svg path,\n    [role=\"button\"],\n    [role=\"button\"] *:after,\n    [role=\"button\"] *:before {\n        color: var(--link-color) !important;\n        fill: var(--link-color) !important;\n    }\n\n    svg path[fill=\"none\"] {\n        fill: none !important;\n    }\n\n    button:hover, [role=\"button\"]:hover {\n        background-color: rgba(255, 255, 255, 0.15) !important;   \n    }\n\n    .paywall, .gdpr-cookie, .wt-cli-cookie-bar-container, .convertkit, .formkit-overlay, .formkit-modal, .floating-share-buttons, .wp-gdpr-cookie-notice {\n        display: none !important;\n    }\n\n    html, body {\n        margin: 0;\n        padding: 0;\n        border: 0;\n        outline: 0;\n        height: auto !important;\n        overflow: auto !important;\n    }\n\n    ::placeholder {\n        color: var(--text-placeholder) !important;\n    }\n}\n",
+    "usercssData": {
+      "name": "Brandan's Dark Theme",
+      "namespace": "https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css",
+      "version": "20230928",
+      "license": "GPL",
+      "preprocessor": "default"
+    },
+    "name": "Brandan's Dark Theme",
+    "originalDigest": "73a8da6fc543eba8479d38c9c490a028e0446506",
+    "_id": "4c3bdfe0-945d-4bc0-9201-c4f50976e990",
+    "_rev": 1697224253345,
+    "id": 46,
+    "etag": "W/\"127235097a4c6aaf3b007c7c36a9930b79cae061687d190d33f365a4ffedcf92\""
+  }
+]
