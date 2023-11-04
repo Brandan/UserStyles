@@ -103,7 +103,7 @@
     "name": "www.amazon.com – Library Extension",
     "sections": [
       {
-        "code": ".libraryExtension {\n    position: absolute;\n    z-index: 198;\n    width: 20em !important;\n    top: 105px !important;\n  background-color: var(--theme-color)!important;\n}\n\n#aud_right_col .libraryExtension {\n    top: -130px !important;\n}\n\n.libraryExtension .mbcContainer, \n/* don't show on video pages  */\n.av-dp-container .libraryExtension {\n    display: none !important;\n}\n\n#buybox .a-expander-content,\n.libraryExtension:hover .mbcContainer,\n.libraryExtension:focus .mbcContainer,\n.libraryExtension:active .mbcContainer {\n    display: block !important;\n}",
+        "code": ".libraryExtension {\n    position: absolute;\n    z-index: 198;\n    width: 20em !important;\n    top: 105px !important;\n  background-color: var(--theme-color)!important;\n}\n\n#aud_right_col .libraryExtension {\n    top: -130px !important;\n}\n\n.libraryExtension .mbcContainer, \n/* don't show on video pages  */\n.av-dp-container .libraryExtension {\n    display: none !important;\n}\n\n#buybox .a-expander-content,\n.libraryExtension:hover .mbcContainer,\n.libraryExtension:focus .mbcContainer,\n.libraryExtension:active .mbcContainer {\n    display: block !important;\n}\n.libraryExtension #libraryUserMessage {\n    display: none !important;\n}",
         "domains": [
           "www.amazon.com"
         ]
