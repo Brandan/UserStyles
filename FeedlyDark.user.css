@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/FeedlyDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Feedly's style to enable a dark mode`
-@version        20231224.1
+@version        20231224.2
 @license        GPL
 ==/UserStyle== */
 
@@ -83,7 +83,8 @@
   a[href*='twitter.com/'], a[href*='twitter.com/'] *,
   a[href*='wsj.com/'], a[href*='wsj.com/'] *,
   /* also dim abnormal returns self-referential-links */
-  div[data-alternate-link*='abnormalreturns.com/'] ul a[href*='abnormalreturns.com/']
+  div[data-alternate-link*='abnormalreturns.com/'] ul a[href*='abnormalreturns.com/'],
+  .entryBody a[href*='abnormalreturns.com/']
   {
     opacity: 0.2 !important;
   }
@@ -93,7 +94,8 @@
   a[href*='twitter.com/']:hover, a[href*='twitter.com/']:hover *,
   a[href*='wsj.com/']:hover, a[href*='wsj.com/']:hover *,
   /* also undim abnormal returns self-referential-links */
-  div[data-alternate-link*='abnormalreturns.com/'] ul a[href*='abnormalreturns.com/']:hover
+  div[data-alternate-link*='abnormalreturns.com/'] ul a[href*='abnormalreturns.com/']:hover,
+  .entryBody a[href*='abnormalreturns.com/']:hover
   {
     opacity: 1 !important;
   }
