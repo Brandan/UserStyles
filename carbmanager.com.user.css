@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/carbmanager.com.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Carb Manager's style to enable a dark mode`
-@version        20230822
+@version        20240214
 @license        GPL
 ==/UserStyle== */
 
@@ -23,7 +23,11 @@
         --cm-color-gray75: #ddd;
         --cm-color-gray50: #eee;
     }
-  
+
+    .chart-card {
+        --cm-color-white: #666;
+    }
+
     .flat-card {
       --flat-card-bg:#414141 !important;
       --flat-card-border-hover: var(--text-link) !important;
