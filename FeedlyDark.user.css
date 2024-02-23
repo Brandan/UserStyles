@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/FeedlyDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Feedly's style to enable a dark mode`
-@version        20231224.2
+@version        20240223
 @license        GPL
 ==/UserStyle== */
 
@@ -13,7 +13,9 @@
     display: none !important;
   }
 
-  .floatingEntryContent, .theme--dark #feedlyPageHolderFX, #headerBarFX {
+  .floatingEntryContent, 
+  .theme--dark #feedlyPageHolderFX, 
+  #headerBarFX {
       background-color: var(--theme-color) !important;
   }
 
@@ -21,17 +23,30 @@
       background-color: rgba(0,0,0,.7) !important;
   }
 
-  .theme--dark .floatingEntryContent__tab--current
+  .SliderCloseTab button:hover
+  {
+      background-color: var(--theme-color) !important;
+  }
+  
+  .SliderCloseTab button
   {
       background-color: var(--theme-color) !important;
       background-image: none;
       border-radius: 30px 0 0 30px;
       border-top: solid #2a2a2a 1px;        
       border-left: solid #2a2a2a 1px;        
-      border-bottom: solid #2a2a2a 1px;        
+      border-bottom: solid #2a2a2a 1px;
   }
 
-  .theme--dark .Popover {
+  .Slider__content .floatingEntryScroller
+  {
+      background-color: var(--theme-color) !important;
+      background-image: none;
+      border-left: solid #2a2a2a 1px;        
+      border-bottom: solid #2a2a2a 1px;
+  }
+
+  .theme--dark .Popover, .Slider__page-overlay {
       box-shadow: 5px 5px 10px rgba(51, 151, 250, 0.1),0 0 0px rgba(51, 151, 250, 0.1) !important;
   }
 
@@ -39,7 +54,9 @@
       opacity: 0.6;
   }
 
-  .entry--focused .MagazineEntry, .entry--selected .MagazineEntry, .modal {
+  .entry--focused .MagazineEntry, 
+  .entry--selected .MagazineEntry, 
+  .modal {
       border: solid var(--accent-color) 1px !important;
       background-color: #444 !important;
   }
@@ -136,14 +153,14 @@
     filter: none !important;  
   }
   
-  .SliderCloseTab svg path:nth-child(1)
+  .SliderCloseTab svg g path
   {
-    fill: #333 !important;
+    fill: #666!important;
   }
-  
-  .SliderCloseTab svg path:nth-child(2)
+
+  .SliderCloseTab button:hover svg path
   {
-    fill: #000 !important;
+    fill: var(--accent-color) !important;
   }
   
   /* Upgrade button */
