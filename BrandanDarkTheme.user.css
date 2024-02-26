@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      20231105
+@version      20240225
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -23,6 +23,7 @@
                 domain("feedly.com"),
                 domain("fivethirtyeight.com"),
                 domain("fullsteampay.net"),
+                domain("glassdoor.com"),
                 domain("hechingerreport.org"),
                 domain("investmentnews.com"),
                 domain("mail.google.com"),
@@ -44,6 +45,7 @@
                 domain("professionalbooknerds.com"),
                 domain("protocol.com"),
                 domain("ring.com"),
+                domain("salary.com"),
                 domain("science.org"),
                 domain("sciencenews.org"),
                 domain("sherwoodmedia.com"),
