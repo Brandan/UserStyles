@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      20240225
+@version      20240308
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -31,6 +31,7 @@
                 domain("humbledollar.com"),
                 domain("letsrun.com"),
                 domain("macworld.com"),
+                domain("marginalrevolution.com"),
                 domain("medium.com"),
                 domain("morningstar.com"),
                 domain("moretothat.com"),
