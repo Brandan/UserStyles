@@ -3,8 +3,10 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to ZenDesk styls to enable a dark mode`
-@version        20220729.3
+@version        20240315
 @license        GPL
+@include        https://*zendesk.com*
+@include        https://*zdusercontent.com*
 ==/UserStyle== */
 
 @-moz-document 
@@ -250,10 +252,19 @@
         color: var(--text-color) !important;
     }
 
+    /* rich-text editor */
+    .zendesk-editor--rich-text-container
+    {
+        background-image: none !important;
+    }
+
     /* internal comments */
     .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container,
     .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container *,
     .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container p,
+    .hxDCzu,
+    .hxDCzu [aria-label*="Internal note"] p,
+    .hxDCzu [aria-label*="Internal note"] div,
     .event:not(.is-public) .comment,
     .event:not(.is-public) .zd-comment,
     .event:not(.is-public) .comment li,
@@ -306,7 +317,7 @@
     .fOdaZx button,
     [data-test-id="talk-ticket-composer-outbound-call-menu"]
     { 
-      border: none;
+        border: none;
     }
 
     /* All dialogs */
@@ -318,12 +329,12 @@
         border-radius: 5px;
         border: solid var(--text-color) 1px;
     }
-    
+
     /* set bulk action z-index so it doesn't fall behind the left sidebar when it is scrolling */
     [data-test-id="bulk-actions"] {
-      z-index: 10;
+        z-index: 10;
     }
-    
+
     /* Bulk action buttons */
     [data-test-id="bulk-actions"] [data-garden-id="buttons.button_group_view"],
     /* Link tooltip editing container */
@@ -359,9 +370,9 @@
 
     [data-garden-id="tabs.tabs"] [aria-selected="true"]
     {
-      border-bottom: solid var(--accent-color) 2px !important;
+        border-bottom: solid var(--accent-color) 2px !important;
     }
-    
+
     a[role="treeitem"]:hover span {
         filter: brightness(250%);
     }
