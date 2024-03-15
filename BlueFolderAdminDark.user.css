@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/BlueFolderAdminDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to BlueFolder Admin's style to enable a dark mode`
-@version        20230928
+@version        20240315
 @license        GPL
 ==/UserStyle== */
 
@@ -23,6 +23,7 @@
 
     .modal-content {
       border: 1px solid var(--text-color) !important;
+      background-color: var(--theme-color) !important;
     }
   
     .modal-backdrop.show {
