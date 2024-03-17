@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ZendDeskDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to ZenDesk styls to enable a dark mode`
-@version        20240315
+@version        20240317
 @license        GPL
 @include        https://*zendesk.com*
 @include        https://*zdusercontent.com*
@@ -263,8 +263,8 @@
     .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container *,
     .rich_text .comment_input:not(.is-public) .zendesk-editor--rich-text-container p,
     .hxDCzu,
-    .hxDCzu [aria-label*="Internal note"] p,
-    .hxDCzu [aria-label*="Internal note"] div,
+    [aria-label*="Internal note"] p,
+    [aria-label*="Internal note"] div,
     .event:not(.is-public) .comment,
     .event:not(.is-public) .zd-comment,
     .event:not(.is-public) .comment li,
