@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20240321
+@version        20240321.1
 @license        GPL
 ==/UserStyle== */
 
@@ -106,7 +106,27 @@
         background-color: #222 !important;    
     }
 
-    /* video progress bar */
+    #tab-content-episodes li .fbl-btn
+    {
+      border: solid var(--accent-color) 1px !important;
+    }
+
+    #tab-content-episodes li:hover >div
+    {
+      background-color: var(--theme-color) !important;
+      border: solid var(--accent-color) 1px !important;
+    }
+
+    .fable-portal-container label
+    {
+      box-shadow: 0 4px 8px 3px rgba(0,0,0,1),0 1px 3px rgba(0,0,0,1);
+      background-color: var(--theme-color) !important;    
+      border: solid var(--text-color) 1px !important;
+      opacity: 0.75 !important;
+    }
+          
+
+  /* video progress bar */
     .fbl-progress-bar [data-testid="progress-bar"]
     {
       background-color: #fff !important;
@@ -184,6 +204,10 @@
     .search-container,
     .NavigationBar-module__dropdown_content_3-4_ZaDohT-sNEqnDVyc5U {
         border: solid #222 1px !important;
+    }
+
+    .fbl-icon-btn {
+      border: solid rgb(255, 216, 20) 1px !important;    
     }
 
     .action_button {
