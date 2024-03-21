@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20221222
+@version        20240321
 @license        GPL
 ==/UserStyle== */
 
@@ -104,6 +104,18 @@
     .dv-node-dp-seasons ul
     {
         background-color: #222 !important;    
+    }
+
+    /* video progress bar */
+    .fbl-progress-bar [data-testid="progress-bar"]
+    {
+      background-color: #fff !important;
+      opacity: 0.3 !important;
+    }
+
+    #tab-content-episodes li:hover .fbl-progress-bar [data-testid="progress-bar"]
+    {
+      opacity: 1.0 !important;
     }
 
     /* menu background  */
