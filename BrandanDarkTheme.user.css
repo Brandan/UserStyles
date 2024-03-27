@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      20240308
+@version      20240327
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -45,6 +45,7 @@
                 domain("politico.com"),
                 domain("professionalbooknerds.com"),
                 domain("protocol.com"),
+                domain("randsinrepose.com"),
                 domain("ring.com"),
                 domain("salary.com"),
                 domain("science.org"),
