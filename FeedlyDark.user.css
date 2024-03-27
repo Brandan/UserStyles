@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/FeedlyDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Feedly's style to enable a dark mode`
-@version        20240223.1
+@version        20240227
 @license        GPL
 ==/UserStyle== */
 
@@ -23,12 +23,14 @@
       background-color: rgba(0,0,0,.7) !important;
   }
 
-  .SliderCloseTab button:hover
+  .SliderCloseTab button:hover,
+  .SidePeekCloseTab button:hover
   {
       background-color: var(--theme-color) !important;
   }
   
-  .SliderCloseTab button
+  .SliderCloseTab button,
+  .SidePeekCloseTab button
   {
       background-color: var(--theme-color) !important;
       background-image: none;
@@ -38,7 +40,8 @@
       border-bottom: solid #2a2a2a 1px;
   }
 
-  .Slider__content .floatingEntryScroller
+  .Slider__content .floatingEntryScroller,
+  .SidePeek__content .floatingEntryScroller
   {
       background-color: var(--theme-color) !important;
       background-image: none;
@@ -148,20 +151,25 @@
     background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcgaWQ9InR3aXR0ZXIiCiAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIKICAgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIgogICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHZlcnNpb249IjEuMSIKICAgd2lkdGg9IjMwMCIKICAgaGVpZ2h0PSIzMDAiCiAgIHZpZXdCb3g9IjAgMCAzMDAgMzAwIgogICB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGRlZnMgaWQ9ImRlZnMiIC8+CjxwYXRoIGlkPSJiaXJkIgogICAgIGQ9Im0gMjUwLDg3Ljk3NCBjIC03LjM1OCwzLjI2NCAtMTUuMjY3LDUuNDY5IC0yMy41NjYsNi40NjEgOC40NzEsLTUuMDc4IDE0Ljk3OCwtMTMuMTE5IDE4LjA0MSwtMjIuNzAxIC03LjkyOSw0LjcwMyAtMTYuNzEsOC4xMTcgLTI2LjA1Nyw5Ljk1NyAtNy40ODQsLTcuOTc1IC0xOC4xNDgsLTEyLjk1NyAtMjkuOTUsLTEyLjk1NyAtMjIuNjYsMCAtNDEuMDMzLDE4LjM3MSAtNDEuMDMzLDQxLjAzMSAwLDMuMjE2IDAuMzYzLDYuMzQ4IDEuMDYyLDkuMzUxIC0zNC4xMDIsLTEuNzExIC02NC4zMzYsLTE4LjA0NyAtODQuNTc0LC00Mi44NzIgLTMuNTMyLDYuMDYgLTUuNTU2LDEzLjEwOCAtNS41NTYsMjAuNjI4IDAsMTQuMjM2IDcuMjQ0LDI2Ljc5NSAxOC4yNTQsMzQuMTUzIC02LjcyNiwtMC4yMTMgLTEzLjA1MywtMi4wNTkgLTE4LjU4NSwtNS4xMzIgLTAuMDA0LDAuMTcxIC0wLjAwNCwwLjM0MyAtMC4wMDQsMC41MTYgMCwxOS44OCAxNC4xNDQsMzYuNDY0IDMyLjkxNSw0MC4yMzQgLTMuNDQzLDAuOTM4IC03LjA2OCwxLjQzOSAtMTAuODEsMS40MzkgLTIuNjQ0LDAgLTUuMjE0LC0wLjI1OCAtNy43MiwtMC43MzYgNS4yMjIsMTYuMzAxIDIwLjM3NSwyOC4xNjUgMzguMzMxLDI4LjQ5NSAtMTQuMDQzLDExLjAwNiAtMzEuNzM1LDE3LjU2NSAtNTAuOTYsMTcuNTY1IC0zLjMxMiwwIC02LjU3OCwtMC4xOTQgLTkuNzg4LC0wLjU3NCAxOC4xNTksMTEuNjQzIDM5LjcyNywxOC40MzcgNjIuODk5LDE4LjQzNyA3NS40NzMsMCAxMTYuNzQ2LC02Mi41MjQgMTE2Ljc0NiwtMTE2Ljc0NyAwLC0xLjc3OSAtMC4wNCwtMy41NDggLTAuMTE5LC01LjMwOSA4LjAxNywtNS43ODQgMTQuOTczLC0xMy4wMTEgMjAuNDc0LC0yMS4yMzkgeiIKICAgICBzdHlsZT0iZmlsbDojM2FhYWUxIiAvPgo8L3N2Zz4=");
   }
   
-  .Slider__page-overlay {
+  .SidePeek__page-overlay, 
+  .Slider__page-overlay 
+  {
     background-color: rgba(0,0,0,.7) !important;
   }
 
+  .SidePeekTabGraphic,
   .SliderTabGraphic
   {
     filter: none !important;  
   }
   
+  .SidePeekCloseTab svg g path,
   .SliderCloseTab svg g path
   {
     fill: #666!important;
   }
 
+  .SidePeekCloseTab button:hover svg path,
   .SliderCloseTab button:hover svg path
   {
     fill: var(--accent-color) !important;
