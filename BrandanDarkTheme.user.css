@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      20240327
+@version      20240327.1
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -66,7 +66,8 @@
                 domain("wikipedia.org"),
                 domain("wired.com"),
                 domain("wsj.com"),
-                domain("yahoo.com") {
+                domain("yahoo.com"),
+                domain("ycombinator.com") {
     
     :root {
         --theme-color: #333;
