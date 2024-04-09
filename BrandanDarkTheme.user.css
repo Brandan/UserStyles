@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      20240327.1
+@version      20240409
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -51,6 +51,7 @@
                 domain("science.org"),
                 domain("sciencenews.org"),
                 domain("sherwoodmedia.com"),
+                domain("sherwood.news"),
                 domain("simplecast.com"),
                 domain("substack.com"),
                 domain("theatlantic.com"),
