@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20240321.1
+@version        20240415
 @license        GPL
 ==/UserStyle== */
 
@@ -44,6 +44,9 @@
     #all-offers-display .aod-sticky-pinned-offer,
     #aod-container,
     #aod-filter-list,
+    /* kindle unlimited popup when attempting to borrow more
+        than the max number of books you can have at one time */
+    #stickyFooterExpanded,
     /* drop down list on company pages */
     [class*="style__navList"]
     {
@@ -111,7 +114,7 @@
       border: solid var(--accent-color) 1px !important;
     }
 
-    #tab-content-episodes li:hover >div
+    #tab-content-episodes li:hover >div,
     {
       background-color: var(--theme-color) !important;
       border: solid var(--accent-color) 1px !important;
