@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20240415.1
+@version        20240415.2
 @license        GPL
 ==/UserStyle== */
 
@@ -114,7 +114,7 @@
       border: solid var(--accent-color) 1px !important;
     }
 
-    #tab-content-episodes li:hover >div,
+    #tab-content-episodes li:hover >div
     {
       background-color: var(--theme-color) !important;
       border: solid var(--accent-color) 1px !important;
@@ -188,7 +188,10 @@
         color: #999 !important;
     }
 
-    .DVPAWebWidgetsUI_Button__retail *, .returnItemButton.a-button .a-button-text *, .a-button-text, .nav-action-inner, .ewc-button-text, .sc-without-multicart, button.legal-button .aiv-submit *, .a-button-primary *, .action_button * {
+    .DVPAWebWidgetsUI_Button__retail *, .returnItemButton.a-button .a-button-text *, 
+    .a-button-text, .nav-action-inner, .ewc-button-text, .sc-without-multicart, 
+    button.legal-button .aiv-submit *, 
+    .a-button-primary *, .action_button * {
       color: #111 !important;
     }
         
@@ -199,7 +202,6 @@
     }
 
     .a-button,
-    .a-button-primary, .a-button-oneclick, #sc-buy-box-ptc-button .a-section    
     .a-button-primary, .a-button-oneclick, #sc-buy-box-ptc-button .a-section, 
     .a-button-preorder 
     {
