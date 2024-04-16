@@ -46,7 +46,7 @@
     #aod-filter-list,
     /* kindle unlimited popup when attempting to borrow more
         than the max number of books you can have at one time */
-    #stickyFooterExpanded,
+    #stickyFooterExpanded, #returnAndBorrowExpanded,
     /* drop down list on company pages */
     [class*="style__navList"]
     {
@@ -129,7 +129,7 @@
     }
           
 
-  /* video progress bar */
+    /* video progress bar */
     .fbl-progress-bar [data-testid="progress-bar"]
     {
       background-color: #fff !important;
@@ -205,6 +205,7 @@
     .a-button-primary, .a-button-oneclick, #sc-buy-box-ptc-button .a-section, 
     .a-button-preorder 
     {
+      color: var(--theme-color)!important;
       background-color: rgb(255, 216, 20)!important;
     }
   
