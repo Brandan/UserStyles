@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         Brandan's Dark Theme
 @namespace    https://github.com/Brandan/UserStyles/raw/main/BrandanDarkTheme.user.css
-@version      20240409
+@version      20240524
 @license      GPL
 @preprocessor default
 ==/UserStyle== */
@@ -172,7 +172,13 @@
 
     svg,
     svg path {
+        color: var(--accent-color) !important;
         fill: var(--accent-color) !important;
+    }
+
+    svg g[fill="none"] path
+    {
+        fill: none !important;
     }
 
     a,
