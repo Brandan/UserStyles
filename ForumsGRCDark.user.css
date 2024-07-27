@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/ForumsGRCDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to GRC Forum's style to tweak dark mode`
-@version        20240205
+@version        20240727
 @license        GPL
 ==/UserStyle== */
 
@@ -11,5 +11,8 @@
   .p-body-inner >b,   .p-body-inner >strong
   {
     font-weight: 100 !important;  
+  }
+  a {
+    color:#f00 !important;
   }
 }
