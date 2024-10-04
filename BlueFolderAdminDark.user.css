@@ -8,26 +8,31 @@
 ==/UserStyle== */
 
 @-moz-document domain("admin.bluefolder.com") {
-  
-    .bg-light {
+  .bg-light {
       background-color: var(--theme-color) !important;
-    }
+  }
   
-    .text-dark {
+  .text-dark {
       color: var(--text-color) !important;
-    }
-      
-    .modal {
-      background-color: transparent !important;
-    }
-
-    .modal-content {
-      border: 1px solid var(--text-color) !important;
-      background-color: var(--theme-color) !important;
-    }
+  }
   
-    .modal-backdrop.show {
+  .modal {
+      background-color: transparent !important;
+  }
+  
+  .modal-content {
+      border: 1px solid var(--text-color) !important;
+  }
+  
+  .modal-backdrop.show {
       opacity: 0.8 !important;
       background-color: #000 !important;
-    }
+  }
+  
+  .ui-widget-content, 
+  .ui-autocomplete, 
+  .ui-autocomplete li
+  {
+      background-color: var(--theme-color) !important;
+  }
 }
