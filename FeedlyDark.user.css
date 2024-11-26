@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/FeedlyDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Feedly's style to enable a dark mode`
-@version        20240628
+@version        20241126
 @license        GPL
 ==/UserStyle== */
 
@@ -13,6 +13,13 @@
     display: none !important;
   }
 
+  button, button:before, button:after
+  {
+    animation: none !important;
+    background-image: none !important;
+    background-color: var(--theme-color) !important;
+  }
+  
   .floatingEntryContent, 
   .theme--dark #feedlyPageHolderFX, 
   #headerBarFX {
