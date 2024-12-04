@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/FeedlyDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Feedly's style to enable a dark mode`
-@version        20241126
+@version        20241204
 @license        GPL
 ==/UserStyle== */
 
@@ -11,6 +11,10 @@
 {
   article[data-alternate-link^="https://ahead.feedly.com/"] {
     display: none !important;
+  }
+      
+  article.entry.magazine div { 
+      background: none !important; 
   }
 
   button, button:before, button:after
