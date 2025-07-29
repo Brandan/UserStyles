@@ -38,7 +38,7 @@
       --flat-card-border-hover: var(--text-link) !important;
     }
 
-    .confirm-dialog[data-v-3d1a8d64] {
+    .confirm-dialog {
       background-color: var(--cm-color-gray700) !important;
     }
   
