@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20251120.2
+@version        20251120.3
 @license        GPL
 ==/UserStyle== */
 
@@ -209,6 +209,17 @@
     .a-button-preorder 
     {
       color: var(--theme-color)!important;
+      background-color: rgb(255, 216, 20)!important;
+    }
+
+    .a-button.a-button-unavailable,
+    .a-button.a-button-toggle.a-button-unavailable button,
+    .a-button.a-button-toggle.a-button-unavailable input,
+    .a-button.a-button-toggle.a-button-unavailable span,
+    .a-button-primary.a-button-unavailable, .a-button-oneclick.a-button-unavailable, 
+    .a-button-preorder.a-button-unavailable
+    {
+      color: var(--text-color)!important;
       background-color: rgb(255, 216, 20)!important;
     }
   
