@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20251120
+@version        20251120.1
 @license        GPL
 ==/UserStyle== */
 
@@ -60,8 +60,7 @@
     }
 
     #suggestToClubButtonSection .a-button-text,
-    #wishlistButtonStack .a-button-text,
-    .a-button.a-button-toggle
+    #wishlistButtonStack .a-button-text
     {
         color: var(--text-color) !important;  
     }
@@ -203,6 +202,7 @@
     }
 
     .a-button,
+    .a-button.a-button-toggle,
     .a-button-primary, .a-button-oneclick, #sc-buy-box-ptc-button .a-section, 
     .a-button-preorder 
     {
