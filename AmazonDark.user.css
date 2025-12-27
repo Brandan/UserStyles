@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20251120.3
+@version        20251227
 @license        GPL
 ==/UserStyle== */
 
@@ -241,12 +241,12 @@
       border-top-color: #444 !important;
     }
     /* style delivered orders (requires some JS to run to add the delivered class to the order) */
-    .order.delivered
+    .order.delivered, .dropdownUnavailable
     {
         opacity: 0.25;
     }
 
-    .order.delivered:hover
+    .order.delivered:hover, .dropdownUnavailable:hover
     {
         opacity: 1;
     }
