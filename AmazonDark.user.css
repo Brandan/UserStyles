@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20251227
+@version        20260119
 @license        GPL
 ==/UserStyle== */
 
@@ -261,5 +261,45 @@
     .f15vbt64 
     {
         background-color: rgb(221, 221, 221) !important
+    }
+    /* Kindle Reader styling */
+    .kr-renderer-container-fullpage {
+      background-color: #000 !important;    
+    }
+  
+    .selection-button--yellow {
+      background-color: rgba(245,245,128,0.9) !important;    
+    }
+  
+    .selection-button--blue {
+      background-color: rgba(128,128,245,0.9) !important;    
+    }
+    
+    .selection-button--pink {
+      background-color: rgba(245,128,128,0.9) !important;    
+    }
+
+    .selection-button--orange {
+      background-color: rgba(255,165,128,0.9) !important;    
+    }
+    
+    .kg-selection {
+      background-color: rgba(245,245,128,0.3) !important;
+    }
+
+    .kg-blue-highlight {
+      background-color: rgba(128,128,245,0.3) !important;
+    }
+
+    .kg-pink-highlight {
+      background-color: rgba(245,128,128,0.3) !important;
+    }
+
+    .kg-orange-highlight {
+      background-color: rgba(245,128,0,0.3) !important;
+    }
+
+    .kg-yellow-highlight {
+      background-color: rgba(245,245,128,0.3) !important;
     }
 }
