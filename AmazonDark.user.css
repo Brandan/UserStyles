@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/AmazonDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Amazon's style to enable a dark mode`
-@version        20260119
+@version        20260126
 @license        GPL
 ==/UserStyle== */
 
@@ -24,6 +24,7 @@
     .a-divider.a-divider-section .a-divider-inner::after,
     .a-popover,
     .a-popover-wrapper::after,
+    .checkout-card-color,
     .ChatRoller__chatRoller___SwO92,
     .nav-flyout, .nav-flyout-sidePanel,
     .sc-background-dark,
