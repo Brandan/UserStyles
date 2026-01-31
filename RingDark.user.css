@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/RingDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Ring's style to enable a dark mode`
-@version        20250304
+@version        20260130
 @license        GPL
 ==/UserStyle== */
 
@@ -83,7 +83,15 @@
   {
     display: none;
   }
-
+  
+  /* Home Button */
+  .fEDwqz
+  {
+    padding: 0.25rem 0.5rem 0.25rem 1rem !important;
+    border-radius: 5px !important;
+    margin: 0 0 1rem 0 !important;
+  }
+  
   /* Selected Mode */
   .eBVDyM
   {
