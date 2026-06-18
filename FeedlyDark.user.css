@@ -3,7 +3,7 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/FeedlyDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Feedly's style to enable a dark mode`
-@version        20251226
+@version        20260618
 @license        GPL
 ==/UserStyle== */
 
@@ -95,6 +95,7 @@
   }
 
   .LeftnavList [role="button"]:hover,
+  .LeftnavItem__actions,
   .LeftnavItem__actions:hover,
   .LeftnavList button:hover,
   .LeftnavPin__background:after,
