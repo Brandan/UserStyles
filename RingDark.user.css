@@ -9,6 +9,11 @@
 
 @-moz-document domain("ring.com")
 {
+  html, body
+  {
+    height: 100vh !important;
+  }
+
   img[src*="cloudfront.net/icons/"]
   {
     filter:invert(1) !important;
