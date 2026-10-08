@@ -3,8 +3,8 @@
 @namespace      https://github.com/Brandan/UserStyles/raw/main/OutsideOnlineDark.user.css
 @author         Brandan E. Lloyd
 @description    `Modifications to Outside Online's style to enable a dark mode`
-@version        20261007
 @license        GPL
+@version        20261008
 ==/UserStyle== */
 
 @-moz-document domain("outsideonline.com")
@@ -33,11 +33,21 @@
     color: var(--neutral-300);
   }
   
-  #article-pane{
-    display:none;
+  #article-pane, .tp-modal, .piano-meter, .piano-container-420, .tp-backdrop
+  {
+    display:none !important;
   }
-  
-  .text-white {
+
+  .tp-modal-open
+  {
+    overflow: auto !important;
+    height: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .text-white 
+  {
     color: var(--color-text-primary);
   }
+  
 }
