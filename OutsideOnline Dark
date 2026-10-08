@@ -1,0 +1,43 @@
+/* ==UserStyle==
+@name           OutsideOnline Dark
+@namespace      https://github.com/Brandan/UserStyles/raw/main/OutsideOnlineDark.user.css
+@author         Brandan E. Lloyd
+@description    `Modifications to Outside Online's style to enable a dark mode`
+@version        20261007
+@license        GPL
+==/UserStyle== */
+
+@-moz-document domain("outsideonline.com")
+{
+  :root
+  {
+    --color-text-primary: #fc0;
+    --color-text-secondary: #aaa;
+    --color-bg-light: #000;
+    --color-bg-surface: #111;
+    --color-white: #111;
+    --color-text-inverse: var(--color-text-secondary);
+    --color-border-light: #fc0;
+    --h2-color: #fc0;
+  }
+  
+  :host([theme])
+  {
+    --foreground-light: #000;
+    --section-borders-light: #666;    
+  }
+  
+  body
+  {
+    background: var(--neutral-900);
+    color: var(--neutral-300);
+  }
+  
+  #article-pane{
+    display:none;
+  }
+  
+  .text-white {
+    color: var(--color-text-primary);
+  }
+}
